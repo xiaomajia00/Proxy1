@@ -16,7 +16,7 @@ clash_output_file:str = './dist/clash.config.yaml'
 clash_output_tpl:str = './clash.config.template.yaml'
 v2ray_output_file:str = './dist/v2ray.config.txt'
     
-clash_extra:List[str] = ['https://free886.herokuapp.com/clash/proxies']
+clash_extra:List[str] = []
 
 blacklist:List[str] = list(map(lambda l:l.replace('\r', '').replace('\n', '').split(':'), open('blacklists.txt').readlines()))
 
