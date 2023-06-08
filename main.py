@@ -1,7 +1,7 @@
 #!python3.9
 # -*- encoding: utf-8 -*-
 
-import requests, re, yaml
+import requests, re, yaml, time
 from re import Pattern
 from typing import Any, Dict, List
 
@@ -88,11 +88,21 @@ def main():
     clash_configs:List[str] = [] 
     for u in clash_url_list:
         html:str = fetch_html(u)
-        if html is not None and len(html) > 0: clash_configs.append(html)
+        if html is not None and len(html) > 0: 
+            clash_configs.append(html)
+            print(f'[+] Configuration {u} Downloaded')
+        else: 
+            print(f'[-] Failed To Download Clash Configuration {u}')
+        time.sleep(0.5)
     v2ray_configs:List[str] = []
     for u in v2ray_url_list:
         html:str = fetch_html(u)
-        if html is not None and len(html) > 0: v2ray_configs.append(html)
+        if html is not None and len(html) > 0: 
+            v2ray_configs.append(html)
+            print(f'[+] Configuration {u} Downloaded')
+        else: 
+            print(f'[-] Failed To Download V2Ray Configuration {u}')
+        time.sleep(0.5)
 
     clash_merged:str = merge_clash(clash_configs)
     v2ray_merged:str = merge_v2ray(v2ray_configs)
