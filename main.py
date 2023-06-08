@@ -39,12 +39,12 @@ def fetch_html(url:str) -> str:
     try:
         resp:requests.Response = requests.get(url, verify=False, timeout=10)
         if resp.status_code != 200:
-            print(f'[!] Got HTTP Status Code {resp.status_code}')
-            return None 
+            print(f'[!] Got HTTP Status Code {resp.status_code} When Requesting {url}')
+            return '' 
         return resp.text
     except Exception as e:
-        print(f'[-] Error Occurs When Fetching Content Of {url}')
-        return None
+        print(f'[-] Error Occurs When Fetching Content Of {url}: {e}')
+        return ''
 
 def merge_clash(configs:List[str]) -> str:
     '''
@@ -85,8 +85,14 @@ def main():
     v2ray_url_list:List[str] = v2ray_urls(rss_text)
     print(f'[+] Got {len(clash_url_list)} Clash URLs, {len(v2ray_url_list)} V2Ray URLs')
 
-    clash_configs:List[str] = list(filter(lambda h: h is not None and len(h) > 0, map(lambda u: fetch_html(u), clash_url_list)))
-    v2ray_configs:List[str] = list(filter(lambda h: h is not None and len(h) > 0, map(lambda u: fetch_html(u), v2ray_url_list)))
+    clash_configs:List[str] = [] 
+    for u in clash_url_list:
+        html:str = fetch_html(u)
+        if html is not None and len(html) > 0: clash_configs.append(html)
+    v2ray_configs:List[str] = []
+    for u in v2ray_url_list:
+        html:str = fetch_html(u)
+        if html is not None and len(html) > 0: v2ray_configs.append(html)
 
     clash_merged:str = merge_clash(clash_configs)
     v2ray_merged:str = merge_v2ray(v2ray_configs)
