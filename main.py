@@ -1,7 +1,7 @@
 #!python3.9
 # -*- encoding: utf-8 -*-
 
-import requests, re, yaml, time
+import requests, re, yaml, time, base64
 from re import Pattern
 from typing import Any, Dict, List
 
@@ -74,7 +74,15 @@ def merge_v2ray(configs:List[str]) -> str:
     '''
     Merge Multiple V2Ray Configurations
     '''
-    return '\n'.join(configs)
+    linesep:str = '\r\n'
+    decoded_configs:List[str] = list(map(lambda c: base64.b64decode(c).decode('utf-8'), configs))
+    if len(decoded_configs) > 0:
+        if linesep not in decoded_configs[0]:
+            linesep = '\n'
+    merged_configs:List[str] = []
+    for dc in decoded_configs:
+        merged_configs.extend(dc.split(linesep))
+    return base64.b64encode(linesep.join(merged_configs).encode('utf-8')).decode('utf-8')
 
 def main():
     rss_text:str = fetch_html(rss_url)
