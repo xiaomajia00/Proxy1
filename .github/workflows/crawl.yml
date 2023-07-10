@@ -11,6 +11,9 @@ jobs:
     steps:
     - name: Checkout Code
       uses: actions/checkout@v2
+      with:
+        repository: kimcrowing/Proxy
+        token: ${{ secrets.ACTIONS_GITHUB_TOKEN }}
     - name: Install Python
       uses: actions/setup-python@v2
       with:
