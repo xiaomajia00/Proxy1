@@ -81,7 +81,7 @@ def merge_clash(configs:List[str]) -> str:
             # 如果代理节点已经存在，则跳过该节点
             if any(filter(lambda p:p['server'] == proxy['server'] and p['port'] == proxy['port'], proxies)): continue
             # 测试代理节点是否有效，如果无效，则跳过该节点
-            if not is_proxy_valid(proxy, "http://www.example.com"):
+            if not is_proxy_valid(proxy):
                 continue
             # 修改代理节点的名称，添加序号信息
             proxy['name'] = proxy['name'] + f'_{i}@{j}'
