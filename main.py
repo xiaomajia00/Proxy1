@@ -80,6 +80,9 @@ def merge_clash(configs:List[str]) -> str:
             if any(filter(lambda p:p[0] == proxy['server'] and str(p[1]) == str(proxy['port']), blacklist)): continue
             # 如果代理节点已经存在，则跳过该节点
             if any(filter(lambda p:p['server'] == proxy['server'] and p['port'] == proxy['port'], proxies)): continue
+            # 如果代理节点的名称中包含 "中国"，则跳过该节点
+            if "中国" in proxy['name']:
+                continue
             # 测试代理节点是否有效，如果无效，则跳过该节点
            # if not is_proxy_valid(proxy):
             #    continue
