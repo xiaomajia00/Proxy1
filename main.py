@@ -48,26 +48,42 @@ def fetch_html(url:str) -> str:
 
 def merge_clash(configs:List[str]) -> str:
     '''
-    Merge Multiple Clash Configurations
+    合并多个 Clash 配置文件
     '''
+    # 读取配置文件模板
     config_template:Dict[str, Any] = yaml.safe_load(open(clash_output_tpl).read())
+    # 存储所有代理节点的列表
     proxies:List[Dict[str, Any]] = []
     for i in range(len(configs)):
+        # 解析每个配置文件的内容
         tmp_config:Dict[str, Any] = yaml.safe_load(configs[i])
         if 'proxies' not in tmp_config: continue
         for j in range(len(tmp_config['proxies'])):
+            # 获取每个代理节点的信息
             proxy:Dict[str, Any] = tmp_config['proxies'][j]
+            # 如果代理节点在黑名单中，则跳过该节点
             if any(filter(lambda p:p[0] == proxy['server'] and str(p[1]) == str(proxy['port']), blacklist)): continue
+            # 如果代理节点已经存在，则跳过该节点
             if any(filter(lambda p:p['server'] == proxy['server'] and p['port'] == proxy['port'], proxies)): continue
+            # 如果代理节点的名称中包含 "中国"，则跳过该节点
+            if "中国" in proxy['name']:
+                continue
+            # 修改代理节点的名称，添加序号信息
             proxy['name'] = proxy['name'] + f'_{i}@{j}'
+            # 将代理节点添加到列表中
             proxies.append(proxy)
+    # 获取所有代理节点的名称列表
     node_names:List[str] = list(map(lambda n: n['name'], proxies))
+    # 将所有代理节点添加到配置模板中
     config_template['proxies'] = proxies
+    # 遍历所有代理组
     for grp in config_template['proxy-groups']:
+        # 如果代理组中包含占位符，则替换为所有代理节点的名称
         if 'xxx' in grp['proxies']:
             grp['proxies'].remove('xxx')
             grp['proxies'].extend(node_names)
 
+    # 返回合并后的配置文件内容
     return yaml.safe_dump(config_template, indent=1, allow_unicode=True)
 
 def merge_v2ray(configs:List[str]) -> str:
