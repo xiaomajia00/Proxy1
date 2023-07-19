@@ -46,7 +46,7 @@ def fetch_html(url:str) -> str:
         print(f'[-] Error Occurs When Fetching Content Of {url}: {e}')
         return ''
 
-def is_proxy_valid(proxy: Dict[str, Any], test_url: str = "https://www.google.com") -> bool:
+def is_proxy_valid(proxy: Dict[str, Any], test_url: str = "http://www.google.com") -> bool:
     """
     测试代理节点是否有效
     """
@@ -84,8 +84,8 @@ def merge_clash(configs:List[str]) -> str:
             if "中国" in proxy['name']:
                 continue
             # 测试代理节点是否有效，如果无效，则跳过该节点
-           # if not is_proxy_valid(proxy):
-            #    continue
+            if not is_proxy_valid(proxy):
+                continue
             # 修改代理节点的名称，添加序号信息
             proxy['name'] = proxy['name'] + f'_{i}@{j}'
             # 将代理节点添加到列表中
