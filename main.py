@@ -46,6 +46,21 @@ def fetch_html(url:str) -> str:
         print(f'[-] Error Occurs When Fetching Content Of {url}: {e}')
         return ''
 
+def is_proxy_valid(proxy: Dict[str, Any], test_url: str = "https://www.google.com") -> bool:
+    """
+    测试代理节点是否有效
+    """
+    proxies = {
+        'http': f"{proxy['type']}://{proxy['server']}:{proxy['port']}",
+        'https': f"{proxy['type']}://{proxy['server']}:{proxy['port']}"
+    }
+    try:
+        resp = requests.get(test_url, proxies=proxies, timeout=5)
+        return resp.status_code == 200
+    except:
+        return False
+
+
 def merge_clash(configs:List[str]) -> str:
     '''
     合并多个 Clash 配置文件
@@ -65,8 +80,8 @@ def merge_clash(configs:List[str]) -> str:
             if any(filter(lambda p:p[0] == proxy['server'] and str(p[1]) == str(proxy['port']), blacklist)): continue
             # 如果代理节点已经存在，则跳过该节点
             if any(filter(lambda p:p['server'] == proxy['server'] and p['port'] == proxy['port'], proxies)): continue
-            # 如果代理节点的名称中包含 "中国"，则跳过该节点
-            if "中国" in proxy['name']:
+            # 测试代理节点是否有效，如果无效，则跳过该节点
+            if not is_proxy_valid(proxy, "http://www.example.com"):
                 continue
             # 修改代理节点的名称，添加序号信息
             proxy['name'] = proxy['name'] + f'_{i}@{j}'
