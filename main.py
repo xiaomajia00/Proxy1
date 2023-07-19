@@ -46,7 +46,7 @@ def fetch_html(url:str) -> str:
         print(f'[-] Error Occurs When Fetching Content Of {url}: {e}')
         return ''
 
-def is_proxy_valid(proxy: Dict[str, Any], test_url: str = "https://www.google.com") -> bool:
+def is_proxy_valid(proxy: Dict[str, Any], test_url: str = "http://www.gstatic.com/generate_204") -> bool:
     """
     测试代理节点是否有效
     """
