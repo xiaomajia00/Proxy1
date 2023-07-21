@@ -4,13 +4,11 @@ FROM alpine:latest
 # 更新软件源并安装wget和gnupg
 RUN apk update && apk add \
     wget \
-    gnupg \
-    # 下载Google的公钥并添加到apk源
-    && wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | apk add - \
-    # 添加Google Chrome的稳定版源
-    && echo "http://dl.google.com/linux/chrome/deb/ stable main" >> /etc/apk/repositories \
-    # 再次更新软件源并安装Google Chrome
-    && apk update && apk add google-chrome-stable
+    gnupg 
+
+# 下载Google Chrome的稳定版deb包并安装
+RUN wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb \
+    && apk add --allow-untrusted google-chrome-stable_current_amd64.deb
 
 # 下载Microsoft Edge的deb包并安装
 RUN wget https://packages.microsoft.com/repos/edge/pool/main/m/microsoft-edge-dev/microsoft-edge-dev_91.0.864.59-1_arm64.deb \
