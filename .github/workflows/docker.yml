@@ -1,4 +1,4 @@
-name: Build and push Docker images
+name: edge Docker
 
 on:
   workflow_dispatch:
