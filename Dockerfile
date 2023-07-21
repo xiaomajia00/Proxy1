@@ -1,29 +1,23 @@
-# 基于alpine:latest镜像
-FROM alpine:latest
+# 使用buildx作为构建器
+FROM --platform=$BUILDPLATFORM docker.io/docker/docker:20.10 AS buildx
 
-# 更新软件源并安装wget和gnupg
-RUN apk update && apk add \
-    wget \
-    gnupg 
+RUN docker buildx create --use --name multiarch
 
-# 添加Google Chrome的稳定版源
-RUN apk add --no-cache --repository http://dl.google.com/linux/chrome/deb/dists/stable/main/binary-amd64/Packages.gz stable main
+# 构建amd64镜像
+FROM buildx AS amd64
+ARG BUILDPLATFORM
+RUN echo "Building for $BUILDPLATFORM"
+COPY Dockerfile.amd64 /
+RUN $BUILDPLATFORM=linux/amd64 docker buildx build --platform linux/amd64 -t myimage:amd64 --load .
 
+# 构建arm64镜像 
+FROM buildx AS arm64
+ARG BUILDPLATFORM 
+RUN echo "Building for $BUILDPLATFORM"
+COPY Dockerfile.arm64 /
+RUN $BUILDPLATFORM=linux/arm64 docker buildx build --platform linux/arm64 -t myimage:arm64 --load .
 
-# 安装Google Chrome
-RUN apk add --no-cache google-chrome-stable
-
-
-# 下载Microsoft Edge的deb包并安装
-RUN wget https://packages.microsoft.com/repos/edge/pool/main/m/microsoft-edge-dev/microsoft-edge-dev_91.0.864.59-1_arm64.deb \
-    && apk add --allow-untrusted microsoft-edge-dev_91.0.864.59-1_arm64.deb
-
-# 下载Microsoft Edge Driver并解压到/usr/bin目录
-RUN wget https://msedgedriver.azureedge.net/91.0.864.59/edgedriver_linux64.zip \
-    && unzip edgedriver_linux64.zip -d /usr/bin
-
-# 声明容器中打开的80端口
-EXPOSE 80
-
-# 设置容器启动时的默认命令为启动edge浏览器，并监听80端口
-CMD ["microsoft-edge", "--remote-debugging-port=80"]
+# 共享层
+FROM scratch
+COPY --from=myimage:amd64 / /
+COPY --from=myimage:arm64 / /
