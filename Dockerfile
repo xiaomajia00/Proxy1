@@ -6,9 +6,12 @@ RUN apk update && apk add \
     wget \
     gnupg 
 
-# 下载Google Chrome的稳定版deb包并安装
-RUN wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb \
-    && apk add --allow-untrusted google-chrome-stable_current_amd64.deb
+# 添加Google Chrome的稳定版源
+RUN apk add --no-cache --repository http://dl.google.com/linux/chrome/deb/ stable main
+
+# 安装Google Chrome
+RUN apk add --no-cache google-chrome-stable
+
 
 # 下载Microsoft Edge的deb包并安装
 RUN wget https://packages.microsoft.com/repos/edge/pool/main/m/microsoft-edge-dev/microsoft-edge-dev_91.0.864.59-1_arm64.deb \
