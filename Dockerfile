@@ -1,5 +1,5 @@
 # 构建器
-FROM --platform=$BUILDPLATFORM docker.io/docker/docker-ce:20.10.24 AS buildx
+FROM --platform=$BUILDPLATFORM docker.io/docker/docker-ce:20.10.0 AS buildx
 
 RUN docker buildx create --use --name multiarch
 
