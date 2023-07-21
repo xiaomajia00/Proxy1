@@ -8,12 +8,12 @@ FROM buildx AS arm64
 ARG BUILDPLATFORM
 COPY Dockerfile.arm64 /
 RUN echo "Building for $BUILDPLATFORM" && \
-    $BUILDPLATFORM=linux/arm64 docker buildx build --platform linux/arm64 -t myimage:latest --load .
+    $BUILDPLATFORM=linux/arm64 docker buildx build --platform linux/arm64 -t mimage:latest --load .
 
 # 最后阶段 
 # 最后阶段
 FROM kimcrowing/edge:latest AS final  
-COPY --from=myimage:latest / /
+COPY --from=mimage:latest / /
 
 # 安装Edge浏览器
 RUN curl https://packages.microsoft.com/keys/microsoft.asc | apt-key add - && \
