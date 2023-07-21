@@ -1,5 +1,5 @@
-# 基于archlinux:latest镜像
-FROM archlinux:base-devel
+# 基于alpine:latest镜像
+FROM alpine:latest
 
 # 更新软件源并安装wget和gnupg
 RUN pacman -Syu --noconfirm \
