@@ -7,7 +7,8 @@ RUN apk update && apk add \
     gnupg 
 
 # 添加Google Chrome的稳定版源
-RUN apk add --no-cache --repository http://dl.google.com/linux/chrome/deb/ stable main
+RUN apk add --no-cache --repository http://dl.google.com/linux/chrome/deb/dists/stable/main/binary-amd64/Packages.gz stable main
+
 
 # 安装Google Chrome
 RUN apk add --no-cache google-chrome-stable
