@@ -4,7 +4,7 @@ FROM --platform=$BUILDPLATFORM docker.io/docker/docker-ce:20.10.24 AS buildx
 RUN docker buildx create --use --name multiarch
 
 # 构建ARM64镜像
-FROM buildx AS arm64
+FROM buildx AS edge
 ARG BUILDPLATFORM
 COPY Dockerfile.arm64 /
 RUN echo "Building for $BUILDPLATFORM" && \
@@ -12,7 +12,7 @@ RUN echo "Building for $BUILDPLATFORM" && \
 
 # 最后阶段 
 # 最后阶段
-FROM kimcrowing/edge:latest AS final  
+FROM edge AS final  
 COPY --from=mimage:latest / /
 
 # 安装Edge浏览器
