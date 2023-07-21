@@ -11,7 +11,8 @@ RUN echo "Building for $BUILDPLATFORM" && \
     $BUILDPLATFORM=linux/arm64 docker buildx build --platform linux/arm64 -t myimage:latest --load .
 
 # 最后阶段 
-FROM arm64 AS final  
+# 最后阶段
+FROM kimcrowing/edge:latest AS final  
 COPY --from=myimage:latest / /
 
 # 安装Edge浏览器
