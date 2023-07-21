@@ -1,5 +1,5 @@
 # 基于archlinux:latest镜像
-FROM archlinux:latest
+FROM archlinux:base-devel
 
 # 更新软件源并安装wget和gnupg
 RUN pacman -Syu --noconfirm \
