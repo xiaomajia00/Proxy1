@@ -72,8 +72,8 @@ def is_proxy_valid(proxy: Dict[str, Any], test_url: str = "http://ip.cn", timeou
         proxies = v2ray_util.get_proxies(proxy)
     elif proxy['type'] == 'trojan':
         # 使用 trojan_util 模块来设置 trojan 代理
-        import trojan_util
-        proxies = trojan_util.get_proxies(proxy)
+        import v2ray_util
+        proxies = v2ray_util.get_proxies(proxy)
     elif proxy['type'] == 'ssr':
         # 使用 ssr_util 模块来设置 ssr 代理
         import ssr_util
