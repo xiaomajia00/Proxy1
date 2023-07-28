@@ -1,5 +1,4 @@
 requests==2.31.0
 pyyaml
 v2ray_util
-ssr_util
-ss_util
+ssr_utils
