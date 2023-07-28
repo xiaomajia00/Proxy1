@@ -76,12 +76,12 @@ def is_proxy_valid(proxy: Dict[str, Any], test_url: str = "http://ip.cn", timeou
         proxies = v2ray_util.get_proxies(proxy)
     elif proxy['type'] == 'ssr':
         # 使用 ssr_util 模块来设置 ssr 代理
-        import ssr_util
-        proxies = ssr_util.get_proxies(proxy)
+        import ssr_utils
+        proxies = ssr_utils.get_proxies(proxy)
     elif proxy['type'] == 'ss':
         # 使用 ss_util 模块来设置 ss 代理
-        import ss_util
-        proxies = ss_util.get_proxies(proxy)
+        import v2ray_util
+        proxies = v2ray_util.get_proxies(proxy)
     else:
         # 如果代理节点的类型不是以上几种，那么返回 False
         print(f"[-] Proxy {proxy['name']} has an invalid type: {proxy['type']}")
