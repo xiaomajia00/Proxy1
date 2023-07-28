@@ -66,8 +66,24 @@ def is_proxy_valid(proxy: Dict[str, Any], test_url: str = "http://ip.cn", timeou
             'http': f"socks5://{proxy['server']}:{proxy['port']}",
             'https': f"socks5://{proxy['server']}:{proxy['port']}"
         }
+    elif proxy['type'] == 'vmess':
+        # 使用 v2ray_util 模块来设置 vmess 代理
+        import v2ray_util
+        proxies = v2ray_util.get_proxies(proxy)
+    elif proxy['type'] == 'trojan':
+        # 使用 trojan_util 模块来设置 trojan 代理
+        import trojan_util
+        proxies = trojan_util.get_proxies(proxy)
+    elif proxy['type'] == 'ssr':
+        # 使用 ssr_util 模块来设置 ssr 代理
+        import ssr_util
+        proxies = ssr_util.get_proxies(proxy)
+    elif proxy['type'] == 'ss':
+        # 使用 ss_util 模块来设置 ss 代理
+        import ss_util
+        proxies = ss_util.get_proxies(proxy)
     else:
-        # 如果代理节点的类型不是以上三种，那么返回 False
+        # 如果代理节点的类型不是以上几种，那么返回 False
         print(f"[-] Proxy {proxy['name']} has an invalid type: {proxy['type']}")
         return False
     try:
