@@ -34,20 +34,6 @@ proxies:
     path: /shirker
 - alterId: 0
   cipher: auto
-  name: 🇺🇸_US_美国->🇳🇱_NL_荷兰_1_0@11
-  network: ws
-  port: 2095
-  server: 172.64.106.104
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 417d27fb-cb93-3bd8-9bf7-71cd91319821
-  ws-opts:
-    headers:
-      host: amszx.66666654.xyz
-    path: /hgcefomn
-- alterId: 0
-  cipher: auto
   name: 🇺🇸_US_美国_3_0@25
   network: ws
   port: 443
@@ -116,34 +102,6 @@ proxies:
     headers:
       host: ecc.vtcss.top
     path: /qwer01
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国->🇳🇱_NL_荷兰_2_0@31
-  network: ws
-  port: 80
-  server: 172.67.10.121
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
-  ws-opts:
-    headers:
-      host: uk2.scproxy.top
-    path: /shirker
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国->🇨🇦_CA_加拿大_0@32
-  network: ws
-  port: 443
-  server: 104.18.29.109
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: be74ca03-6a7c-4c88-edc2-c6434ead0cfa
-  ws-opts:
-    headers:
-      host: cdnca1.digisport.shop
-    path: /16575
 - alterId: 0
   cipher: auto
   name: 🇺🇸_US_美国_6_0@33
@@ -221,20 +179,6 @@ proxies:
     path: /qwer01
 - alterId: 0
   cipher: auto
-  name: 🇨🇷_CR_哥斯达黎加->🇺🇸_US_美国_1_1@8
-  network: ws
-  port: 8080
-  server: 190.93.244.217
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 54d4a5e9-6441-442c-cab7-05620cbe4f7d
-  ws-opts:
-    headers:
-      host: ecc.vtcss.top
-    path: /qwer01
-- alterId: 0
-  cipher: auto
   name: 🇺🇸_US_美国_4_1@9
   network: ws
   port: 8880
@@ -249,20 +193,6 @@ proxies:
     path: /qwer01
 - alterId: 0
   cipher: auto
-  name: 🇨🇷_CR_哥斯达黎加->🇺🇸_US_美国_2_1@13
-  network: ws
-  port: 8080
-  server: 190.93.246.192
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 54d4a5e9-6441-442c-cab7-05620cbe4f7d
-  ws-opts:
-    headers:
-      host: ecc.vtcss.top
-    path: /qwer01
-- alterId: 0
-  cipher: auto
   name: 🇺🇸_US_美国_5_1@14
   network: ws
   port: 8880
@@ -271,20 +201,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 006023f6-6d17-4ec6-af24-bcc5f7c44e35
-  ws-opts:
-    headers:
-      host: ecc.vtcss.top
-    path: /qwer01
-- alterId: 0
-  cipher: auto
-  name: 🇨🇷_CR_哥斯达黎加->🇺🇸_US_美国_3_1@16
-  network: ws
-  port: 8080
-  server: 190.93.246.37
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 54d4a5e9-6441-442c-cab7-05620cbe4f7d
   ws-opts:
     headers:
       host: ecc.vtcss.top
@@ -317,104 +233,6 @@ proxies:
     headers:
       host: ecc.vtcss.top
     path: /qwer01
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰_HK_香港->🇺🇸_US_美国_1_1@26
-  network: ws
-  port: 443
-  server: 103.160.204.12
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: a2284cc1-20d8-4c78-a622-3e3cca767a70
-  ws-opts:
-    headers:
-      host: dedi2.1808.cf
-    path: a2284cc1
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰_HK_香港->🇺🇸_US_美国_2_1@27
-  network: ws
-  port: 443
-  server: 103.160.204.43
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: a2284cc1-20d8-4c78-a622-3e3cca767a70
-  ws-opts:
-    headers:
-      host: dedi2.1808.cf
-    path: a2284cc1
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰_HK_香港->🇺🇸_US_美国_3_1@28
-  network: ws
-  port: 443
-  server: 103.160.204.30
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: a2284cc1-20d8-4c78-a622-3e3cca767a70
-  ws-opts:
-    headers:
-      host: dedi2.1808.cf
-    path: a2284cc1
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰_HK_香港->🇺🇸_US_美国_4_1@29
-  network: ws
-  port: 443
-  server: 103.160.204.24
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: a2284cc1-20d8-4c78-a622-3e3cca767a70
-  ws-opts:
-    headers:
-      host: dedi2.1808.cf
-    path: a2284cc1
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰_HK_香港->🇺🇸_US_美国_5_1@30
-  network: ws
-  port: 443
-  server: 103.160.204.17
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: a2284cc1-20d8-4c78-a622-3e3cca767a70
-  ws-opts:
-    headers:
-      host: dedi2.1808.cf
-    path: a2284cc1
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰_HK_香港->🇺🇸_US_美国_6_1@31
-  network: ws
-  port: 443
-  server: 103.160.204.249
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: a2284cc1-20d8-4c78-a622-3e3cca767a70
-  ws-opts:
-    headers:
-      host: dedi2.1808.cf
-    path: a2284cc1
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰_HK_香港->🇺🇸_US_美国_7_1@32
-  network: ws
-  port: 443
-  server: 103.160.204.23
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: a2284cc1-20d8-4c78-a622-3e3cca767a70
-  ws-opts:
-    headers:
-      host: dedi2.1808.cf
-    path: a2284cc1
 - name: 🇯🇵_JP_日本_1_1@33
   network: tcp
   password: d6eafa01-5d46-4329-9831-ba25323a32b0
@@ -451,63 +269,6 @@ proxies:
   port: 11228
   server: dongtaiwang4.com
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰_HK_香港->🇺🇸_US_美国_1_2@5
-  network: ws
-  port: 443
-  server: 103.160.204.46
-  servername: dedi2.1808.cf
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: a2284cc1-20d8-4c78-a622-3e3cca767a70
-  ws-opts:
-    headers:
-      host: dedi2.1808.cf
-    path: a2284cc1
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰_HK_香港->🇺🇸_US_美国_2_2@6
-  network: ws
-  port: 443
-  server: 103.160.204.50
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: a2284cc1-20d8-4c78-a622-3e3cca767a70
-  ws-opts:
-    headers:
-      host: dedi2.1808.cf
-    path: a2284cc1
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰_HK_香港->🇺🇸_US_美国_3_2@7
-  network: ws
-  port: 443
-  server: 103.160.204.13
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: a2284cc1-20d8-4c78-a622-3e3cca767a70
-  ws-opts:
-    headers:
-      host: dedi2.1808.cf
-    path: a2284cc1
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰_HK_香港->🇺🇸_US_美国_5_2@9
-  network: ws
-  port: 443
-  server: 103.160.204.18
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: a2284cc1-20d8-4c78-a622-3e3cca767a70
-  ws-opts:
-    headers:
-      host: dedi2.1808.cf
-    path: a2284cc1
 - alterId: 0
   cipher: auto
   name: 🇺🇸_US_美国_2_2@10
@@ -578,65 +339,6 @@ proxies:
     path: /qwer
 - alterId: 0
   cipher: auto
-  name: 🇭🇰_HK_香港->🇺🇸_US_美国_6_2@16
-  network: ws
-  port: 443
-  server: 103.160.204.16
-  servername: dedi2.1808.cf
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: a2284cc1-20d8-4c78-a622-3e3cca767a70
-  ws-opts:
-    headers:
-      host: dedi2.1808.cf
-    path: a2284cc1
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰_HK_香港->🇺🇸_US_美国_7_2@17
-  network: ws
-  port: 443
-  server: 103.160.204.34
-  servername: dedi2.1808.cf
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: a2284cc1-20d8-4c78-a622-3e3cca767a70
-  ws-opts:
-    headers:
-      host: dedi2.1808.cf
-    path: a2284cc1
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰_HK_香港->🇺🇸_US_美国_8_2@18
-  network: ws
-  port: 443
-  server: 103.160.204.41
-  servername: dedi2.1808.cf
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: a2284cc1-20d8-4c78-a622-3e3cca767a70
-  ws-opts:
-    headers:
-      host: dedi2.1808.cf
-    path: a2284cc1
-- alterId: 0
-  cipher: auto
-  name: 🇨🇷_CR_哥斯达黎加->🇺🇸_US_美国_2@19
-  network: ws
-  port: 8880
-  server: 190.93.245.247
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: d7ca2363-81c2-43a0-f141-352815da3ac3
-  ws-opts:
-    headers:
-      host: uxx.vtcss.top
-    path: /qwer
-- alterId: 0
-  cipher: auto
   name: 🇺🇸_US_美国_4_2@20
   network: ws
   port: 8880
@@ -655,16 +357,6 @@ proxies:
   port: 443
   server: 43.202.49.224
   type: ss
-- alterId: 64
-  cipher: auto
-  name: 🇺🇸_US_美国->🇳🇱_NL_荷兰_2@22
-  network: tcp
-  port: 49232
-  server: 45.199.138.92
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca4690dd24
 - alterId: 64
   cipher: auto
   name: 🇺🇸_US_美国_5_2@23
@@ -697,12 +389,6 @@ proxies:
   port: 9054
   server: 5.188.181.201
   type: ss
-- cipher: aes-256-cfb
-  name: 🇫🇷_FR_法国->🇦🇹_AT_奥地利_2@27
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 135.125.244.103
-  type: ss
 - cipher: chacha20-ietf-poly1305
   name: 🇹🇼_TW_台湾_2@28
   password: 9e44e9ffe5c2
@@ -732,16 +418,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 4b15f0cb-932f-426f-e80b-8b12d5871a98
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国->🇩🇪_DE_德国_2@31
-  network: ws
-  port: 2053
-  server: namer-us-sea-01-edgecast.qdns.live
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 935dfe1a-c512-31bc-9e97-b1ab73826047
 - cipher: aes-256-cfb
   name: 🇭🇰_HK_香港_2_2@33
   obfs: tls1.2_ticket_auth
@@ -798,16 +474,6 @@ proxies:
     headers:
       host: hax.vpn66.eu.org
     path: /
-- alterId: 64
-  cipher: auto
-  name: 🇺🇸_US_美国->🇳🇱_NL_荷兰_3@6
-  network: tcp
-  port: 51204
-  server: 45.199.138.121
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 9549a2cf-129b-43a1-88db-ef7f648de74a
 - alterId: 0
   cipher: auto
   name: 🇺🇸_US_美国_4_3@7
@@ -855,12 +521,6 @@ proxies:
   password: amazonskr05
   port: 443
   server: 13.213.53.130
-  type: ss
-- cipher: aes-256-cfb
-  name: 🇫🇷_FR_法国->🇳🇴_NO_挪威_3@14
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 54.36.115.241
   type: ss
 - alterId: 64
   cipher: auto
@@ -978,34 +638,6 @@ proxies:
     path: a2284cc1
 - alterId: 0
   cipher: auto
-  name: 🇺🇸_US_美国->🇨🇦_CA_加拿大_1_4@9
-  network: ws
-  port: 2082
-  server: 104.31.16.46
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 58fe1542-5290-40ad-815a-77707a81afe5
-  ws-opts:
-    headers:
-      host: ca5.tehme100.fun
-    path: /IOebhLMhl1CTbFHbL95myfRX2
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国->🇨🇦_CA_加拿大_2_4@10
-  network: ws
-  port: 80
-  server: 104.31.16.28
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 58fe1542-5290-40ad-815a-77707a81afe5
-  ws-opts:
-    headers:
-      host: ca4.tehme2.fun
-    path: /IOebhLMhl1CTbFHbL95myfRX2
-- alterId: 0
-  cipher: auto
   name: 🇺🇸_US_美国_5_4@12
   network: ws
   port: 443
@@ -1018,20 +650,6 @@ proxies:
     headers:
       host: us-v.sshmax.xyz
     path: /vmess
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国->🇩🇪_DE_德国_2_4@13
-  network: ws
-  port: 8080
-  server: digitalocean.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 5f098028-ea22-42ea-abfd-9222cb298b74
-  ws-opts:
-    headers:
-      host: vceu.vpn66.eu.org
-    path: /
 - alterId: 0
   cipher: auto
   name: 🇷🇺_RU_俄罗斯联邦_4@14
@@ -1052,34 +670,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国->🇯🇵_JP_日本_1_4@17
-  network: ws
-  port: 443
-  server: ming2.kiwireich.com
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 18e5f40f-bda6-4c15-9334-e87cda6047af
-  ws-opts:
-    headers:
-      host: ming2.kiwireich.com
-    path: /ray
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国->🇯🇵_JP_日本_2_4@18
-  network: ws
-  port: 443
-  server: 172.67.132.15
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 18e5f40f-bda6-4c15-9334-e87cda6047af
-  ws-opts:
-    headers:
-      host: ming2.kiwireich.com
-    path: /ray
 - alterId: 64
   cipher: auto
   name: 🇮🇳_IN_印度_4@19
@@ -1101,6 +691,12 @@ proxies:
   password: amazonskr05
   port: 443
   server: 43.202.58.144
+  type: ss
+- cipher: aes-256-cfb
+  name: 🇫🇷_FR_法国_2_5@2
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 54.36.115.241
   type: ss
 - alterId: 64
   cipher: auto
@@ -1169,14 +765,6 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   ws-opts:
     path: /path/1689326360096
-- name: 🇯🇵_JP_日本->🇬🇧_GB_英国_5@19
-  network: tcp
-  password: 8073375f-656d-47bd-aee4-1c9d8bf0ccbb
-  port: 443
-  server: spuk.1234567890spcloud.com
-  skip-cert-verify: true
-  type: trojan
-  udp: true
 - alterId: 0
   cipher: auto
   name: 🇺🇸_US_美国_6_5@21
@@ -1255,6 +843,12 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- cipher: aes-256-cfb
+  name: 🇫🇷_FR_法国_6@5
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 135.125.244.103
+  type: ss
 - name: 🇺🇸_US_美国_6_6@7
   network: tcp
   password: a185ed4c-2b5c-4a6f-a674-4b67f9c3bfbc
@@ -1320,19 +914,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: 🇸🇬_SG_新加坡->🇺🇸_US_美国_6@15
-  network: ws
-  port: 80
-  server: cdn.anycast.eu.org
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: ffffffff-ffff-ffff-ffff-ffffffffffff
-  ws-opts:
-    headers:
-      host: week-permalink-samsung-omissions.trycloudflare.com
 - alterId: 64
   cipher: auto
   name: 🇺🇸_US_美国_12_6@17
@@ -1404,26 +985,26 @@ proxies:
   port: 9065
   server: 45.89.52.66
   type: ss
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸_US_美国_14_6@26
+  network: ws
+  port: 8080
+  server: digitalocean.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: c3b11744-2b20-46af-f0d4-69122be36e74
+  ws-opts:
+    headers:
+      host: vcus.vpn66.eu.org
+    path: /
 - cipher: aes-256-cfb
   name: 🇹🇷_TR_土耳其_2_6@27
   password: M3t2ZEQcMGRWBjRa
   port: 9011
   server: 45.89.52.66
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国->🇩🇪_DE_德国_6@28
-  network: ws
-  port: 80
-  server: ns1.v2-vip.fun
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 8abe9496-5e24-4e49-b566-dcf86116017d
-  ws-opts:
-    headers:
-      host: de5.irteh.fun
-    path: /i99LgvSaslbsPLLQQ7j6Z
 - alterId: 0
   cipher: auto
   name: 🇺🇸_US_美国_1_7@0
@@ -1531,16 +1112,6 @@ proxies:
   name: 🇺🇸_US_美国_10_7@9
   port: 44942
   server: 142.4.97.73
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
-  cipher: auto
-  name: 🇫🇷_FR_法国->🇳🇱_NL_荷兰_7@10
-  network: tcp
-  port: 42292
-  server: 156.249.18.161
   skip-cert-verify: true
   tls: false
   type: vmess
@@ -1703,14 +1274,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- name: 🇯🇵_JP_日本->🇸🇬_SG_新加坡_7@34
-  network: tcp
-  password: e8e027f7-0672-43d4-8001-535b58852b2f
-  port: 443
-  server: spsg.1234567890spcloud.com
-  skip-cert-verify: true
-  type: trojan
-  udp: true
 - alterId: 0
   cipher: auto
   name: 🇯🇵_JP_日本_7@35
@@ -1754,17 +1317,6 @@ proxies:
   protocol: origin
   server: jp-am48-6.eqnode.net
   type: ssr
-- alterId: 64
-  cipher: auto
-  name: 🇺🇸_US_美国->🇳🇱_NL_荷兰_8@13
-  network: tcp
-  port: 42001
-  server: 45.199.138.173
-  servername: www.62976171.xyz
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 20b30916-e203-412e-8ec0-900f3acd5128
 - cipher: aes-256-cfb
   name: 🇷🇺_RU_俄罗斯联邦_2_8@16
   obfs: plain
@@ -1892,34 +1444,6 @@ proxies:
     path: /chat
 - alterId: 0
   cipher: auto
-  name: 🇳🇱_NL_荷兰->🇹🇼_TW_台湾_8@34
-  network: ws
-  port: 8080
-  server: 23.sanfen001.top
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: eb0dde23-6477-4066-aee9-a2a5b11c9507
-  ws-opts:
-    headers:
-      host: tw.cashdawiodxkawjaiocjdawdawdadwrawgfsegsededwadawfgrdrcvsssl.top
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇨🇷_CR_哥斯达黎加->🇺🇸_US_美国_1_9@0
-  network: ws
-  port: 2053
-  server: 190.93.244.104
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 3a73acf2-c7e3-43b9-fca9-bdd2eb886186
-  ws-opts:
-    headers:
-      host: ylks.vtcss.top
-    path: /qwer
-- alterId: 0
-  cipher: auto
   name: 🇺🇸_US_美国_1_9@1
   network: ws
   port: 2053
@@ -1980,16 +1504,6 @@ proxies:
     headers:
       host: ylks.vtcss.top
     path: /qwer
-- alterId: 64
-  cipher: auto
-  name: 🇺🇸_US_美国->🇳🇱_NL_荷兰_9@7
-  network: tcp
-  port: 49100
-  server: 45.199.138.140
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: fe5f69e7-e183-439b-950b-9661ef0651f2
 - alterId: 0
   cipher: auto
   name: 🇭🇰_HK_香港_9@8
@@ -2030,34 +1544,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国->🇩🇪_DE_德国_2_9@13
-  network: ws
-  port: 8080
-  server: cf2.992688.xyz
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 0d9a0392-e0a1-4bad-e877-3721def40f11
-  ws-opts:
-    headers:
-      host: hax2.992688.xyz
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇳🇱_NL_荷兰->🇺🇸_US_美国_9@14
-  network: ws
-  port: 2086
-  server: 188.114.96.2
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: dac9cf36-ff4c-4d90-d549-d39086e75088
-  ws-opts:
-    headers:
-      host: ylks.vtcss.top
-    path: /qwer
 - alterId: 0
   cipher: auto
   name: 🇺🇸_US_美国_8_9@15
@@ -2154,62 +1640,6 @@ proxies:
     path: /zh-cn
 - alterId: 0
   cipher: auto
-  name: 🇬🇧_GB_英国->🇭🇰_HK_香港_9@25
-  network: ws
-  port: 80
-  server: 19.sanfen001.top
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: eb0dde23-6477-4066-aee9-a2a5b11c9507
-  ws-opts:
-    headers:
-      host: hk.cashdawiodxkawjaiocjdawdawdadwrawgfsegsededwadawfgrdrcvsssl.top
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇦🇺_AU_澳大利亚->🇹🇼_TW_台湾_1_9@26
-  network: ws
-  port: 80
-  server: 22.sanfen001.top
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: eb0dde23-6477-4066-aee9-a2a5b11c9507
-  ws-opts:
-    headers:
-      host: tw.cashdawiodxkawjaiocjdawdawdadwrawgfsegsededwadawfgrdrcvsssl.top
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇦🇺_AU_澳大利亚->🇹🇼_TW_台湾_2_9@27
-  network: ws
-  port: 8880
-  server: 24.sanfen001.top
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: eb0dde23-6477-4066-aee9-a2a5b11c9507
-  ws-opts:
-    headers:
-      host: tw.cashdawiodxkawjaiocjdawdawdadwrawgfsegsededwadawfgrdrcvsssl.top
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇨🇷_CR_哥斯达黎加->🇺🇸_US_美国_2_9@28
-  network: ws
-  port: 2082
-  server: 190.93.246.51
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: f4c2c162-0fc4-4455-d862-2b24aebce347
-  ws-opts:
-    headers:
-      host: uxx.vtcss.top
-    path: /qwer
-- alterId: 0
-  cipher: auto
   name: 🇸🇬_SG_新加坡_9@29
   network: tcp
   port: 44044
@@ -2218,20 +1648,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 8904e378-f667-41ed-9087-0081e9ac446e
-- alterId: 0
-  cipher: auto
-  name: 🇫🇷_FR_法国->🇺🇸_US_美国_9@30
-  network: ws
-  port: 80
-  server: 173.245.49.115
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 298530df-8418-4bc6-bff2-eeee595bf5cd
-  ws-opts:
-    headers:
-      host: ylks.vtcss.top
-    path: /qwer
 - alterId: 64
   cipher: auto
   name: 🇺🇸_US_美国_1_10@0
@@ -2431,54 +1847,12 @@ proxies:
     headers:
       host: uxx.vtcss.top
     path: /qwer
-- alterId: 0
-  cipher: auto
-  name: 🇨🇷_CR_哥斯达黎加->🇺🇸_US_美国_1_11@4
-  network: ws
-  port: 8080
-  server: cf5.992688.xyz
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: b0b12ae2-346c-488b-8d1e-9f3afb8fead5
-  ws-opts:
-    headers:
-      host: hax.992688.xyz
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_1_11@5
-  network: ws
-  port: 80
-  server: 162.159.43.104
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 79691050-5798-42ce-a93c-1ad585983823
-  ws-opts:
-    headers:
-      host: el.kapacloud.eu.org
-    path: /blue
 - cipher: aes-256-cfb
   name: 🇯🇵_JP_日本_11@6
   password: amazonskr05
   port: 443
   server: 43.207.74.136
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_2_11@7
-  network: ws
-  port: 443
-  server: 104.24.147.6
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 79691050-5798-42ce-a93c-1ad585983823
-  ws-opts:
-    headers:
-      host: el.kapacloud.eu.org
-    path: /blue
 - alterId: 0
   cipher: auto
   name: 🇺🇸_US_美国_5_11@8
@@ -2531,62 +1905,6 @@ proxies:
     headers:
       host: uxx.vtcss.top
     path: /qwer
-- alterId: 0
-  cipher: auto
-  name: 🇨🇷_CR_哥斯达黎加->🇰🇷_KR_韩国_11@12
-  network: ws
-  port: 80
-  server: 190.93.244.62
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 79691050-5798-42ce-a93c-1ad585983823
-  ws-opts:
-    headers:
-      host: kr.kapacloud.eu.org
-    path: /blue
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国->🇰🇷_KR_韩国_1_11@13
-  network: ws
-  port: 443
-  server: 104.19.95.33
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 79691050-5798-42ce-a93c-1ad585983823
-  ws-opts:
-    headers:
-      host: kr.kapacloud.eu.org
-    path: /blue
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国->🇰🇷_KR_韩国_2_11@14
-  network: ws
-  port: 443
-  server: 162.159.15.151
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 79691050-5798-42ce-a93c-1ad585983823
-  ws-opts:
-    headers:
-      host: kr.kapacloud.eu.org
-    path: /blue
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国->🇰🇷_KR_韩国_3_11@15
-  network: ws
-  port: 443
-  server: 104.16.122.37
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 79691050-5798-42ce-a93c-1ad585983823
-  ws-opts:
-    headers:
-      host: kr.kapacloud.eu.org
-    path: /blue
 - alterId: 64
   cipher: auto
   name: 🇺🇸_US_美国_9_11@16
@@ -2597,48 +1915,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_3_11@17
-  network: ws
-  port: 443
-  server: 104.20.195.124
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 79691050-5798-42ce-a93c-1ad585983823
-  ws-opts:
-    headers:
-      host: el.kapacloud.eu.org
-    path: /blue
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国->🇸🇬_SG_新加坡_1_11@19
-  network: ws
-  port: 2095
-  server: 104.25.79.213
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: f25a0058-37be-4849-90b7-806d7cc8bf38
-  ws-opts:
-    headers:
-      host: sg.wyhkaa0.tk
-    path: /@hkaa0
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国->🇸🇬_SG_新加坡_2_11@20
-  network: ws
-  port: 2095
-  server: 173.245.59.165
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: f25a0058-37be-4849-90b7-806d7cc8bf38
-  ws-opts:
-    headers:
-      host: sg.wyhkaa0.tk
-    path: /@hkaa0
 - alterId: 0
   cipher: auto
   name: 🇺🇸_US_美国_11_11@21
@@ -2667,34 +1943,6 @@ proxies:
     headers:
       host: uxx.vtcss.top
     path: /qwer
-- alterId: 0
-  cipher: auto
-  name: 🇧🇷_BR_巴西->🇳🇱_NL_荷兰_11@24
-  network: ws
-  port: 2082
-  server: nlawggbvfgerhtg.76898102.xyz
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 4896559c-c94e-342a-b208-6107ec292652
-  ws-opts:
-    headers:
-      host: nlawggbvfgerhtg.76898102.xyz
-    path: /fwadfbbg
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国->🇸🇬_SG_新加坡_3_11@25
-  network: ws
-  port: 2095
-  server: 104.26.10.183
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: f25a0058-37be-4849-90b7-806d7cc8bf38
-  ws-opts:
-    headers:
-      host: sg.wyhkaa0.tk
-    path: /@hkaa0
 - alterId: 0
   cipher: auto
   name: 🇺🇸_US_美国_13_11@26
@@ -2790,20 +2038,6 @@ proxies:
   skip-cert-verify: true
   type: trojan
   udp: true
-- alterId: 0
-  cipher: auto
-  name: 🇨🇾_CY_塞浦路斯->🇳🇱_NL_荷兰_12@7
-  network: ws
-  port: 443
-  server: mci.saintink.eu.org
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: c226d9fa-b5a7-4f6e-9532-50137c89311d
-  ws-opts:
-    headers:
-      host: 4.saintink.eu.org
-    path: nl1.v2rayserv.com/vmess
 - alterId: 64
   cipher: auto
   name: 🇺🇸_US_美国_4_12@10
@@ -2824,20 +2058,6 @@ proxies:
   tls: false
   type: vmess
   uuid: da8c9ac2-39de-4bed-ee9f-4e4340ade47d
-- alterId: 0
-  cipher: auto
-  name: 🇧🇷_BR_巴西->🇩🇪_DE_德国_12@12
-  network: ws
-  port: 2052
-  server: dearmb.76898102.xyz
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 4896559c-c94e-342a-b208-6107ec292652
-  ws-opts:
-    headers:
-      host: dearmb.76898102.xyz
-    path: /ancihgrt
 - cipher: aes-256-cfb
   name: 🇯🇵_JP_日本_2_12@14
   password: doub.io
@@ -2968,15 +2188,6 @@ proxies:
     headers:
       host: ylks.vtcss.top
     path: /qwer
-- name: 🇸🇬_SG_新加坡->🇺🇸_US_美国_12@29
-  network: tcp
-  password: 7ad2a5e0-906b-4b3e-97bb-b5f3992cb19d
-  port: 443
-  server: pqawszf.aiopen.cfd
-  skip-cert-verify: true
-  sni: us1.pqjc.site
-  type: trojan
-  udp: true
 - alterId: 0
   cipher: auto
   name: 🇺🇸_US_美国_18_12@31
@@ -3001,20 +2212,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国->🇮🇩_ID_印度尼西亚_13@6
-  network: ws
-  port: 443
-  server: zendesk1.shopee.sg
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 0b3b165f-ba8f-4cb5-8d3c-ad6e2f9216f6
-  ws-opts:
-    headers:
-      host: idmws.mainssh.xyz
-    path: /vmess
 - alterId: 64
   cipher: auto
   name: 🇺🇸_US_美国_2_13@9
@@ -3025,21 +2222,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国->🇦🇹_AT_奥地利_1_13@13
-  network: ws
-  port: 443
-  server: 104.27.1.133
-  servername: 7c65c304-20a0-11ee-9138-37927036a50e.alluserconnectv2ray.xyz
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 2484f444-0e00-5a0f-b8f1-4fe2a2550d65
-  ws-opts:
-    headers:
-      host: schereinappclient.alluserconnectv2ray.xyz
-    path: /api01
 - alterId: 0
   cipher: auto
   name: 🇺🇸_US_美国_3_13@15
@@ -3066,31 +2248,6 @@ proxies:
   uuid: 2278efe4-ad0c-47ce-9480-068608368d76
 - alterId: 64
   cipher: auto
-  name: 🇺🇸_US_美国->🇳🇱_NL_荷兰_1_13@20
-  network: tcp
-  port: 55594
-  server: 45.199.138.132
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 1d474f0b-e78d-4af9-bc4a-a467467bc7a7
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国->🇦🇹_AT_奥地利_2_13@22
-  network: ws
-  port: 443
-  server: 104.25.254.42
-  servername: 7c65c304-20a0-11ee-9138-37927036a50e.alluserconnectv2ray.xyz
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 2484f444-0e00-5a0f-b8f1-4fe2a2550d65
-  ws-opts:
-    headers:
-      host: schereinappclient.alluserconnectv2ray.xyz
-    path: /api01
-- alterId: 64
-  cipher: auto
   name: 🇺🇸_US_美国_5_13@23
   network: ws
   port: 443
@@ -3113,20 +2270,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
-  cipher: auto
-  name: 🇺🇸_US_美国->🇳🇱_NL_荷兰_2_13@26
-  network: ws
-  port: 443
-  server: 156.225.67.80
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 3fd637ad-46fe-4f85-a6e8-86b00bca1122
-  ws-opts:
-    headers:
-      host: www.13340198.xyz
-    path: /path/1689241126044
 - name: 🇺🇸_US_美国_11_13@32
   network: tcp
   password: c8e877d3-2909-416d-aa5a-6d1722a374bd
@@ -3193,20 +2336,6 @@ proxies:
   uuid: afbb87ab-913c-4524-becc-0d2e565ac358
 - alterId: 0
   cipher: auto
-  name: 🇩🇪_DE_德国->🇪🇸_ES_西班牙_14@10
-  network: ws
-  port: 80
-  server: 45.14.174.152
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 71cecc3f-e274-43f5-81a7-af37b1e3b185
-  ws-opts:
-    headers:
-      host: fr.66.now.cc
-    path: /
-- alterId: 0
-  cipher: auto
   name: 🇹🇼_TW_台湾_14@12
   network: ws
   port: 8443
@@ -3254,20 +2383,6 @@ proxies:
   uuid: afa2b3af-248e-43a1-ad6b-076cca22e302
 - alterId: 0
   cipher: auto
-  name: 🇳🇱_NL_荷兰->🇺🇸_US_美国_2_14@27
-  network: ws
-  port: 80
-  server: 188.114.99.170
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 298530df-8418-4bc6-bff2-eeee595bf5cd
-  ws-opts:
-    headers:
-      host: ylks.vtcss.top
-    path: /qwer
-- alterId: 0
-  cipher: auto
   name: 🇺🇸_US_美国_12_14@28
   network: ws
   port: 80
@@ -3300,16 +2415,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
-  cipher: auto
-  name: 🇭🇰_HK_香港->🇳🇱_NL_荷兰_14@35
-  network: tcp
-  port: 31920
-  server: 156.245.8.130
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: bd249e37-7359-41ee-84a7-09e49e0ec5c4
 - name: 🇫🇷_FR_法国_2_14@36
   network: tcp
   password: telegram-id-privatevpns
@@ -3333,26 +2438,6 @@ proxies:
     headers:
       host: uxx.vtcss.top
     path: /qwer
-- alterId: 64
-  cipher: auto
-  name: 🇫🇷_FR_法国->🇳🇱_NL_荷兰_15@1
-  network: none
-  port: 42292
-  server: 156.249.18.162
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
-  cipher: auto
-  name: 🇭🇰_HK_香港->🇳🇱_NL_荷兰_15@2
-  network: none
-  port: 48123
-  server: 156.245.8.83
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: d7735058-1dac-4618-99ff-0aa0441ec2d7
 - cipher: aes-256-ctr
   name: 🇳🇱_NL_荷兰_15@3
   obfs: tls1.2_ticket_auth
@@ -3498,20 +2583,6 @@ proxies:
     path: /qwer
 - alterId: 0
   cipher: auto
-  name: 🇭🇰_HK_香港->🇯🇵_JP_日本_15@26
-  network: ws
-  port: 80
-  server: 27.126.206.62
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: e52d79bb-b26e-4416-ac8a-7755176299a6
-  ws-opts:
-    headers:
-      host: jp1.ielaina.com
-    path: /9SCqOah8/
-- alterId: 0
-  cipher: auto
   name: 🇹🇼_TW_台湾_2_15@27
   network: ws
   port: 31235
@@ -3570,6 +2641,20 @@ proxies:
   skip-cert-verify: true
   type: trojan
   udp: true
+- alterId: 0
+  cipher: auto
+  name: 🇩🇪_DE_德国_15@34
+  network: ws
+  port: 80
+  server: 45.14.174.152
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 71cecc3f-e274-43f5-81a7-af37b1e3b185
+  ws-opts:
+    headers:
+      host: fr.66.now.cc
+    path: /
 - alterId: 0
   cipher: auto
   name: 🇺🇸_US_美国_21_15@35
@@ -3706,16 +2791,6 @@ proxies:
   type: ss
 - alterId: 64
   cipher: auto
-  name: 🇺🇸_US_美国->🇳🇱_NL_荷兰_16@20
-  network: tcp
-  port: 48123
-  server: 156.225.67.6
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: d7735058-1dac-4618-99ff-0aa0441ec2d7
-- alterId: 64
-  cipher: auto
   name: 🇺🇸_US_美国_13_16@21
   port: 42857
   server: 192.74.228.161
@@ -3741,6 +2816,20 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
+  name: 🇺🇸_US_美国_15_16@25
+  network: ws
+  port: 8080
+  server: cf5.992688.xyz
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: b0b12ae2-346c-488b-8d1e-9f3afb8fead5
+  ws-opts:
+    headers:
+      host: hax.992688.xyz
+    path: /
+- alterId: 0
+  cipher: auto
   name: 🇺🇸_US_美国_17_16@30
   network: ws
   port: 34803
@@ -3751,20 +2840,6 @@ proxies:
   uuid: 982483e5-d70a-4cb8-e316-9fa3fd49dd10
   ws-opts:
     path: /?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国->🇩🇪_DE_德国_2_16@31
-  network: ws
-  port: 8080
-  server: cf3.992688.xyz
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: bbfa65cf-236e-4e4f-eb3d-a9e159d3f945
-  ws-opts:
-    headers:
-      host: eu2.992688.xyz
-    path: /
 - alterId: 0
   cipher: auto
   name: 🇻🇬_VG_英属维尔京群岛_16@32
@@ -3779,6 +2854,20 @@ proxies:
     headers:
       host: fldsubgigtujuy.76898102.xyz
     path: /miaoGK
+- alterId: 0
+  cipher: auto
+  name: 🇳🇱_NL_荷兰_2_16@33
+  network: ws
+  port: 2082
+  server: nlawggbvfgerhtg.76898102.xyz
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 4896559c-c94e-342a-b208-6107ec292652
+  ws-opts:
+    headers:
+      host: nlawggbvfgerhtg.76898102.xyz
+    path: /fwadfbbg
 - alterId: 0
   cipher: auto
   name: 🇭🇰_HK_香港_1_16@34
@@ -3812,15 +2901,6 @@ proxies:
   server: ssrsub.o08.trojan.tel
   skip-cert-verify: true
   sni: ssrsub.o08.trojan.tel
-  type: trojan
-  udp: true
-- name: 🇨🇭_CH_瑞士->🇯🇵_JP_日本_16@37
-  network: tcp
-  password: 4b526505-3de3-4cb4-8f99-70b65adea09f
-  port: 443
-  server: w2.fp3kemyh-cm4s-2hak-2gb9-w3534umy2sq5.9d8f269f96b25232-759cbb36d6548597.kaufen
-  skip-cert-verify: true
-  sni: adtube.ir
   type: trojan
   udp: true
 - alterId: 64
@@ -3928,6 +3008,20 @@ proxies:
     headers:
       host: usfh2.pqjc.buzz
     path: /pq/usfh2?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸_US_美国_8_17@14
+  network: ws
+  port: 8080
+  server: cf2.992688.xyz
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 6b056a2c-b821-44b2-cf66-59a1126f6c95
+  ws-opts:
+    headers:
+      host: o1.992688.xyz
+    path: /
 - alterId: 0
   cipher: auto
   name: 🇺🇸_US_美国_9_17@17
@@ -4045,16 +3139,6 @@ proxies:
   type: ss
 - alterId: 64
   cipher: auto
-  name: 🇭🇰_HK_香港->🇳🇱_NL_荷兰_17@36
-  network: tcp
-  port: 48123
-  server: 156.245.8.128
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 3ca912da-6ac2-418f-b9cf-45b6f694579b
-- alterId: 64
-  cipher: auto
   name: 🇺🇸_US_美国_14_17@37
   network: tcp
   port: 51140
@@ -4063,16 +3147,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 4a138e19-0595-4d51-83c6-fd276cf7d307
-- alterId: 64
-  cipher: auto
-  name: 🇺🇸_US_美国->🇳🇱_NL_荷兰_17@38
-  network: tcp
-  port: 48123
-  server: 156.225.67.206
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: d7735058-1dac-4618-99ff-0aa0441ec2d7
 - cipher: aes-256-cfb
   name: 🇵🇱_PL_波兰_17@39
   password: KBGjZYcy4SyRShmA
@@ -4103,16 +3177,6 @@ proxies:
   tls: false
   type: vmess
   uuid: a9abf3e7-87f4-473d-8d03-2f26ca4b3583
-- alterId: 64
-  cipher: auto
-  name: 🇳🇱_NL_荷兰->🇺🇸_US_美国_17@42
-  network: tcp
-  port: 41632
-  server: 45.153.203.90
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 64
   cipher: auto
   name: 🇺🇸_US_美国_17_17@43
@@ -4718,20 +3782,6 @@ proxies:
     path: /qwer00
 - alterId: 0
   cipher: auto
-  name: 🇺🇸_US_美国->🇸🇬_SG_新加坡_19@12
-  network: ws
-  port: 2095
-  server: 162.159.253.254
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: f25a0058-37be-4849-90b7-806d7cc8bf38
-  ws-opts:
-    headers:
-      host: sg.wyhkaa0.tk
-    path: /@hkaa0
-- alterId: 0
-  cipher: auto
   name: 🇺🇸_US_美国_7_19@13
   network: ws
   port: 80
@@ -4812,16 +3862,6 @@ proxies:
   network: tcp
   port: 46202
   server: 45.88.43.232
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
-  cipher: auto
-  name: 🇺🇸_US_美国->🇳🇱_NL_荷兰_19@24
-  network: tcp
-  port: 48821
-  server: 156.225.67.91
   skip-cert-verify: true
   tls: false
   type: vmess
@@ -5199,20 +4239,6 @@ proxies:
     path: /qwer
 - alterId: 0
   cipher: auto
-  name: 🇺🇸_US_美国->🇸🇬_SG_新加坡_1_20@29
-  network: ws
-  port: 2095
-  server: 104.18.56.230
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: f25a0058-37be-4849-90b7-806d7cc8bf38
-  ws-opts:
-    headers:
-      host: sg.wyhkaa0.tk
-    path: /@hkaa0
-- alterId: 0
-  cipher: auto
   name: 🇺🇸_US_美国_26_20@30
   network: ws
   port: 80
@@ -5227,20 +4253,6 @@ proxies:
     path: /qwer00
 - alterId: 0
   cipher: auto
-  name: 🇨🇾_CY_塞浦路斯->🇺🇸_US_美国_20@31
-  network: ws
-  port: 2052
-  server: apkwvctghw.114514782.xyz
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: d1969fc7-b361-3c1d-b92d-4ae5c3909e62
-  ws-opts:
-    headers:
-      host: apkwvctghw.114514782.xyz
-    path: /miaosafh
-- alterId: 0
-  cipher: auto
   name: 🇸🇬_SG_新加坡_20@32
   network: ws
   port: 443
@@ -5251,20 +4263,6 @@ proxies:
   uuid: a869c557-5c7d-426f-9039-0279c16352bc
   ws-opts:
     path: /vmessws
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国->🇸🇬_SG_新加坡_2_20@33
-  network: ws
-  port: 2095
-  server: 104.21.8.38
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: f25a0058-37be-4849-90b7-806d7cc8bf38
-  ws-opts:
-    headers:
-      host: sg.wyhkaa0.tk
-    path: /@hkaa0
 - alterId: 0
   cipher: auto
   name: 🇺🇸_US_美国_27_20@34
@@ -5317,10 +4315,10 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 🇨🇷_CR_哥斯达黎加->🇸🇬_SG_新加坡_21@1
+  name: 🇺🇸_US_美国_1_21@0
   network: ws
   port: 2095
-  server: 190.93.247.31
+  server: 104.18.56.230
   skip-cert-verify: true
   tls: false
   type: vmess
@@ -5343,36 +4341,6 @@ proxies:
     headers:
       host: sg.wyhkaa0.tk
     path: /@hkaa0
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国->🇸🇬_SG_新加坡_21@4
-  network: ws
-  port: 2095
-  server: 104.18.189.118
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: f25a0058-37be-4849-90b7-806d7cc8bf38
-  ws-opts:
-    headers:
-      host: sg.wyhkaa0.tk
-    path: /@hkaa0
-- name: 🇹🇼_TW_台湾->🇺🇸_US_美国_1_21@5
-  network: tcp
-  password: c32c56fb-64d9-33c4-b42a-af81b7a33fe7
-  port: 23330
-  server: 36.228.224.160
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: 🇹🇼_TW_台湾->🇺🇸_US_美国_2_21@6
-  network: tcp
-  password: c32c56fb-64d9-33c4-b42a-af81b7a33fe7
-  port: 23330
-  server: hnm.xiaohouzi.club
-  skip-cert-verify: true
-  type: trojan
-  udp: true
 - cipher: aes-256-cfb
   name: 🇯🇵_JP_日本_21@7
   password: amazonskr05
@@ -5409,18 +4377,32 @@ proxies:
     path: /qwer
 - alterId: 0
   cipher: auto
-  name: 🇳🇱_NL_荷兰->🇺🇸_US_美国_21@15
+  name: 🇺🇸_US_美国_6_21@16
   network: ws
-  port: 8080
-  server: 188.114.99.238
+  port: 2095
+  server: 104.25.79.213
   skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: 0a69988b-1c81-4c78-b6f2-5b291cb15493
+  uuid: f25a0058-37be-4849-90b7-806d7cc8bf38
   ws-opts:
     headers:
-      host: bl.wang66.homes
-    path: /qwer
+      host: sg.wyhkaa0.tk
+    path: /@hkaa0
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸_US_美国_7_21@17
+  network: ws
+  port: 8080
+  server: cf3.992688.xyz
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: b0b12ae2-346c-488b-8d1e-9f3afb8fead5
+  ws-opts:
+    headers:
+      host: hax.992688.xyz
+    path: /
 - alterId: 64
   cipher: auto
   name: 🇸🇬_SG_新加坡_1_21@18
@@ -5517,20 +4499,16 @@ proxies:
     headers:
       host: bl.wang66.homes
     path: /qwer
-- alterId: 0
+- alterId: 64
   cipher: auto
-  name: 🇨🇷_CR_哥斯达黎加->🇺🇸_US_美国_1_21@28
-  network: ws
-  port: 8880
-  server: 190.93.247.222
+  name: 🇺🇸_US_美国_15_21@27
+  network: tcp
+  port: 48821
+  server: 156.225.67.91
   skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: d18cf3e0-e5fe-4f89-9d36-e4688788983b
-  ws-opts:
-    headers:
-      host: bl.wang66.homes
-    path: /qwer
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
   name: 🇺🇸_US_美国_16_21@29
@@ -5558,20 +4536,6 @@ proxies:
   ws-opts:
     headers:
       host: er.vtcss.top
-    path: /qwer
-- alterId: 0
-  cipher: auto
-  name: 🇨🇷_CR_哥斯达黎加->🇺🇸_US_美国_2_21@31
-  network: ws
-  port: 2082
-  server: 190.93.246.191
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 6a93d9f3-3439-473c-9d95-84d175ae0762
-  ws-opts:
-    headers:
-      host: bl.wang66.homes
     path: /qwer
 - alterId: 0
   cipher: auto
@@ -5681,20 +4645,6 @@ proxies:
   tls: false
   type: vmess
   uuid: e0b715cd-4058-4cf4-b67e-d37063294b75
-- alterId: 0
-  cipher: auto
-  name: 🇳🇱_NL_荷兰->🇺🇸_US_美国_22@34
-  network: ws
-  port: 2082
-  server: 188.114.96.112
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 6a93d9f3-3439-473c-9d95-84d175ae0762
-  ws-opts:
-    headers:
-      host: bl.wang66.homes
-    path: /qwer
 - alterId: 64
   cipher: auto
   name: 🇺🇸_US_美国_7_22@35
@@ -5792,21 +4742,6 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 🇰🇷_KR_韩国->🇺🇸_US_美国_23@0
-  network: ws
-  port: 443
-  server: south-connect.zhihuu.top
-  servername: n439.zhihuu.top
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 7596fac1-ee72-4590-9fd8-92f762e9faaf
-  ws-opts:
-    headers:
-      host: n439.zhihuu.top
-    path: /ws439
-- alterId: 0
-  cipher: auto
   name: 🇭🇰_HK_香港_23@2
   network: ws
   port: 80
@@ -5869,21 +4804,6 @@ proxies:
     path: /20861
 - alterId: 0
   cipher: auto
-  name: 🇰🇿_KZ_哈萨克斯坦->🇸🇬_SG_新加坡_23@38
-  network: ws
-  port: 2052
-  server: sgtippos.76898102.xyz
-  servername: sgtippos.76898102.xyz
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 0ee79445-85a0-38fe-be38-58035ad10530
-  ws-opts:
-    headers:
-      host: sgtippos.76898102.xyz
-    path: /miao
-- alterId: 0
-  cipher: auto
   name: 🇺🇸_US_美国_6_23@39
   network: ws
   port: 443
@@ -5942,16 +4862,6 @@ proxies:
   network: tcp
   port: 50004
   server: 137.175.41.200
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
-  cipher: auto
-  name: 🇺🇸_US_美国->🇳🇱_NL_荷兰_24@5
-  network: tcp
-  port: 48821
-  server: 156.225.67.89
   skip-cert-verify: true
   tls: false
   type: vmess
@@ -6034,20 +4944,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国->🇩🇪_DE_德国_24@21
-  network: ws
-  port: 2052
-  server: dearma.76898102.xyz
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 3f6ad16c-f1ea-38fd-bf1d-a64e77ffaa32
-  ws-opts:
-    headers:
-      host: dearma.76898102.xyz
-    path: /abuciwyg
 - alterId: 0
   cipher: auto
   name: 🇺🇸_US_美国_14_24@23
@@ -6140,20 +5036,6 @@ proxies:
     path: /ports/10178
 - alterId: 0
   cipher: auto
-  name: 🇨🇦_CA_加拿大->🇺🇸_US_美国_24@34
-  network: ws
-  port: 2052
-  server: jpwadnca.114514782.xyz
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 3f6ad16c-f1ea-38fd-bf1d-a64e77ffaa32
-  ws-opts:
-    headers:
-      host: jpwadnca.114514782.xyz
-    path: /miaoshen
-- alterId: 0
-  cipher: auto
   name: 🇰🇷_KR_韩国_3_24@36
   network: ws
   port: 443
@@ -6181,75 +5063,49 @@ proxy-groups:
   - DIRECT
   - 🇺🇸_US_美国_1_0@0
   - 🇺🇸_US_美国_2_0@1
-  - 🇺🇸_US_美国->🇳🇱_NL_荷兰_1_0@11
   - 🇺🇸_US_美国_3_0@25
   - 🇺🇸_US_美国_4_0@26
   - 🇩🇪_DE_德国_0@27
   - 🇺🇸_US_美国_5_0@29
   - 🇳🇱_NL_荷兰_0@30
-  - 🇺🇸_US_美国->🇳🇱_NL_荷兰_2_0@31
-  - 🇺🇸_US_美国->🇨🇦_CA_加拿大_0@32
   - 🇺🇸_US_美国_6_0@33
   - 🇸🇬_SG_新加坡_0@34
   - 🇺🇸_US_美国_7_0@35
   - 🇺🇸_US_美国_1_1@3
   - 🇺🇸_US_美国_2_1@5
   - 🇺🇸_US_美国_3_1@7
-  - 🇨🇷_CR_哥斯达黎加->🇺🇸_US_美国_1_1@8
   - 🇺🇸_US_美国_4_1@9
-  - 🇨🇷_CR_哥斯达黎加->🇺🇸_US_美国_2_1@13
   - 🇺🇸_US_美国_5_1@14
-  - 🇨🇷_CR_哥斯达黎加->🇺🇸_US_美国_3_1@16
   - 🇺🇸_US_美国_7_1@20
   - 🇺🇸_US_美国_8_1@21
-  - 🇭🇰_HK_香港->🇺🇸_US_美国_1_1@26
-  - 🇭🇰_HK_香港->🇺🇸_US_美国_2_1@27
-  - 🇭🇰_HK_香港->🇺🇸_US_美国_3_1@28
-  - 🇭🇰_HK_香港->🇺🇸_US_美国_4_1@29
-  - 🇭🇰_HK_香港->🇺🇸_US_美国_5_1@30
-  - 🇭🇰_HK_香港->🇺🇸_US_美国_6_1@31
-  - 🇭🇰_HK_香港->🇺🇸_US_美国_7_1@32
   - 🇯🇵_JP_日本_1_1@33
   - 🇯🇵_JP_日本_2_1@34
   - 🇸🇬_SG_新加坡_1_2@0
   - 🇯🇵_JP_日本_1_2@1
   - 🇷🇺_RU_俄罗斯联邦_2@2
-  - 🇭🇰_HK_香港->🇺🇸_US_美国_1_2@5
-  - 🇭🇰_HK_香港->🇺🇸_US_美国_2_2@6
-  - 🇭🇰_HK_香港->🇺🇸_US_美国_3_2@7
-  - 🇭🇰_HK_香港->🇺🇸_US_美国_5_2@9
   - 🇺🇸_US_美国_2_2@10
   - 🇺🇸_US_美国_3_2@12
   - 🇬🇧_GB_英国_2@13
   - 🇭🇰_HK_香港_1_2@14
   - 🇳🇱_NL_荷兰_2@15
-  - 🇭🇰_HK_香港->🇺🇸_US_美国_6_2@16
-  - 🇭🇰_HK_香港->🇺🇸_US_美国_7_2@17
-  - 🇭🇰_HK_香港->🇺🇸_US_美国_8_2@18
-  - 🇨🇷_CR_哥斯达黎加->🇺🇸_US_美国_2@19
   - 🇺🇸_US_美国_4_2@20
   - 🇰🇷_KR_韩国_2@21
-  - 🇺🇸_US_美国->🇳🇱_NL_荷兰_2@22
   - 🇺🇸_US_美国_5_2@23
   - 🇯🇵_JP_日本_2_2@24
   - 🇯🇵_JP_日本_3_2@25
   - 🇪🇸_ES_西班牙_2@26
-  - 🇫🇷_FR_法国->🇦🇹_AT_奥地利_2@27
   - 🇹🇼_TW_台湾_2@28
   - 🇫🇷_FR_法国_2@29
   - 🇸🇬_SG_新加坡_2_2@30
-  - 🇺🇸_US_美国->🇩🇪_DE_德国_2@31
   - 🇭🇰_HK_香港_2_2@33
   - 🇺🇸_US_美国_6_2@34
   - 🇰🇷_KR_韩国_1_3@0
   - 🇺🇸_US_美国_1_3@2
   - 🇺🇸_US_美国_2_3@3
-  - 🇺🇸_US_美国->🇳🇱_NL_荷兰_3@6
   - 🇺🇸_US_美国_4_3@7
   - 🇺🇸_US_美国_5_3@8
   - 🇺🇸_US_美国_6_3@9
   - 🇸🇬_SG_新加坡_1_3@12
-  - 🇫🇷_FR_法国->🇳🇴_NO_挪威_3@14
   - 🇺🇸_US_美国_7_3@15
   - 🇸🇬_SG_新加坡_2_3@16
   - 🇰🇷_KR_韩国_2_3@17
@@ -6262,17 +5118,13 @@ proxy-groups:
   - 🇸🇬_SG_新加坡_4@2
   - 🇺🇸_US_美国_2_4@3
   - 🇺🇸_US_美国_3_4@5
-  - 🇺🇸_US_美国->🇨🇦_CA_加拿大_1_4@9
-  - 🇺🇸_US_美国->🇨🇦_CA_加拿大_2_4@10
   - 🇺🇸_US_美国_5_4@12
-  - 🇺🇸_US_美国->🇩🇪_DE_德国_2_4@13
   - 🇷🇺_RU_俄罗斯联邦_4@14
   - 🇺🇸_US_美国_6_4@15
-  - 🇺🇸_US_美国->🇯🇵_JP_日本_1_4@17
-  - 🇺🇸_US_美国->🇯🇵_JP_日本_2_4@18
   - 🇮🇳_IN_印度_4@19
   - 🇱🇻_LV_拉脱维亚_4@20
   - 🇰🇷_KR_韩国_1_5@1
+  - 🇫🇷_FR_法国_2_5@2
   - 🇺🇸_US_美国_1_5@3
   - 🇯🇵_JP_日本_1_5@4
   - 🇰🇷_KR_韩国_2_5@5
@@ -6281,7 +5133,6 @@ proxy-groups:
   - 🇯🇵_JP_日本_2_5@9
   - 🇰🇷_KR_韩国_3_5@13
   - 🇺🇸_US_美国_4_5@18
-  - 🇯🇵_JP_日本->🇬🇧_GB_英国_5@19
   - 🇺🇸_US_美国_6_5@21
   - 🇺🇸_US_美国_8_5@23
   - 🇹🇷_TR_土耳其_1_5@25
@@ -6289,6 +5140,7 @@ proxy-groups:
   - 🇺🇸_US_美国_1_6@0
   - 🇺🇸_US_美国_4_6@3
   - 🇺🇸_US_美国_5_6@4
+  - 🇫🇷_FR_法国_6@5
   - 🇺🇸_US_美国_6_6@7
   - 🇺🇸_US_美国_7_6@9
   - 🇩🇪_DE_德国_6@10
@@ -6296,7 +5148,6 @@ proxy-groups:
   - 🇰🇪_KE_肯尼亚_6@12
   - 🇺🇸_US_美国_9_6@13
   - 🇺🇸_US_美国_10_6@14
-  - 🇸🇬_SG_新加坡->🇺🇸_US_美国_6@15
   - 🇺🇸_US_美国_12_6@17
   - 🇸🇬_SG_新加坡_6@18
   - 🇺🇸_US_美国_13_6@20
@@ -6304,8 +5155,8 @@ proxy-groups:
   - 🇮🇳_IN_印度_6@22
   - 🇨🇾_CY_塞浦路斯_6@23
   - 🇹🇷_TR_土耳其_1_6@24
+  - 🇺🇸_US_美国_14_6@26
   - 🇹🇷_TR_土耳其_2_6@27
-  - 🇺🇸_US_美国->🇩🇪_DE_德国_6@28
   - 🇺🇸_US_美国_1_7@0
   - 🇺🇸_US_美国_2_7@1
   - 🇺🇸_US_美国_3_7@2
@@ -6315,7 +5166,6 @@ proxy-groups:
   - 🇺🇸_US_美国_8_7@7
   - 🇺🇸_US_美国_9_7@8
   - 🇺🇸_US_美国_10_7@9
-  - 🇫🇷_FR_法国->🇳🇱_NL_荷兰_7@10
   - 🇺🇸_US_美国_11_7@11
   - 🇺🇸_US_美国_12_7@12
   - 🇺🇸_US_美国_13_7@13
@@ -6335,13 +5185,11 @@ proxy-groups:
   - 🇳🇱_NL_荷兰_7@30
   - 🇳🇴_NO_挪威_7@32
   - 🇺🇸_US_美国_21_7@33
-  - 🇯🇵_JP_日本->🇸🇬_SG_新加坡_7@34
   - 🇯🇵_JP_日本_7@35
   - 🇰🇷_KR_韩国_1_8@0
   - 🇫🇷_FR_法国_1_8@1
   - 🇷🇺_RU_俄罗斯联邦_1_8@2
   - 🇯🇵_JP_日本_1_8@4
-  - 🇺🇸_US_美国->🇳🇱_NL_荷兰_8@13
   - 🇷🇺_RU_俄罗斯联邦_2_8@16
   - 🇸🇬_SG_新加坡_1_8@17
   - 🇯🇵_JP_日本_2_8@18
@@ -6354,20 +5202,15 @@ proxy-groups:
   - 🇺🇸_US_美国_3_8@25
   - 🇭🇰_HK_香港_8@29
   - 🇺🇸_US_美国_4_8@32
-  - 🇳🇱_NL_荷兰->🇹🇼_TW_台湾_8@34
-  - 🇨🇷_CR_哥斯达黎加->🇺🇸_US_美国_1_9@0
   - 🇺🇸_US_美国_1_9@1
   - 🇰🇷_KR_韩国_1_9@3
   - 🇺🇸_US_美国_3_9@4
   - 🇺🇸_US_美国_4_9@5
   - 🇺🇸_US_美国_5_9@6
-  - 🇺🇸_US_美国->🇳🇱_NL_荷兰_9@7
   - 🇭🇰_HK_香港_9@8
   - 🇰🇷_KR_韩国_2_9@9
   - 🇺🇸_US_美国_6_9@11
   - 🇺🇸_US_美国_7_9@12
-  - 🇺🇸_US_美国->🇩🇪_DE_德国_2_9@13
-  - 🇳🇱_NL_荷兰->🇺🇸_US_美国_9@14
   - 🇺🇸_US_美国_8_9@15
   - 🇺🇸_US_美国_9_9@17
   - 🇺🇸_US_美国_10_9@18
@@ -6375,12 +5218,7 @@ proxy-groups:
   - 🇺🇸_US_美国_12_9@22
   - 🇺🇸_US_美国_13_9@23
   - 🇺🇸_US_美国_14_9@24
-  - 🇬🇧_GB_英国->🇭🇰_HK_香港_9@25
-  - 🇦🇺_AU_澳大利亚->🇹🇼_TW_台湾_1_9@26
-  - 🇦🇺_AU_澳大利亚->🇹🇼_TW_台湾_2_9@27
-  - 🇨🇷_CR_哥斯达黎加->🇺🇸_US_美国_2_9@28
   - 🇸🇬_SG_新加坡_9@29
-  - 🇫🇷_FR_法国->🇺🇸_US_美国_9@30
   - 🇺🇸_US_美国_1_10@0
   - 🇺🇸_US_美国_2_10@1
   - 🇺🇸_US_美国_3_10@2
@@ -6402,26 +5240,14 @@ proxy-groups:
   - 🇺🇸_US_美国_2_11@1
   - 🇺🇸_US_美国_3_11@2
   - 🇺🇸_US_美国_4_11@3
-  - 🇨🇷_CR_哥斯达黎加->🇺🇸_US_美国_1_11@4
-  - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_1_11@5
   - 🇯🇵_JP_日本_11@6
-  - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_2_11@7
   - 🇺🇸_US_美国_5_11@8
   - 🇺🇸_US_美国_6_11@9
   - 🇺🇸_US_美国_7_11@10
   - 🇺🇸_US_美国_8_11@11
-  - 🇨🇷_CR_哥斯达黎加->🇰🇷_KR_韩国_11@12
-  - 🇺🇸_US_美国->🇰🇷_KR_韩国_1_11@13
-  - 🇺🇸_US_美国->🇰🇷_KR_韩国_2_11@14
-  - 🇺🇸_US_美国->🇰🇷_KR_韩国_3_11@15
   - 🇺🇸_US_美国_9_11@16
-  - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_3_11@17
-  - 🇺🇸_US_美国->🇸🇬_SG_新加坡_1_11@19
-  - 🇺🇸_US_美国->🇸🇬_SG_新加坡_2_11@20
   - 🇺🇸_US_美国_11_11@21
   - 🇺🇸_US_美国_12_11@23
-  - 🇧🇷_BR_巴西->🇳🇱_NL_荷兰_11@24
-  - 🇺🇸_US_美国->🇸🇬_SG_新加坡_3_11@25
   - 🇺🇸_US_美国_13_11@26
   - 🇸🇬_SG_新加坡_1_11@27
   - 🇭🇰_HK_香港_1_11@28
@@ -6431,10 +5257,8 @@ proxy-groups:
   - 🇸🇬_SG_新加坡_2_11@35
   - 🇱🇻_LV_拉脱维亚_12@1
   - 🇯🇵_JP_日本_1_12@3
-  - 🇨🇾_CY_塞浦路斯->🇳🇱_NL_荷兰_12@7
   - 🇺🇸_US_美国_4_12@10
   - 🇭🇰_HK_香港_12@11
-  - 🇧🇷_BR_巴西->🇩🇪_DE_德国_12@12
   - 🇯🇵_JP_日本_2_12@14
   - 🇺🇸_US_美国_6_12@16
   - 🇺🇸_US_美国_9_12@19
@@ -6445,19 +5269,13 @@ proxy-groups:
   - 🇺🇸_US_美国_14_12@24
   - 🇺🇸_US_美国_15_12@25
   - 🇺🇸_US_美国_17_12@28
-  - 🇸🇬_SG_新加坡->🇺🇸_US_美国_12@29
   - 🇺🇸_US_美国_18_12@31
   - 🇺🇸_US_美国_1_13@2
-  - 🇺🇸_US_美国->🇮🇩_ID_印度尼西亚_13@6
   - 🇺🇸_US_美国_2_13@9
-  - 🇺🇸_US_美国->🇦🇹_AT_奥地利_1_13@13
   - 🇺🇸_US_美国_3_13@15
   - 🇺🇸_US_美国_4_13@16
-  - 🇺🇸_US_美国->🇳🇱_NL_荷兰_1_13@20
-  - 🇺🇸_US_美国->🇦🇹_AT_奥地利_2_13@22
   - 🇺🇸_US_美国_5_13@23
   - 🇺🇸_US_美国_6_13@25
-  - 🇺🇸_US_美国->🇳🇱_NL_荷兰_2_13@26
   - 🇺🇸_US_美国_11_13@32
   - 🇺🇸_US_美国_2_14@1
   - 🇺🇸_US_美国_3_14@2
@@ -6465,20 +5283,15 @@ proxy-groups:
   - 🇺🇸_US_美国_5_14@4
   - 🇫🇷_FR_法国_1_14@5
   - 🇺🇸_US_美国_7_14@9
-  - 🇩🇪_DE_德国->🇪🇸_ES_西班牙_14@10
   - 🇹🇼_TW_台湾_14@12
   - 🇯🇵_JP_日本_14@17
   - 🇬🇧_GB_英国_14@23
   - 🇭🇰_HK_香港_2_14@24
-  - 🇳🇱_NL_荷兰->🇺🇸_US_美国_2_14@27
   - 🇺🇸_US_美国_12_14@28
   - 🇩🇪_DE_德国_14@30
   - 🇺🇸_US_美国_14_14@34
-  - 🇭🇰_HK_香港->🇳🇱_NL_荷兰_14@35
   - 🇫🇷_FR_法国_2_14@36
   - 🇺🇸_US_美国_15_14@38
-  - 🇫🇷_FR_法国->🇳🇱_NL_荷兰_15@1
-  - 🇭🇰_HK_香港->🇳🇱_NL_荷兰_15@2
   - 🇳🇱_NL_荷兰_15@3
   - 🇰🇷_KR_韩国_1_15@4
   - 🇺🇸_US_美国_1_15@5
@@ -6495,12 +5308,12 @@ proxy-groups:
   - 🇺🇸_US_美国_13_15@21
   - 🇺🇸_US_美国_14_15@22
   - 🇺🇸_US_美国_15_15@23
-  - 🇭🇰_HK_香港->🇯🇵_JP_日本_15@26
   - 🇹🇼_TW_台湾_2_15@27
   - 🇺🇸_US_美国_17_15@28
   - 🇺🇸_US_美国_19_15@30
   - 🇹🇼_TW_台湾_3_15@32
   - 🇹🇼_TW_台湾_4_15@33
+  - 🇩🇪_DE_德国_15@34
   - 🇺🇸_US_美国_21_15@35
   - 🇺🇸_US_美国_22_15@36
   - 🇺🇸_US_美国_1_16@1
@@ -6515,17 +5328,16 @@ proxy-groups:
   - 🇺🇸_US_美国_11_16@16
   - 🇺🇸_US_美国_12_16@17
   - 🇩🇪_DE_德国_1_16@18
-  - 🇺🇸_US_美国->🇳🇱_NL_荷兰_16@20
   - 🇺🇸_US_美国_13_16@21
   - 🇺🇸_US_美国_14_16@22
   - 🇯🇵_JP_日本_2_16@23
+  - 🇺🇸_US_美国_15_16@25
   - 🇺🇸_US_美国_17_16@30
-  - 🇺🇸_US_美国->🇩🇪_DE_德国_2_16@31
   - 🇻🇬_VG_英属维尔京群岛_16@32
+  - 🇳🇱_NL_荷兰_2_16@33
   - 🇭🇰_HK_香港_1_16@34
   - 🇭🇰_HK_香港_2_16@35
   - 🇺🇸_US_美国_18_16@36
-  - 🇨🇭_CH_瑞士->🇯🇵_JP_日本_16@37
   - 🇺🇸_US_美国_20_16@40
   - 🇺🇸_US_美国_21_16@41
   - 🇺🇸_US_美国_1_17@1
@@ -6536,6 +5348,7 @@ proxy-groups:
   - 🇺🇸_US_美国_6_17@9
   - 🇸🇬_SG_新加坡_1_17@10
   - 🇺🇸_US_美国_7_17@11
+  - 🇺🇸_US_美国_8_17@14
   - 🇺🇸_US_美国_9_17@17
   - 🇫🇷_FR_法国_1_17@18
   - 🇫🇷_FR_法国_2_17@19
@@ -6549,13 +5362,10 @@ proxy-groups:
   - 🇺🇸_US_美国_11_17@30
   - 🇸🇬_SG_新加坡_2_17@31
   - 🇸🇬_SG_新加坡_3_17@32
-  - 🇭🇰_HK_香港->🇳🇱_NL_荷兰_17@36
   - 🇺🇸_US_美国_14_17@37
-  - 🇺🇸_US_美国->🇳🇱_NL_荷兰_17@38
   - 🇵🇱_PL_波兰_17@39
   - 🇺🇸_US_美国_15_17@40
   - 🇺🇸_US_美国_16_17@41
-  - 🇳🇱_NL_荷兰->🇺🇸_US_美国_17@42
   - 🇺🇸_US_美国_17_17@43
   - 🇺🇸_US_美国_1_18@0
   - 🇺🇸_US_美国_2_18@1
@@ -6601,7 +5411,6 @@ proxy-groups:
   - 🇺🇸_US_美国_4_19@9
   - 🇺🇸_US_美国_5_19@10
   - 🇺🇸_US_美国_6_19@11
-  - 🇺🇸_US_美国->🇸🇬_SG_新加坡_19@12
   - 🇺🇸_US_美国_7_19@13
   - 🇺🇸_US_美国_8_19@14
   - 🇺🇸_US_美国_9_19@16
@@ -6609,7 +5418,6 @@ proxy-groups:
   - 🇨🇷_CR_哥斯达黎加_1_19@18
   - 🇳🇱_NL_荷兰_19@20
   - 🇯🇵_JP_日本_19@21
-  - 🇺🇸_US_美国->🇳🇱_NL_荷兰_19@24
   - 🇺🇸_US_美国_14_19@25
   - 🇺🇸_US_美国_15_19@26
   - 🇺🇸_US_美国_16_19@27
@@ -6638,24 +5446,19 @@ proxy-groups:
   - 🇺🇸_US_美国_22_20@25
   - 🇺🇸_US_美国_23_20@26
   - 🇺🇸_US_美国_25_20@28
-  - 🇺🇸_US_美国->🇸🇬_SG_新加坡_1_20@29
   - 🇺🇸_US_美国_26_20@30
-  - 🇨🇾_CY_塞浦路斯->🇺🇸_US_美国_20@31
   - 🇸🇬_SG_新加坡_20@32
-  - 🇺🇸_US_美国->🇸🇬_SG_新加坡_2_20@33
   - 🇺🇸_US_美国_27_20@34
   - 🇺🇸_US_美国_28_20@35
   - 🇺🇸_US_美国_30_20@38
   - 🇫🇷_FR_法国_20@40
-  - 🇨🇷_CR_哥斯达黎加->🇸🇬_SG_新加坡_21@1
+  - 🇺🇸_US_美国_1_21@0
   - 🇺🇸_US_美国_2_21@2
-  - 🇺🇸_US_美国->🇸🇬_SG_新加坡_21@4
-  - 🇹🇼_TW_台湾->🇺🇸_US_美国_1_21@5
-  - 🇹🇼_TW_台湾->🇺🇸_US_美国_2_21@6
   - 🇯🇵_JP_日本_21@7
   - 🇺🇸_US_美国_3_21@10
   - 🇺🇸_US_美国_5_21@13
-  - 🇳🇱_NL_荷兰->🇺🇸_US_美国_21@15
+  - 🇺🇸_US_美国_6_21@16
+  - 🇺🇸_US_美国_7_21@17
   - 🇸🇬_SG_新加坡_1_21@18
   - 🇺🇸_US_美国_8_21@19
   - 🇺🇸_US_美国_9_21@20
@@ -6664,10 +5467,9 @@ proxy-groups:
   - 🇺🇸_US_美国_12_21@24
   - 🇺🇸_US_美国_13_21@25
   - 🇺🇸_US_美国_14_21@26
-  - 🇨🇷_CR_哥斯达黎加->🇺🇸_US_美国_1_21@28
+  - 🇺🇸_US_美国_15_21@27
   - 🇺🇸_US_美国_16_21@29
   - 🇺🇸_US_美国_17_21@30
-  - 🇨🇷_CR_哥斯达黎加->🇺🇸_US_美国_2_21@31
   - 🇺🇸_US_美国_18_21@33
   - 🇺🇸_US_美国_19_21@34
   - 🇨🇦_CA_加拿大_21@35
@@ -6677,7 +5479,6 @@ proxy-groups:
   - 🇭🇰_HK_香港_22@23
   - 🇺🇸_US_美国_2_22@28
   - 🇺🇸_US_美国_6_22@33
-  - 🇳🇱_NL_荷兰->🇺🇸_US_美国_22@34
   - 🇺🇸_US_美国_7_22@35
   - 🇺🇸_US_美国_8_22@36
   - 🇺🇸_US_美国_11_22@40
@@ -6686,20 +5487,17 @@ proxy-groups:
   - 🇺🇸_US_美国_14_22@43
   - 🇺🇸_US_美国_15_22@44
   - 🇰🇷_KR_韩国_22@47
-  - 🇰🇷_KR_韩国->🇺🇸_US_美国_23@0
   - 🇭🇰_HK_香港_23@2
   - 🇺🇸_US_美国_1_23@4
   - 🇺🇸_US_美国_2_23@11
   - 🇺🇸_US_美国_3_23@28
   - 🇺🇸_US_美国_5_23@37
-  - 🇰🇿_KZ_哈萨克斯坦->🇸🇬_SG_新加坡_23@38
   - 🇺🇸_US_美国_6_23@39
   - 🇺🇸_US_美国_1_24@0
   - 🇺🇸_US_美国_2_24@1
   - 🇺🇸_US_美国_3_24@2
   - 🇺🇸_US_美国_4_24@3
   - 🇺🇸_US_美国_5_24@4
-  - 🇺🇸_US_美国->🇳🇱_NL_荷兰_24@5
   - 🇺🇸_US_美国_6_24@6
   - 🇰🇷_KR_韩国_1_24@7
   - 🇰🇷_KR_韩国_2_24@8
@@ -6710,7 +5508,6 @@ proxy-groups:
   - 🇺🇸_US_美国_10_24@17
   - 🇺🇸_US_美国_11_24@18
   - 🇺🇸_US_美国_12_24@19
-  - 🇺🇸_US_美国->🇩🇪_DE_德国_24@21
   - 🇺🇸_US_美国_14_24@23
   - 🇺🇸_US_美国_15_24@24
   - 🇺🇸_US_美国_16_24@25
@@ -6718,7 +5515,6 @@ proxy-groups:
   - 🇺🇸_US_美国_19_24@30
   - 🇹🇼_TW_台湾_2_24@31
   - 🇺🇸_US_美国_21_24@33
-  - 🇨🇦_CA_加拿大->🇺🇸_US_美国_24@34
   - 🇰🇷_KR_韩国_3_24@36
   - 🇭🇰_HK_香港_24@37
   type: select
@@ -6727,75 +5523,49 @@ proxy-groups:
   proxies:
   - 🇺🇸_US_美国_1_0@0
   - 🇺🇸_US_美国_2_0@1
-  - 🇺🇸_US_美国->🇳🇱_NL_荷兰_1_0@11
   - 🇺🇸_US_美国_3_0@25
   - 🇺🇸_US_美国_4_0@26
   - 🇩🇪_DE_德国_0@27
   - 🇺🇸_US_美国_5_0@29
   - 🇳🇱_NL_荷兰_0@30
-  - 🇺🇸_US_美国->🇳🇱_NL_荷兰_2_0@31
-  - 🇺🇸_US_美国->🇨🇦_CA_加拿大_0@32
   - 🇺🇸_US_美国_6_0@33
   - 🇸🇬_SG_新加坡_0@34
   - 🇺🇸_US_美国_7_0@35
   - 🇺🇸_US_美国_1_1@3
   - 🇺🇸_US_美国_2_1@5
   - 🇺🇸_US_美国_3_1@7
-  - 🇨🇷_CR_哥斯达黎加->🇺🇸_US_美国_1_1@8
   - 🇺🇸_US_美国_4_1@9
-  - 🇨🇷_CR_哥斯达黎加->🇺🇸_US_美国_2_1@13
   - 🇺🇸_US_美国_5_1@14
-  - 🇨🇷_CR_哥斯达黎加->🇺🇸_US_美国_3_1@16
   - 🇺🇸_US_美国_7_1@20
   - 🇺🇸_US_美国_8_1@21
-  - 🇭🇰_HK_香港->🇺🇸_US_美国_1_1@26
-  - 🇭🇰_HK_香港->🇺🇸_US_美国_2_1@27
-  - 🇭🇰_HK_香港->🇺🇸_US_美国_3_1@28
-  - 🇭🇰_HK_香港->🇺🇸_US_美国_4_1@29
-  - 🇭🇰_HK_香港->🇺🇸_US_美国_5_1@30
-  - 🇭🇰_HK_香港->🇺🇸_US_美国_6_1@31
-  - 🇭🇰_HK_香港->🇺🇸_US_美国_7_1@32
   - 🇯🇵_JP_日本_1_1@33
   - 🇯🇵_JP_日本_2_1@34
   - 🇸🇬_SG_新加坡_1_2@0
   - 🇯🇵_JP_日本_1_2@1
   - 🇷🇺_RU_俄罗斯联邦_2@2
-  - 🇭🇰_HK_香港->🇺🇸_US_美国_1_2@5
-  - 🇭🇰_HK_香港->🇺🇸_US_美国_2_2@6
-  - 🇭🇰_HK_香港->🇺🇸_US_美国_3_2@7
-  - 🇭🇰_HK_香港->🇺🇸_US_美国_5_2@9
   - 🇺🇸_US_美国_2_2@10
   - 🇺🇸_US_美国_3_2@12
   - 🇬🇧_GB_英国_2@13
   - 🇭🇰_HK_香港_1_2@14
   - 🇳🇱_NL_荷兰_2@15
-  - 🇭🇰_HK_香港->🇺🇸_US_美国_6_2@16
-  - 🇭🇰_HK_香港->🇺🇸_US_美国_7_2@17
-  - 🇭🇰_HK_香港->🇺🇸_US_美国_8_2@18
-  - 🇨🇷_CR_哥斯达黎加->🇺🇸_US_美国_2@19
   - 🇺🇸_US_美国_4_2@20
   - 🇰🇷_KR_韩国_2@21
-  - 🇺🇸_US_美国->🇳🇱_NL_荷兰_2@22
   - 🇺🇸_US_美国_5_2@23
   - 🇯🇵_JP_日本_2_2@24
   - 🇯🇵_JP_日本_3_2@25
   - 🇪🇸_ES_西班牙_2@26
-  - 🇫🇷_FR_法国->🇦🇹_AT_奥地利_2@27
   - 🇹🇼_TW_台湾_2@28
   - 🇫🇷_FR_法国_2@29
   - 🇸🇬_SG_新加坡_2_2@30
-  - 🇺🇸_US_美国->🇩🇪_DE_德国_2@31
   - 🇭🇰_HK_香港_2_2@33
   - 🇺🇸_US_美国_6_2@34
   - 🇰🇷_KR_韩国_1_3@0
   - 🇺🇸_US_美国_1_3@2
   - 🇺🇸_US_美国_2_3@3
-  - 🇺🇸_US_美国->🇳🇱_NL_荷兰_3@6
   - 🇺🇸_US_美国_4_3@7
   - 🇺🇸_US_美国_5_3@8
   - 🇺🇸_US_美国_6_3@9
   - 🇸🇬_SG_新加坡_1_3@12
-  - 🇫🇷_FR_法国->🇳🇴_NO_挪威_3@14
   - 🇺🇸_US_美国_7_3@15
   - 🇸🇬_SG_新加坡_2_3@16
   - 🇰🇷_KR_韩国_2_3@17
@@ -6808,17 +5578,13 @@ proxy-groups:
   - 🇸🇬_SG_新加坡_4@2
   - 🇺🇸_US_美国_2_4@3
   - 🇺🇸_US_美国_3_4@5
-  - 🇺🇸_US_美国->🇨🇦_CA_加拿大_1_4@9
-  - 🇺🇸_US_美国->🇨🇦_CA_加拿大_2_4@10
   - 🇺🇸_US_美国_5_4@12
-  - 🇺🇸_US_美国->🇩🇪_DE_德国_2_4@13
   - 🇷🇺_RU_俄罗斯联邦_4@14
   - 🇺🇸_US_美国_6_4@15
-  - 🇺🇸_US_美国->🇯🇵_JP_日本_1_4@17
-  - 🇺🇸_US_美国->🇯🇵_JP_日本_2_4@18
   - 🇮🇳_IN_印度_4@19
   - 🇱🇻_LV_拉脱维亚_4@20
   - 🇰🇷_KR_韩国_1_5@1
+  - 🇫🇷_FR_法国_2_5@2
   - 🇺🇸_US_美国_1_5@3
   - 🇯🇵_JP_日本_1_5@4
   - 🇰🇷_KR_韩国_2_5@5
@@ -6827,7 +5593,6 @@ proxy-groups:
   - 🇯🇵_JP_日本_2_5@9
   - 🇰🇷_KR_韩国_3_5@13
   - 🇺🇸_US_美国_4_5@18
-  - 🇯🇵_JP_日本->🇬🇧_GB_英国_5@19
   - 🇺🇸_US_美国_6_5@21
   - 🇺🇸_US_美国_8_5@23
   - 🇹🇷_TR_土耳其_1_5@25
@@ -6835,6 +5600,7 @@ proxy-groups:
   - 🇺🇸_US_美国_1_6@0
   - 🇺🇸_US_美国_4_6@3
   - 🇺🇸_US_美国_5_6@4
+  - 🇫🇷_FR_法国_6@5
   - 🇺🇸_US_美国_6_6@7
   - 🇺🇸_US_美国_7_6@9
   - 🇩🇪_DE_德国_6@10
@@ -6842,7 +5608,6 @@ proxy-groups:
   - 🇰🇪_KE_肯尼亚_6@12
   - 🇺🇸_US_美国_9_6@13
   - 🇺🇸_US_美国_10_6@14
-  - 🇸🇬_SG_新加坡->🇺🇸_US_美国_6@15
   - 🇺🇸_US_美国_12_6@17
   - 🇸🇬_SG_新加坡_6@18
   - 🇺🇸_US_美国_13_6@20
@@ -6850,8 +5615,8 @@ proxy-groups:
   - 🇮🇳_IN_印度_6@22
   - 🇨🇾_CY_塞浦路斯_6@23
   - 🇹🇷_TR_土耳其_1_6@24
+  - 🇺🇸_US_美国_14_6@26
   - 🇹🇷_TR_土耳其_2_6@27
-  - 🇺🇸_US_美国->🇩🇪_DE_德国_6@28
   - 🇺🇸_US_美国_1_7@0
   - 🇺🇸_US_美国_2_7@1
   - 🇺🇸_US_美国_3_7@2
@@ -6861,7 +5626,6 @@ proxy-groups:
   - 🇺🇸_US_美国_8_7@7
   - 🇺🇸_US_美国_9_7@8
   - 🇺🇸_US_美国_10_7@9
-  - 🇫🇷_FR_法国->🇳🇱_NL_荷兰_7@10
   - 🇺🇸_US_美国_11_7@11
   - 🇺🇸_US_美国_12_7@12
   - 🇺🇸_US_美国_13_7@13
@@ -6881,13 +5645,11 @@ proxy-groups:
   - 🇳🇱_NL_荷兰_7@30
   - 🇳🇴_NO_挪威_7@32
   - 🇺🇸_US_美国_21_7@33
-  - 🇯🇵_JP_日本->🇸🇬_SG_新加坡_7@34
   - 🇯🇵_JP_日本_7@35
   - 🇰🇷_KR_韩国_1_8@0
   - 🇫🇷_FR_法国_1_8@1
   - 🇷🇺_RU_俄罗斯联邦_1_8@2
   - 🇯🇵_JP_日本_1_8@4
-  - 🇺🇸_US_美国->🇳🇱_NL_荷兰_8@13
   - 🇷🇺_RU_俄罗斯联邦_2_8@16
   - 🇸🇬_SG_新加坡_1_8@17
   - 🇯🇵_JP_日本_2_8@18
@@ -6900,20 +5662,15 @@ proxy-groups:
   - 🇺🇸_US_美国_3_8@25
   - 🇭🇰_HK_香港_8@29
   - 🇺🇸_US_美国_4_8@32
-  - 🇳🇱_NL_荷兰->🇹🇼_TW_台湾_8@34
-  - 🇨🇷_CR_哥斯达黎加->🇺🇸_US_美国_1_9@0
   - 🇺🇸_US_美国_1_9@1
   - 🇰🇷_KR_韩国_1_9@3
   - 🇺🇸_US_美国_3_9@4
   - 🇺🇸_US_美国_4_9@5
   - 🇺🇸_US_美国_5_9@6
-  - 🇺🇸_US_美国->🇳🇱_NL_荷兰_9@7
   - 🇭🇰_HK_香港_9@8
   - 🇰🇷_KR_韩国_2_9@9
   - 🇺🇸_US_美国_6_9@11
   - 🇺🇸_US_美国_7_9@12
-  - 🇺🇸_US_美国->🇩🇪_DE_德国_2_9@13
-  - 🇳🇱_NL_荷兰->🇺🇸_US_美国_9@14
   - 🇺🇸_US_美国_8_9@15
   - 🇺🇸_US_美国_9_9@17
   - 🇺🇸_US_美国_10_9@18
@@ -6921,12 +5678,7 @@ proxy-groups:
   - 🇺🇸_US_美国_12_9@22
   - 🇺🇸_US_美国_13_9@23
   - 🇺🇸_US_美国_14_9@24
-  - 🇬🇧_GB_英国->🇭🇰_HK_香港_9@25
-  - 🇦🇺_AU_澳大利亚->🇹🇼_TW_台湾_1_9@26
-  - 🇦🇺_AU_澳大利亚->🇹🇼_TW_台湾_2_9@27
-  - 🇨🇷_CR_哥斯达黎加->🇺🇸_US_美国_2_9@28
   - 🇸🇬_SG_新加坡_9@29
-  - 🇫🇷_FR_法国->🇺🇸_US_美国_9@30
   - 🇺🇸_US_美国_1_10@0
   - 🇺🇸_US_美国_2_10@1
   - 🇺🇸_US_美国_3_10@2
@@ -6948,26 +5700,14 @@ proxy-groups:
   - 🇺🇸_US_美国_2_11@1
   - 🇺🇸_US_美国_3_11@2
   - 🇺🇸_US_美国_4_11@3
-  - 🇨🇷_CR_哥斯达黎加->🇺🇸_US_美国_1_11@4
-  - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_1_11@5
   - 🇯🇵_JP_日本_11@6
-  - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_2_11@7
   - 🇺🇸_US_美国_5_11@8
   - 🇺🇸_US_美国_6_11@9
   - 🇺🇸_US_美国_7_11@10
   - 🇺🇸_US_美国_8_11@11
-  - 🇨🇷_CR_哥斯达黎加->🇰🇷_KR_韩国_11@12
-  - 🇺🇸_US_美国->🇰🇷_KR_韩国_1_11@13
-  - 🇺🇸_US_美国->🇰🇷_KR_韩国_2_11@14
-  - 🇺🇸_US_美国->🇰🇷_KR_韩国_3_11@15
   - 🇺🇸_US_美国_9_11@16
-  - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_3_11@17
-  - 🇺🇸_US_美国->🇸🇬_SG_新加坡_1_11@19
-  - 🇺🇸_US_美国->🇸🇬_SG_新加坡_2_11@20
   - 🇺🇸_US_美国_11_11@21
   - 🇺🇸_US_美国_12_11@23
-  - 🇧🇷_BR_巴西->🇳🇱_NL_荷兰_11@24
-  - 🇺🇸_US_美国->🇸🇬_SG_新加坡_3_11@25
   - 🇺🇸_US_美国_13_11@26
   - 🇸🇬_SG_新加坡_1_11@27
   - 🇭🇰_HK_香港_1_11@28
@@ -6977,10 +5717,8 @@ proxy-groups:
   - 🇸🇬_SG_新加坡_2_11@35
   - 🇱🇻_LV_拉脱维亚_12@1
   - 🇯🇵_JP_日本_1_12@3
-  - 🇨🇾_CY_塞浦路斯->🇳🇱_NL_荷兰_12@7
   - 🇺🇸_US_美国_4_12@10
   - 🇭🇰_HK_香港_12@11
-  - 🇧🇷_BR_巴西->🇩🇪_DE_德国_12@12
   - 🇯🇵_JP_日本_2_12@14
   - 🇺🇸_US_美国_6_12@16
   - 🇺🇸_US_美国_9_12@19
@@ -6991,19 +5729,13 @@ proxy-groups:
   - 🇺🇸_US_美国_14_12@24
   - 🇺🇸_US_美国_15_12@25
   - 🇺🇸_US_美国_17_12@28
-  - 🇸🇬_SG_新加坡->🇺🇸_US_美国_12@29
   - 🇺🇸_US_美国_18_12@31
   - 🇺🇸_US_美国_1_13@2
-  - 🇺🇸_US_美国->🇮🇩_ID_印度尼西亚_13@6
   - 🇺🇸_US_美国_2_13@9
-  - 🇺🇸_US_美国->🇦🇹_AT_奥地利_1_13@13
   - 🇺🇸_US_美国_3_13@15
   - 🇺🇸_US_美国_4_13@16
-  - 🇺🇸_US_美国->🇳🇱_NL_荷兰_1_13@20
-  - 🇺🇸_US_美国->🇦🇹_AT_奥地利_2_13@22
   - 🇺🇸_US_美国_5_13@23
   - 🇺🇸_US_美国_6_13@25
-  - 🇺🇸_US_美国->🇳🇱_NL_荷兰_2_13@26
   - 🇺🇸_US_美国_11_13@32
   - 🇺🇸_US_美国_2_14@1
   - 🇺🇸_US_美国_3_14@2
@@ -7011,20 +5743,15 @@ proxy-groups:
   - 🇺🇸_US_美国_5_14@4
   - 🇫🇷_FR_法国_1_14@5
   - 🇺🇸_US_美国_7_14@9
-  - 🇩🇪_DE_德国->🇪🇸_ES_西班牙_14@10
   - 🇹🇼_TW_台湾_14@12
   - 🇯🇵_JP_日本_14@17
   - 🇬🇧_GB_英国_14@23
   - 🇭🇰_HK_香港_2_14@24
-  - 🇳🇱_NL_荷兰->🇺🇸_US_美国_2_14@27
   - 🇺🇸_US_美国_12_14@28
   - 🇩🇪_DE_德国_14@30
   - 🇺🇸_US_美国_14_14@34
-  - 🇭🇰_HK_香港->🇳🇱_NL_荷兰_14@35
   - 🇫🇷_FR_法国_2_14@36
   - 🇺🇸_US_美国_15_14@38
-  - 🇫🇷_FR_法国->🇳🇱_NL_荷兰_15@1
-  - 🇭🇰_HK_香港->🇳🇱_NL_荷兰_15@2
   - 🇳🇱_NL_荷兰_15@3
   - 🇰🇷_KR_韩国_1_15@4
   - 🇺🇸_US_美国_1_15@5
@@ -7041,12 +5768,12 @@ proxy-groups:
   - 🇺🇸_US_美国_13_15@21
   - 🇺🇸_US_美国_14_15@22
   - 🇺🇸_US_美国_15_15@23
-  - 🇭🇰_HK_香港->🇯🇵_JP_日本_15@26
   - 🇹🇼_TW_台湾_2_15@27
   - 🇺🇸_US_美国_17_15@28
   - 🇺🇸_US_美国_19_15@30
   - 🇹🇼_TW_台湾_3_15@32
   - 🇹🇼_TW_台湾_4_15@33
+  - 🇩🇪_DE_德国_15@34
   - 🇺🇸_US_美国_21_15@35
   - 🇺🇸_US_美国_22_15@36
   - 🇺🇸_US_美国_1_16@1
@@ -7061,17 +5788,16 @@ proxy-groups:
   - 🇺🇸_US_美国_11_16@16
   - 🇺🇸_US_美国_12_16@17
   - 🇩🇪_DE_德国_1_16@18
-  - 🇺🇸_US_美国->🇳🇱_NL_荷兰_16@20
   - 🇺🇸_US_美国_13_16@21
   - 🇺🇸_US_美国_14_16@22
   - 🇯🇵_JP_日本_2_16@23
+  - 🇺🇸_US_美国_15_16@25
   - 🇺🇸_US_美国_17_16@30
-  - 🇺🇸_US_美国->🇩🇪_DE_德国_2_16@31
   - 🇻🇬_VG_英属维尔京群岛_16@32
+  - 🇳🇱_NL_荷兰_2_16@33
   - 🇭🇰_HK_香港_1_16@34
   - 🇭🇰_HK_香港_2_16@35
   - 🇺🇸_US_美国_18_16@36
-  - 🇨🇭_CH_瑞士->🇯🇵_JP_日本_16@37
   - 🇺🇸_US_美国_20_16@40
   - 🇺🇸_US_美国_21_16@41
   - 🇺🇸_US_美国_1_17@1
@@ -7082,6 +5808,7 @@ proxy-groups:
   - 🇺🇸_US_美国_6_17@9
   - 🇸🇬_SG_新加坡_1_17@10
   - 🇺🇸_US_美国_7_17@11
+  - 🇺🇸_US_美国_8_17@14
   - 🇺🇸_US_美国_9_17@17
   - 🇫🇷_FR_法国_1_17@18
   - 🇫🇷_FR_法国_2_17@19
@@ -7095,13 +5822,10 @@ proxy-groups:
   - 🇺🇸_US_美国_11_17@30
   - 🇸🇬_SG_新加坡_2_17@31
   - 🇸🇬_SG_新加坡_3_17@32
-  - 🇭🇰_HK_香港->🇳🇱_NL_荷兰_17@36
   - 🇺🇸_US_美国_14_17@37
-  - 🇺🇸_US_美国->🇳🇱_NL_荷兰_17@38
   - 🇵🇱_PL_波兰_17@39
   - 🇺🇸_US_美国_15_17@40
   - 🇺🇸_US_美国_16_17@41
-  - 🇳🇱_NL_荷兰->🇺🇸_US_美国_17@42
   - 🇺🇸_US_美国_17_17@43
   - 🇺🇸_US_美国_1_18@0
   - 🇺🇸_US_美国_2_18@1
@@ -7147,7 +5871,6 @@ proxy-groups:
   - 🇺🇸_US_美国_4_19@9
   - 🇺🇸_US_美国_5_19@10
   - 🇺🇸_US_美国_6_19@11
-  - 🇺🇸_US_美国->🇸🇬_SG_新加坡_19@12
   - 🇺🇸_US_美国_7_19@13
   - 🇺🇸_US_美国_8_19@14
   - 🇺🇸_US_美国_9_19@16
@@ -7155,7 +5878,6 @@ proxy-groups:
   - 🇨🇷_CR_哥斯达黎加_1_19@18
   - 🇳🇱_NL_荷兰_19@20
   - 🇯🇵_JP_日本_19@21
-  - 🇺🇸_US_美国->🇳🇱_NL_荷兰_19@24
   - 🇺🇸_US_美国_14_19@25
   - 🇺🇸_US_美国_15_19@26
   - 🇺🇸_US_美国_16_19@27
@@ -7184,24 +5906,19 @@ proxy-groups:
   - 🇺🇸_US_美国_22_20@25
   - 🇺🇸_US_美国_23_20@26
   - 🇺🇸_US_美国_25_20@28
-  - 🇺🇸_US_美国->🇸🇬_SG_新加坡_1_20@29
   - 🇺🇸_US_美国_26_20@30
-  - 🇨🇾_CY_塞浦路斯->🇺🇸_US_美国_20@31
   - 🇸🇬_SG_新加坡_20@32
-  - 🇺🇸_US_美国->🇸🇬_SG_新加坡_2_20@33
   - 🇺🇸_US_美国_27_20@34
   - 🇺🇸_US_美国_28_20@35
   - 🇺🇸_US_美国_30_20@38
   - 🇫🇷_FR_法国_20@40
-  - 🇨🇷_CR_哥斯达黎加->🇸🇬_SG_新加坡_21@1
+  - 🇺🇸_US_美国_1_21@0
   - 🇺🇸_US_美国_2_21@2
-  - 🇺🇸_US_美国->🇸🇬_SG_新加坡_21@4
-  - 🇹🇼_TW_台湾->🇺🇸_US_美国_1_21@5
-  - 🇹🇼_TW_台湾->🇺🇸_US_美国_2_21@6
   - 🇯🇵_JP_日本_21@7
   - 🇺🇸_US_美国_3_21@10
   - 🇺🇸_US_美国_5_21@13
-  - 🇳🇱_NL_荷兰->🇺🇸_US_美国_21@15
+  - 🇺🇸_US_美国_6_21@16
+  - 🇺🇸_US_美国_7_21@17
   - 🇸🇬_SG_新加坡_1_21@18
   - 🇺🇸_US_美国_8_21@19
   - 🇺🇸_US_美国_9_21@20
@@ -7210,10 +5927,9 @@ proxy-groups:
   - 🇺🇸_US_美国_12_21@24
   - 🇺🇸_US_美国_13_21@25
   - 🇺🇸_US_美国_14_21@26
-  - 🇨🇷_CR_哥斯达黎加->🇺🇸_US_美国_1_21@28
+  - 🇺🇸_US_美国_15_21@27
   - 🇺🇸_US_美国_16_21@29
   - 🇺🇸_US_美国_17_21@30
-  - 🇨🇷_CR_哥斯达黎加->🇺🇸_US_美国_2_21@31
   - 🇺🇸_US_美国_18_21@33
   - 🇺🇸_US_美国_19_21@34
   - 🇨🇦_CA_加拿大_21@35
@@ -7223,7 +5939,6 @@ proxy-groups:
   - 🇭🇰_HK_香港_22@23
   - 🇺🇸_US_美国_2_22@28
   - 🇺🇸_US_美国_6_22@33
-  - 🇳🇱_NL_荷兰->🇺🇸_US_美国_22@34
   - 🇺🇸_US_美国_7_22@35
   - 🇺🇸_US_美国_8_22@36
   - 🇺🇸_US_美国_11_22@40
@@ -7232,20 +5947,17 @@ proxy-groups:
   - 🇺🇸_US_美国_14_22@43
   - 🇺🇸_US_美国_15_22@44
   - 🇰🇷_KR_韩国_22@47
-  - 🇰🇷_KR_韩国->🇺🇸_US_美国_23@0
   - 🇭🇰_HK_香港_23@2
   - 🇺🇸_US_美国_1_23@4
   - 🇺🇸_US_美国_2_23@11
   - 🇺🇸_US_美国_3_23@28
   - 🇺🇸_US_美国_5_23@37
-  - 🇰🇿_KZ_哈萨克斯坦->🇸🇬_SG_新加坡_23@38
   - 🇺🇸_US_美国_6_23@39
   - 🇺🇸_US_美国_1_24@0
   - 🇺🇸_US_美国_2_24@1
   - 🇺🇸_US_美国_3_24@2
   - 🇺🇸_US_美国_4_24@3
   - 🇺🇸_US_美国_5_24@4
-  - 🇺🇸_US_美国->🇳🇱_NL_荷兰_24@5
   - 🇺🇸_US_美国_6_24@6
   - 🇰🇷_KR_韩国_1_24@7
   - 🇰🇷_KR_韩国_2_24@8
@@ -7256,7 +5968,6 @@ proxy-groups:
   - 🇺🇸_US_美国_10_24@17
   - 🇺🇸_US_美国_11_24@18
   - 🇺🇸_US_美国_12_24@19
-  - 🇺🇸_US_美国->🇩🇪_DE_德国_24@21
   - 🇺🇸_US_美国_14_24@23
   - 🇺🇸_US_美国_15_24@24
   - 🇺🇸_US_美国_16_24@25
@@ -7264,7 +5975,6 @@ proxy-groups:
   - 🇺🇸_US_美国_19_24@30
   - 🇹🇼_TW_台湾_2_24@31
   - 🇺🇸_US_美国_21_24@33
-  - 🇨🇦_CA_加拿大->🇺🇸_US_美国_24@34
   - 🇰🇷_KR_韩国_3_24@36
   - 🇭🇰_HK_香港_24@37
   tolerance: 50
@@ -7277,75 +5987,49 @@ proxy-groups:
   - 🎯 全球直连
   - 🇺🇸_US_美国_1_0@0
   - 🇺🇸_US_美国_2_0@1
-  - 🇺🇸_US_美国->🇳🇱_NL_荷兰_1_0@11
   - 🇺🇸_US_美国_3_0@25
   - 🇺🇸_US_美国_4_0@26
   - 🇩🇪_DE_德国_0@27
   - 🇺🇸_US_美国_5_0@29
   - 🇳🇱_NL_荷兰_0@30
-  - 🇺🇸_US_美国->🇳🇱_NL_荷兰_2_0@31
-  - 🇺🇸_US_美国->🇨🇦_CA_加拿大_0@32
   - 🇺🇸_US_美国_6_0@33
   - 🇸🇬_SG_新加坡_0@34
   - 🇺🇸_US_美国_7_0@35
   - 🇺🇸_US_美国_1_1@3
   - 🇺🇸_US_美国_2_1@5
   - 🇺🇸_US_美国_3_1@7
-  - 🇨🇷_CR_哥斯达黎加->🇺🇸_US_美国_1_1@8
   - 🇺🇸_US_美国_4_1@9
-  - 🇨🇷_CR_哥斯达黎加->🇺🇸_US_美国_2_1@13
   - 🇺🇸_US_美国_5_1@14
-  - 🇨🇷_CR_哥斯达黎加->🇺🇸_US_美国_3_1@16
   - 🇺🇸_US_美国_7_1@20
   - 🇺🇸_US_美国_8_1@21
-  - 🇭🇰_HK_香港->🇺🇸_US_美国_1_1@26
-  - 🇭🇰_HK_香港->🇺🇸_US_美国_2_1@27
-  - 🇭🇰_HK_香港->🇺🇸_US_美国_3_1@28
-  - 🇭🇰_HK_香港->🇺🇸_US_美国_4_1@29
-  - 🇭🇰_HK_香港->🇺🇸_US_美国_5_1@30
-  - 🇭🇰_HK_香港->🇺🇸_US_美国_6_1@31
-  - 🇭🇰_HK_香港->🇺🇸_US_美国_7_1@32
   - 🇯🇵_JP_日本_1_1@33
   - 🇯🇵_JP_日本_2_1@34
   - 🇸🇬_SG_新加坡_1_2@0
   - 🇯🇵_JP_日本_1_2@1
   - 🇷🇺_RU_俄罗斯联邦_2@2
-  - 🇭🇰_HK_香港->🇺🇸_US_美国_1_2@5
-  - 🇭🇰_HK_香港->🇺🇸_US_美国_2_2@6
-  - 🇭🇰_HK_香港->🇺🇸_US_美国_3_2@7
-  - 🇭🇰_HK_香港->🇺🇸_US_美国_5_2@9
   - 🇺🇸_US_美国_2_2@10
   - 🇺🇸_US_美国_3_2@12
   - 🇬🇧_GB_英国_2@13
   - 🇭🇰_HK_香港_1_2@14
   - 🇳🇱_NL_荷兰_2@15
-  - 🇭🇰_HK_香港->🇺🇸_US_美国_6_2@16
-  - 🇭🇰_HK_香港->🇺🇸_US_美国_7_2@17
-  - 🇭🇰_HK_香港->🇺🇸_US_美国_8_2@18
-  - 🇨🇷_CR_哥斯达黎加->🇺🇸_US_美国_2@19
   - 🇺🇸_US_美国_4_2@20
   - 🇰🇷_KR_韩国_2@21
-  - 🇺🇸_US_美国->🇳🇱_NL_荷兰_2@22
   - 🇺🇸_US_美国_5_2@23
   - 🇯🇵_JP_日本_2_2@24
   - 🇯🇵_JP_日本_3_2@25
   - 🇪🇸_ES_西班牙_2@26
-  - 🇫🇷_FR_法国->🇦🇹_AT_奥地利_2@27
   - 🇹🇼_TW_台湾_2@28
   - 🇫🇷_FR_法国_2@29
   - 🇸🇬_SG_新加坡_2_2@30
-  - 🇺🇸_US_美国->🇩🇪_DE_德国_2@31
   - 🇭🇰_HK_香港_2_2@33
   - 🇺🇸_US_美国_6_2@34
   - 🇰🇷_KR_韩国_1_3@0
   - 🇺🇸_US_美国_1_3@2
   - 🇺🇸_US_美国_2_3@3
-  - 🇺🇸_US_美国->🇳🇱_NL_荷兰_3@6
   - 🇺🇸_US_美国_4_3@7
   - 🇺🇸_US_美国_5_3@8
   - 🇺🇸_US_美国_6_3@9
   - 🇸🇬_SG_新加坡_1_3@12
-  - 🇫🇷_FR_法国->🇳🇴_NO_挪威_3@14
   - 🇺🇸_US_美国_7_3@15
   - 🇸🇬_SG_新加坡_2_3@16
   - 🇰🇷_KR_韩国_2_3@17
@@ -7358,17 +6042,13 @@ proxy-groups:
   - 🇸🇬_SG_新加坡_4@2
   - 🇺🇸_US_美国_2_4@3
   - 🇺🇸_US_美国_3_4@5
-  - 🇺🇸_US_美国->🇨🇦_CA_加拿大_1_4@9
-  - 🇺🇸_US_美国->🇨🇦_CA_加拿大_2_4@10
   - 🇺🇸_US_美国_5_4@12
-  - 🇺🇸_US_美国->🇩🇪_DE_德国_2_4@13
   - 🇷🇺_RU_俄罗斯联邦_4@14
   - 🇺🇸_US_美国_6_4@15
-  - 🇺🇸_US_美国->🇯🇵_JP_日本_1_4@17
-  - 🇺🇸_US_美国->🇯🇵_JP_日本_2_4@18
   - 🇮🇳_IN_印度_4@19
   - 🇱🇻_LV_拉脱维亚_4@20
   - 🇰🇷_KR_韩国_1_5@1
+  - 🇫🇷_FR_法国_2_5@2
   - 🇺🇸_US_美国_1_5@3
   - 🇯🇵_JP_日本_1_5@4
   - 🇰🇷_KR_韩国_2_5@5
@@ -7377,7 +6057,6 @@ proxy-groups:
   - 🇯🇵_JP_日本_2_5@9
   - 🇰🇷_KR_韩国_3_5@13
   - 🇺🇸_US_美国_4_5@18
-  - 🇯🇵_JP_日本->🇬🇧_GB_英国_5@19
   - 🇺🇸_US_美国_6_5@21
   - 🇺🇸_US_美国_8_5@23
   - 🇹🇷_TR_土耳其_1_5@25
@@ -7385,6 +6064,7 @@ proxy-groups:
   - 🇺🇸_US_美国_1_6@0
   - 🇺🇸_US_美国_4_6@3
   - 🇺🇸_US_美国_5_6@4
+  - 🇫🇷_FR_法国_6@5
   - 🇺🇸_US_美国_6_6@7
   - 🇺🇸_US_美国_7_6@9
   - 🇩🇪_DE_德国_6@10
@@ -7392,7 +6072,6 @@ proxy-groups:
   - 🇰🇪_KE_肯尼亚_6@12
   - 🇺🇸_US_美国_9_6@13
   - 🇺🇸_US_美国_10_6@14
-  - 🇸🇬_SG_新加坡->🇺🇸_US_美国_6@15
   - 🇺🇸_US_美国_12_6@17
   - 🇸🇬_SG_新加坡_6@18
   - 🇺🇸_US_美国_13_6@20
@@ -7400,8 +6079,8 @@ proxy-groups:
   - 🇮🇳_IN_印度_6@22
   - 🇨🇾_CY_塞浦路斯_6@23
   - 🇹🇷_TR_土耳其_1_6@24
+  - 🇺🇸_US_美国_14_6@26
   - 🇹🇷_TR_土耳其_2_6@27
-  - 🇺🇸_US_美国->🇩🇪_DE_德国_6@28
   - 🇺🇸_US_美国_1_7@0
   - 🇺🇸_US_美国_2_7@1
   - 🇺🇸_US_美国_3_7@2
@@ -7411,7 +6090,6 @@ proxy-groups:
   - 🇺🇸_US_美国_8_7@7
   - 🇺🇸_US_美国_9_7@8
   - 🇺🇸_US_美国_10_7@9
-  - 🇫🇷_FR_法国->🇳🇱_NL_荷兰_7@10
   - 🇺🇸_US_美国_11_7@11
   - 🇺🇸_US_美国_12_7@12
   - 🇺🇸_US_美国_13_7@13
@@ -7431,13 +6109,11 @@ proxy-groups:
   - 🇳🇱_NL_荷兰_7@30
   - 🇳🇴_NO_挪威_7@32
   - 🇺🇸_US_美国_21_7@33
-  - 🇯🇵_JP_日本->🇸🇬_SG_新加坡_7@34
   - 🇯🇵_JP_日本_7@35
   - 🇰🇷_KR_韩国_1_8@0
   - 🇫🇷_FR_法国_1_8@1
   - 🇷🇺_RU_俄罗斯联邦_1_8@2
   - 🇯🇵_JP_日本_1_8@4
-  - 🇺🇸_US_美国->🇳🇱_NL_荷兰_8@13
   - 🇷🇺_RU_俄罗斯联邦_2_8@16
   - 🇸🇬_SG_新加坡_1_8@17
   - 🇯🇵_JP_日本_2_8@18
@@ -7450,20 +6126,15 @@ proxy-groups:
   - 🇺🇸_US_美国_3_8@25
   - 🇭🇰_HK_香港_8@29
   - 🇺🇸_US_美国_4_8@32
-  - 🇳🇱_NL_荷兰->🇹🇼_TW_台湾_8@34
-  - 🇨🇷_CR_哥斯达黎加->🇺🇸_US_美国_1_9@0
   - 🇺🇸_US_美国_1_9@1
   - 🇰🇷_KR_韩国_1_9@3
   - 🇺🇸_US_美国_3_9@4
   - 🇺🇸_US_美国_4_9@5
   - 🇺🇸_US_美国_5_9@6
-  - 🇺🇸_US_美国->🇳🇱_NL_荷兰_9@7
   - 🇭🇰_HK_香港_9@8
   - 🇰🇷_KR_韩国_2_9@9
   - 🇺🇸_US_美国_6_9@11
   - 🇺🇸_US_美国_7_9@12
-  - 🇺🇸_US_美国->🇩🇪_DE_德国_2_9@13
-  - 🇳🇱_NL_荷兰->🇺🇸_US_美国_9@14
   - 🇺🇸_US_美国_8_9@15
   - 🇺🇸_US_美国_9_9@17
   - 🇺🇸_US_美国_10_9@18
@@ -7471,12 +6142,7 @@ proxy-groups:
   - 🇺🇸_US_美国_12_9@22
   - 🇺🇸_US_美国_13_9@23
   - 🇺🇸_US_美国_14_9@24
-  - 🇬🇧_GB_英国->🇭🇰_HK_香港_9@25
-  - 🇦🇺_AU_澳大利亚->🇹🇼_TW_台湾_1_9@26
-  - 🇦🇺_AU_澳大利亚->🇹🇼_TW_台湾_2_9@27
-  - 🇨🇷_CR_哥斯达黎加->🇺🇸_US_美国_2_9@28
   - 🇸🇬_SG_新加坡_9@29
-  - 🇫🇷_FR_法国->🇺🇸_US_美国_9@30
   - 🇺🇸_US_美国_1_10@0
   - 🇺🇸_US_美国_2_10@1
   - 🇺🇸_US_美国_3_10@2
@@ -7498,26 +6164,14 @@ proxy-groups:
   - 🇺🇸_US_美国_2_11@1
   - 🇺🇸_US_美国_3_11@2
   - 🇺🇸_US_美国_4_11@3
-  - 🇨🇷_CR_哥斯达黎加->🇺🇸_US_美国_1_11@4
-  - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_1_11@5
   - 🇯🇵_JP_日本_11@6
-  - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_2_11@7
   - 🇺🇸_US_美国_5_11@8
   - 🇺🇸_US_美国_6_11@9
   - 🇺🇸_US_美国_7_11@10
   - 🇺🇸_US_美国_8_11@11
-  - 🇨🇷_CR_哥斯达黎加->🇰🇷_KR_韩国_11@12
-  - 🇺🇸_US_美国->🇰🇷_KR_韩国_1_11@13
-  - 🇺🇸_US_美国->🇰🇷_KR_韩国_2_11@14
-  - 🇺🇸_US_美国->🇰🇷_KR_韩国_3_11@15
   - 🇺🇸_US_美国_9_11@16
-  - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_3_11@17
-  - 🇺🇸_US_美国->🇸🇬_SG_新加坡_1_11@19
-  - 🇺🇸_US_美国->🇸🇬_SG_新加坡_2_11@20
   - 🇺🇸_US_美国_11_11@21
   - 🇺🇸_US_美国_12_11@23
-  - 🇧🇷_BR_巴西->🇳🇱_NL_荷兰_11@24
-  - 🇺🇸_US_美国->🇸🇬_SG_新加坡_3_11@25
   - 🇺🇸_US_美国_13_11@26
   - 🇸🇬_SG_新加坡_1_11@27
   - 🇭🇰_HK_香港_1_11@28
@@ -7527,10 +6181,8 @@ proxy-groups:
   - 🇸🇬_SG_新加坡_2_11@35
   - 🇱🇻_LV_拉脱维亚_12@1
   - 🇯🇵_JP_日本_1_12@3
-  - 🇨🇾_CY_塞浦路斯->🇳🇱_NL_荷兰_12@7
   - 🇺🇸_US_美国_4_12@10
   - 🇭🇰_HK_香港_12@11
-  - 🇧🇷_BR_巴西->🇩🇪_DE_德国_12@12
   - 🇯🇵_JP_日本_2_12@14
   - 🇺🇸_US_美国_6_12@16
   - 🇺🇸_US_美国_9_12@19
@@ -7541,19 +6193,13 @@ proxy-groups:
   - 🇺🇸_US_美国_14_12@24
   - 🇺🇸_US_美国_15_12@25
   - 🇺🇸_US_美国_17_12@28
-  - 🇸🇬_SG_新加坡->🇺🇸_US_美国_12@29
   - 🇺🇸_US_美国_18_12@31
   - 🇺🇸_US_美国_1_13@2
-  - 🇺🇸_US_美国->🇮🇩_ID_印度尼西亚_13@6
   - 🇺🇸_US_美国_2_13@9
-  - 🇺🇸_US_美国->🇦🇹_AT_奥地利_1_13@13
   - 🇺🇸_US_美国_3_13@15
   - 🇺🇸_US_美国_4_13@16
-  - 🇺🇸_US_美国->🇳🇱_NL_荷兰_1_13@20
-  - 🇺🇸_US_美国->🇦🇹_AT_奥地利_2_13@22
   - 🇺🇸_US_美国_5_13@23
   - 🇺🇸_US_美国_6_13@25
-  - 🇺🇸_US_美国->🇳🇱_NL_荷兰_2_13@26
   - 🇺🇸_US_美国_11_13@32
   - 🇺🇸_US_美国_2_14@1
   - 🇺🇸_US_美国_3_14@2
@@ -7561,20 +6207,15 @@ proxy-groups:
   - 🇺🇸_US_美国_5_14@4
   - 🇫🇷_FR_法国_1_14@5
   - 🇺🇸_US_美国_7_14@9
-  - 🇩🇪_DE_德国->🇪🇸_ES_西班牙_14@10
   - 🇹🇼_TW_台湾_14@12
   - 🇯🇵_JP_日本_14@17
   - 🇬🇧_GB_英国_14@23
   - 🇭🇰_HK_香港_2_14@24
-  - 🇳🇱_NL_荷兰->🇺🇸_US_美国_2_14@27
   - 🇺🇸_US_美国_12_14@28
   - 🇩🇪_DE_德国_14@30
   - 🇺🇸_US_美国_14_14@34
-  - 🇭🇰_HK_香港->🇳🇱_NL_荷兰_14@35
   - 🇫🇷_FR_法国_2_14@36
   - 🇺🇸_US_美国_15_14@38
-  - 🇫🇷_FR_法国->🇳🇱_NL_荷兰_15@1
-  - 🇭🇰_HK_香港->🇳🇱_NL_荷兰_15@2
   - 🇳🇱_NL_荷兰_15@3
   - 🇰🇷_KR_韩国_1_15@4
   - 🇺🇸_US_美国_1_15@5
@@ -7591,12 +6232,12 @@ proxy-groups:
   - 🇺🇸_US_美国_13_15@21
   - 🇺🇸_US_美国_14_15@22
   - 🇺🇸_US_美国_15_15@23
-  - 🇭🇰_HK_香港->🇯🇵_JP_日本_15@26
   - 🇹🇼_TW_台湾_2_15@27
   - 🇺🇸_US_美国_17_15@28
   - 🇺🇸_US_美国_19_15@30
   - 🇹🇼_TW_台湾_3_15@32
   - 🇹🇼_TW_台湾_4_15@33
+  - 🇩🇪_DE_德国_15@34
   - 🇺🇸_US_美国_21_15@35
   - 🇺🇸_US_美国_22_15@36
   - 🇺🇸_US_美国_1_16@1
@@ -7611,17 +6252,16 @@ proxy-groups:
   - 🇺🇸_US_美国_11_16@16
   - 🇺🇸_US_美国_12_16@17
   - 🇩🇪_DE_德国_1_16@18
-  - 🇺🇸_US_美国->🇳🇱_NL_荷兰_16@20
   - 🇺🇸_US_美国_13_16@21
   - 🇺🇸_US_美国_14_16@22
   - 🇯🇵_JP_日本_2_16@23
+  - 🇺🇸_US_美国_15_16@25
   - 🇺🇸_US_美国_17_16@30
-  - 🇺🇸_US_美国->🇩🇪_DE_德国_2_16@31
   - 🇻🇬_VG_英属维尔京群岛_16@32
+  - 🇳🇱_NL_荷兰_2_16@33
   - 🇭🇰_HK_香港_1_16@34
   - 🇭🇰_HK_香港_2_16@35
   - 🇺🇸_US_美国_18_16@36
-  - 🇨🇭_CH_瑞士->🇯🇵_JP_日本_16@37
   - 🇺🇸_US_美国_20_16@40
   - 🇺🇸_US_美国_21_16@41
   - 🇺🇸_US_美国_1_17@1
@@ -7632,6 +6272,7 @@ proxy-groups:
   - 🇺🇸_US_美国_6_17@9
   - 🇸🇬_SG_新加坡_1_17@10
   - 🇺🇸_US_美国_7_17@11
+  - 🇺🇸_US_美国_8_17@14
   - 🇺🇸_US_美国_9_17@17
   - 🇫🇷_FR_法国_1_17@18
   - 🇫🇷_FR_法国_2_17@19
@@ -7645,13 +6286,10 @@ proxy-groups:
   - 🇺🇸_US_美国_11_17@30
   - 🇸🇬_SG_新加坡_2_17@31
   - 🇸🇬_SG_新加坡_3_17@32
-  - 🇭🇰_HK_香港->🇳🇱_NL_荷兰_17@36
   - 🇺🇸_US_美国_14_17@37
-  - 🇺🇸_US_美国->🇳🇱_NL_荷兰_17@38
   - 🇵🇱_PL_波兰_17@39
   - 🇺🇸_US_美国_15_17@40
   - 🇺🇸_US_美国_16_17@41
-  - 🇳🇱_NL_荷兰->🇺🇸_US_美国_17@42
   - 🇺🇸_US_美国_17_17@43
   - 🇺🇸_US_美国_1_18@0
   - 🇺🇸_US_美国_2_18@1
@@ -7697,7 +6335,6 @@ proxy-groups:
   - 🇺🇸_US_美国_4_19@9
   - 🇺🇸_US_美国_5_19@10
   - 🇺🇸_US_美国_6_19@11
-  - 🇺🇸_US_美国->🇸🇬_SG_新加坡_19@12
   - 🇺🇸_US_美国_7_19@13
   - 🇺🇸_US_美国_8_19@14
   - 🇺🇸_US_美国_9_19@16
@@ -7705,7 +6342,6 @@ proxy-groups:
   - 🇨🇷_CR_哥斯达黎加_1_19@18
   - 🇳🇱_NL_荷兰_19@20
   - 🇯🇵_JP_日本_19@21
-  - 🇺🇸_US_美国->🇳🇱_NL_荷兰_19@24
   - 🇺🇸_US_美国_14_19@25
   - 🇺🇸_US_美国_15_19@26
   - 🇺🇸_US_美国_16_19@27
@@ -7734,24 +6370,19 @@ proxy-groups:
   - 🇺🇸_US_美国_22_20@25
   - 🇺🇸_US_美国_23_20@26
   - 🇺🇸_US_美国_25_20@28
-  - 🇺🇸_US_美国->🇸🇬_SG_新加坡_1_20@29
   - 🇺🇸_US_美国_26_20@30
-  - 🇨🇾_CY_塞浦路斯->🇺🇸_US_美国_20@31
   - 🇸🇬_SG_新加坡_20@32
-  - 🇺🇸_US_美国->🇸🇬_SG_新加坡_2_20@33
   - 🇺🇸_US_美国_27_20@34
   - 🇺🇸_US_美国_28_20@35
   - 🇺🇸_US_美国_30_20@38
   - 🇫🇷_FR_法国_20@40
-  - 🇨🇷_CR_哥斯达黎加->🇸🇬_SG_新加坡_21@1
+  - 🇺🇸_US_美国_1_21@0
   - 🇺🇸_US_美国_2_21@2
-  - 🇺🇸_US_美国->🇸🇬_SG_新加坡_21@4
-  - 🇹🇼_TW_台湾->🇺🇸_US_美国_1_21@5
-  - 🇹🇼_TW_台湾->🇺🇸_US_美国_2_21@6
   - 🇯🇵_JP_日本_21@7
   - 🇺🇸_US_美国_3_21@10
   - 🇺🇸_US_美国_5_21@13
-  - 🇳🇱_NL_荷兰->🇺🇸_US_美国_21@15
+  - 🇺🇸_US_美国_6_21@16
+  - 🇺🇸_US_美国_7_21@17
   - 🇸🇬_SG_新加坡_1_21@18
   - 🇺🇸_US_美国_8_21@19
   - 🇺🇸_US_美国_9_21@20
@@ -7760,10 +6391,9 @@ proxy-groups:
   - 🇺🇸_US_美国_12_21@24
   - 🇺🇸_US_美国_13_21@25
   - 🇺🇸_US_美国_14_21@26
-  - 🇨🇷_CR_哥斯达黎加->🇺🇸_US_美国_1_21@28
+  - 🇺🇸_US_美国_15_21@27
   - 🇺🇸_US_美国_16_21@29
   - 🇺🇸_US_美国_17_21@30
-  - 🇨🇷_CR_哥斯达黎加->🇺🇸_US_美国_2_21@31
   - 🇺🇸_US_美国_18_21@33
   - 🇺🇸_US_美国_19_21@34
   - 🇨🇦_CA_加拿大_21@35
@@ -7773,7 +6403,6 @@ proxy-groups:
   - 🇭🇰_HK_香港_22@23
   - 🇺🇸_US_美国_2_22@28
   - 🇺🇸_US_美国_6_22@33
-  - 🇳🇱_NL_荷兰->🇺🇸_US_美国_22@34
   - 🇺🇸_US_美国_7_22@35
   - 🇺🇸_US_美国_8_22@36
   - 🇺🇸_US_美国_11_22@40
@@ -7782,20 +6411,17 @@ proxy-groups:
   - 🇺🇸_US_美国_14_22@43
   - 🇺🇸_US_美国_15_22@44
   - 🇰🇷_KR_韩国_22@47
-  - 🇰🇷_KR_韩国->🇺🇸_US_美国_23@0
   - 🇭🇰_HK_香港_23@2
   - 🇺🇸_US_美国_1_23@4
   - 🇺🇸_US_美国_2_23@11
   - 🇺🇸_US_美国_3_23@28
   - 🇺🇸_US_美国_5_23@37
-  - 🇰🇿_KZ_哈萨克斯坦->🇸🇬_SG_新加坡_23@38
   - 🇺🇸_US_美国_6_23@39
   - 🇺🇸_US_美国_1_24@0
   - 🇺🇸_US_美国_2_24@1
   - 🇺🇸_US_美国_3_24@2
   - 🇺🇸_US_美国_4_24@3
   - 🇺🇸_US_美国_5_24@4
-  - 🇺🇸_US_美国->🇳🇱_NL_荷兰_24@5
   - 🇺🇸_US_美国_6_24@6
   - 🇰🇷_KR_韩国_1_24@7
   - 🇰🇷_KR_韩国_2_24@8
@@ -7806,7 +6432,6 @@ proxy-groups:
   - 🇺🇸_US_美国_10_24@17
   - 🇺🇸_US_美国_11_24@18
   - 🇺🇸_US_美国_12_24@19
-  - 🇺🇸_US_美国->🇩🇪_DE_德国_24@21
   - 🇺🇸_US_美国_14_24@23
   - 🇺🇸_US_美国_15_24@24
   - 🇺🇸_US_美国_16_24@25
@@ -7814,7 +6439,6 @@ proxy-groups:
   - 🇺🇸_US_美国_19_24@30
   - 🇹🇼_TW_台湾_2_24@31
   - 🇺🇸_US_美国_21_24@33
-  - 🇨🇦_CA_加拿大->🇺🇸_US_美国_24@34
   - 🇰🇷_KR_韩国_3_24@36
   - 🇭🇰_HK_香港_24@37
   type: select
@@ -7824,75 +6448,49 @@ proxy-groups:
   - 🎯 全球直连
   - 🇺🇸_US_美国_1_0@0
   - 🇺🇸_US_美国_2_0@1
-  - 🇺🇸_US_美国->🇳🇱_NL_荷兰_1_0@11
   - 🇺🇸_US_美国_3_0@25
   - 🇺🇸_US_美国_4_0@26
   - 🇩🇪_DE_德国_0@27
   - 🇺🇸_US_美国_5_0@29
   - 🇳🇱_NL_荷兰_0@30
-  - 🇺🇸_US_美国->🇳🇱_NL_荷兰_2_0@31
-  - 🇺🇸_US_美国->🇨🇦_CA_加拿大_0@32
   - 🇺🇸_US_美国_6_0@33
   - 🇸🇬_SG_新加坡_0@34
   - 🇺🇸_US_美国_7_0@35
   - 🇺🇸_US_美国_1_1@3
   - 🇺🇸_US_美国_2_1@5
   - 🇺🇸_US_美国_3_1@7
-  - 🇨🇷_CR_哥斯达黎加->🇺🇸_US_美国_1_1@8
   - 🇺🇸_US_美国_4_1@9
-  - 🇨🇷_CR_哥斯达黎加->🇺🇸_US_美国_2_1@13
   - 🇺🇸_US_美国_5_1@14
-  - 🇨🇷_CR_哥斯达黎加->🇺🇸_US_美国_3_1@16
   - 🇺🇸_US_美国_7_1@20
   - 🇺🇸_US_美国_8_1@21
-  - 🇭🇰_HK_香港->🇺🇸_US_美国_1_1@26
-  - 🇭🇰_HK_香港->🇺🇸_US_美国_2_1@27
-  - 🇭🇰_HK_香港->🇺🇸_US_美国_3_1@28
-  - 🇭🇰_HK_香港->🇺🇸_US_美国_4_1@29
-  - 🇭🇰_HK_香港->🇺🇸_US_美国_5_1@30
-  - 🇭🇰_HK_香港->🇺🇸_US_美国_6_1@31
-  - 🇭🇰_HK_香港->🇺🇸_US_美国_7_1@32
   - 🇯🇵_JP_日本_1_1@33
   - 🇯🇵_JP_日本_2_1@34
   - 🇸🇬_SG_新加坡_1_2@0
   - 🇯🇵_JP_日本_1_2@1
   - 🇷🇺_RU_俄罗斯联邦_2@2
-  - 🇭🇰_HK_香港->🇺🇸_US_美国_1_2@5
-  - 🇭🇰_HK_香港->🇺🇸_US_美国_2_2@6
-  - 🇭🇰_HK_香港->🇺🇸_US_美国_3_2@7
-  - 🇭🇰_HK_香港->🇺🇸_US_美国_5_2@9
   - 🇺🇸_US_美国_2_2@10
   - 🇺🇸_US_美国_3_2@12
   - 🇬🇧_GB_英国_2@13
   - 🇭🇰_HK_香港_1_2@14
   - 🇳🇱_NL_荷兰_2@15
-  - 🇭🇰_HK_香港->🇺🇸_US_美国_6_2@16
-  - 🇭🇰_HK_香港->🇺🇸_US_美国_7_2@17
-  - 🇭🇰_HK_香港->🇺🇸_US_美国_8_2@18
-  - 🇨🇷_CR_哥斯达黎加->🇺🇸_US_美国_2@19
   - 🇺🇸_US_美国_4_2@20
   - 🇰🇷_KR_韩国_2@21
-  - 🇺🇸_US_美国->🇳🇱_NL_荷兰_2@22
   - 🇺🇸_US_美国_5_2@23
   - 🇯🇵_JP_日本_2_2@24
   - 🇯🇵_JP_日本_3_2@25
   - 🇪🇸_ES_西班牙_2@26
-  - 🇫🇷_FR_法国->🇦🇹_AT_奥地利_2@27
   - 🇹🇼_TW_台湾_2@28
   - 🇫🇷_FR_法国_2@29
   - 🇸🇬_SG_新加坡_2_2@30
-  - 🇺🇸_US_美国->🇩🇪_DE_德国_2@31
   - 🇭🇰_HK_香港_2_2@33
   - 🇺🇸_US_美国_6_2@34
   - 🇰🇷_KR_韩国_1_3@0
   - 🇺🇸_US_美国_1_3@2
   - 🇺🇸_US_美国_2_3@3
-  - 🇺🇸_US_美国->🇳🇱_NL_荷兰_3@6
   - 🇺🇸_US_美国_4_3@7
   - 🇺🇸_US_美国_5_3@8
   - 🇺🇸_US_美国_6_3@9
   - 🇸🇬_SG_新加坡_1_3@12
-  - 🇫🇷_FR_法国->🇳🇴_NO_挪威_3@14
   - 🇺🇸_US_美国_7_3@15
   - 🇸🇬_SG_新加坡_2_3@16
   - 🇰🇷_KR_韩国_2_3@17
@@ -7905,17 +6503,13 @@ proxy-groups:
   - 🇸🇬_SG_新加坡_4@2
   - 🇺🇸_US_美国_2_4@3
   - 🇺🇸_US_美国_3_4@5
-  - 🇺🇸_US_美国->🇨🇦_CA_加拿大_1_4@9
-  - 🇺🇸_US_美国->🇨🇦_CA_加拿大_2_4@10
   - 🇺🇸_US_美国_5_4@12
-  - 🇺🇸_US_美国->🇩🇪_DE_德国_2_4@13
   - 🇷🇺_RU_俄罗斯联邦_4@14
   - 🇺🇸_US_美国_6_4@15
-  - 🇺🇸_US_美国->🇯🇵_JP_日本_1_4@17
-  - 🇺🇸_US_美国->🇯🇵_JP_日本_2_4@18
   - 🇮🇳_IN_印度_4@19
   - 🇱🇻_LV_拉脱维亚_4@20
   - 🇰🇷_KR_韩国_1_5@1
+  - 🇫🇷_FR_法国_2_5@2
   - 🇺🇸_US_美国_1_5@3
   - 🇯🇵_JP_日本_1_5@4
   - 🇰🇷_KR_韩国_2_5@5
@@ -7924,7 +6518,6 @@ proxy-groups:
   - 🇯🇵_JP_日本_2_5@9
   - 🇰🇷_KR_韩国_3_5@13
   - 🇺🇸_US_美国_4_5@18
-  - 🇯🇵_JP_日本->🇬🇧_GB_英国_5@19
   - 🇺🇸_US_美国_6_5@21
   - 🇺🇸_US_美国_8_5@23
   - 🇹🇷_TR_土耳其_1_5@25
@@ -7932,6 +6525,7 @@ proxy-groups:
   - 🇺🇸_US_美国_1_6@0
   - 🇺🇸_US_美国_4_6@3
   - 🇺🇸_US_美国_5_6@4
+  - 🇫🇷_FR_法国_6@5
   - 🇺🇸_US_美国_6_6@7
   - 🇺🇸_US_美国_7_6@9
   - 🇩🇪_DE_德国_6@10
@@ -7939,7 +6533,6 @@ proxy-groups:
   - 🇰🇪_KE_肯尼亚_6@12
   - 🇺🇸_US_美国_9_6@13
   - 🇺🇸_US_美国_10_6@14
-  - 🇸🇬_SG_新加坡->🇺🇸_US_美国_6@15
   - 🇺🇸_US_美国_12_6@17
   - 🇸🇬_SG_新加坡_6@18
   - 🇺🇸_US_美国_13_6@20
@@ -7947,8 +6540,8 @@ proxy-groups:
   - 🇮🇳_IN_印度_6@22
   - 🇨🇾_CY_塞浦路斯_6@23
   - 🇹🇷_TR_土耳其_1_6@24
+  - 🇺🇸_US_美国_14_6@26
   - 🇹🇷_TR_土耳其_2_6@27
-  - 🇺🇸_US_美国->🇩🇪_DE_德国_6@28
   - 🇺🇸_US_美国_1_7@0
   - 🇺🇸_US_美国_2_7@1
   - 🇺🇸_US_美国_3_7@2
@@ -7958,7 +6551,6 @@ proxy-groups:
   - 🇺🇸_US_美国_8_7@7
   - 🇺🇸_US_美国_9_7@8
   - 🇺🇸_US_美国_10_7@9
-  - 🇫🇷_FR_法国->🇳🇱_NL_荷兰_7@10
   - 🇺🇸_US_美国_11_7@11
   - 🇺🇸_US_美国_12_7@12
   - 🇺🇸_US_美国_13_7@13
@@ -7978,13 +6570,11 @@ proxy-groups:
   - 🇳🇱_NL_荷兰_7@30
   - 🇳🇴_NO_挪威_7@32
   - 🇺🇸_US_美国_21_7@33
-  - 🇯🇵_JP_日本->🇸🇬_SG_新加坡_7@34
   - 🇯🇵_JP_日本_7@35
   - 🇰🇷_KR_韩国_1_8@0
   - 🇫🇷_FR_法国_1_8@1
   - 🇷🇺_RU_俄罗斯联邦_1_8@2
   - 🇯🇵_JP_日本_1_8@4
-  - 🇺🇸_US_美国->🇳🇱_NL_荷兰_8@13
   - 🇷🇺_RU_俄罗斯联邦_2_8@16
   - 🇸🇬_SG_新加坡_1_8@17
   - 🇯🇵_JP_日本_2_8@18
@@ -7997,20 +6587,15 @@ proxy-groups:
   - 🇺🇸_US_美国_3_8@25
   - 🇭🇰_HK_香港_8@29
   - 🇺🇸_US_美国_4_8@32
-  - 🇳🇱_NL_荷兰->🇹🇼_TW_台湾_8@34
-  - 🇨🇷_CR_哥斯达黎加->🇺🇸_US_美国_1_9@0
   - 🇺🇸_US_美国_1_9@1
   - 🇰🇷_KR_韩国_1_9@3
   - 🇺🇸_US_美国_3_9@4
   - 🇺🇸_US_美国_4_9@5
   - 🇺🇸_US_美国_5_9@6
-  - 🇺🇸_US_美国->🇳🇱_NL_荷兰_9@7
   - 🇭🇰_HK_香港_9@8
   - 🇰🇷_KR_韩国_2_9@9
   - 🇺🇸_US_美国_6_9@11
   - 🇺🇸_US_美国_7_9@12
-  - 🇺🇸_US_美国->🇩🇪_DE_德国_2_9@13
-  - 🇳🇱_NL_荷兰->🇺🇸_US_美国_9@14
   - 🇺🇸_US_美国_8_9@15
   - 🇺🇸_US_美国_9_9@17
   - 🇺🇸_US_美国_10_9@18
@@ -8018,12 +6603,7 @@ proxy-groups:
   - 🇺🇸_US_美国_12_9@22
   - 🇺🇸_US_美国_13_9@23
   - 🇺🇸_US_美国_14_9@24
-  - 🇬🇧_GB_英国->🇭🇰_HK_香港_9@25
-  - 🇦🇺_AU_澳大利亚->🇹🇼_TW_台湾_1_9@26
-  - 🇦🇺_AU_澳大利亚->🇹🇼_TW_台湾_2_9@27
-  - 🇨🇷_CR_哥斯达黎加->🇺🇸_US_美国_2_9@28
   - 🇸🇬_SG_新加坡_9@29
-  - 🇫🇷_FR_法国->🇺🇸_US_美国_9@30
   - 🇺🇸_US_美国_1_10@0
   - 🇺🇸_US_美国_2_10@1
   - 🇺🇸_US_美国_3_10@2
@@ -8045,26 +6625,14 @@ proxy-groups:
   - 🇺🇸_US_美国_2_11@1
   - 🇺🇸_US_美国_3_11@2
   - 🇺🇸_US_美国_4_11@3
-  - 🇨🇷_CR_哥斯达黎加->🇺🇸_US_美国_1_11@4
-  - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_1_11@5
   - 🇯🇵_JP_日本_11@6
-  - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_2_11@7
   - 🇺🇸_US_美国_5_11@8
   - 🇺🇸_US_美国_6_11@9
   - 🇺🇸_US_美国_7_11@10
   - 🇺🇸_US_美国_8_11@11
-  - 🇨🇷_CR_哥斯达黎加->🇰🇷_KR_韩国_11@12
-  - 🇺🇸_US_美国->🇰🇷_KR_韩国_1_11@13
-  - 🇺🇸_US_美国->🇰🇷_KR_韩国_2_11@14
-  - 🇺🇸_US_美国->🇰🇷_KR_韩国_3_11@15
   - 🇺🇸_US_美国_9_11@16
-  - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_3_11@17
-  - 🇺🇸_US_美国->🇸🇬_SG_新加坡_1_11@19
-  - 🇺🇸_US_美国->🇸🇬_SG_新加坡_2_11@20
   - 🇺🇸_US_美国_11_11@21
   - 🇺🇸_US_美国_12_11@23
-  - 🇧🇷_BR_巴西->🇳🇱_NL_荷兰_11@24
-  - 🇺🇸_US_美国->🇸🇬_SG_新加坡_3_11@25
   - 🇺🇸_US_美国_13_11@26
   - 🇸🇬_SG_新加坡_1_11@27
   - 🇭🇰_HK_香港_1_11@28
@@ -8074,10 +6642,8 @@ proxy-groups:
   - 🇸🇬_SG_新加坡_2_11@35
   - 🇱🇻_LV_拉脱维亚_12@1
   - 🇯🇵_JP_日本_1_12@3
-  - 🇨🇾_CY_塞浦路斯->🇳🇱_NL_荷兰_12@7
   - 🇺🇸_US_美国_4_12@10
   - 🇭🇰_HK_香港_12@11
-  - 🇧🇷_BR_巴西->🇩🇪_DE_德国_12@12
   - 🇯🇵_JP_日本_2_12@14
   - 🇺🇸_US_美国_6_12@16
   - 🇺🇸_US_美国_9_12@19
@@ -8088,19 +6654,13 @@ proxy-groups:
   - 🇺🇸_US_美国_14_12@24
   - 🇺🇸_US_美国_15_12@25
   - 🇺🇸_US_美国_17_12@28
-  - 🇸🇬_SG_新加坡->🇺🇸_US_美国_12@29
   - 🇺🇸_US_美国_18_12@31
   - 🇺🇸_US_美国_1_13@2
-  - 🇺🇸_US_美国->🇮🇩_ID_印度尼西亚_13@6
   - 🇺🇸_US_美国_2_13@9
-  - 🇺🇸_US_美国->🇦🇹_AT_奥地利_1_13@13
   - 🇺🇸_US_美国_3_13@15
   - 🇺🇸_US_美国_4_13@16
-  - 🇺🇸_US_美国->🇳🇱_NL_荷兰_1_13@20
-  - 🇺🇸_US_美国->🇦🇹_AT_奥地利_2_13@22
   - 🇺🇸_US_美国_5_13@23
   - 🇺🇸_US_美国_6_13@25
-  - 🇺🇸_US_美国->🇳🇱_NL_荷兰_2_13@26
   - 🇺🇸_US_美国_11_13@32
   - 🇺🇸_US_美国_2_14@1
   - 🇺🇸_US_美国_3_14@2
@@ -8108,20 +6668,15 @@ proxy-groups:
   - 🇺🇸_US_美国_5_14@4
   - 🇫🇷_FR_法国_1_14@5
   - 🇺🇸_US_美国_7_14@9
-  - 🇩🇪_DE_德国->🇪🇸_ES_西班牙_14@10
   - 🇹🇼_TW_台湾_14@12
   - 🇯🇵_JP_日本_14@17
   - 🇬🇧_GB_英国_14@23
   - 🇭🇰_HK_香港_2_14@24
-  - 🇳🇱_NL_荷兰->🇺🇸_US_美国_2_14@27
   - 🇺🇸_US_美国_12_14@28
   - 🇩🇪_DE_德国_14@30
   - 🇺🇸_US_美国_14_14@34
-  - 🇭🇰_HK_香港->🇳🇱_NL_荷兰_14@35
   - 🇫🇷_FR_法国_2_14@36
   - 🇺🇸_US_美国_15_14@38
-  - 🇫🇷_FR_法国->🇳🇱_NL_荷兰_15@1
-  - 🇭🇰_HK_香港->🇳🇱_NL_荷兰_15@2
   - 🇳🇱_NL_荷兰_15@3
   - 🇰🇷_KR_韩国_1_15@4
   - 🇺🇸_US_美国_1_15@5
@@ -8138,12 +6693,12 @@ proxy-groups:
   - 🇺🇸_US_美国_13_15@21
   - 🇺🇸_US_美国_14_15@22
   - 🇺🇸_US_美国_15_15@23
-  - 🇭🇰_HK_香港->🇯🇵_JP_日本_15@26
   - 🇹🇼_TW_台湾_2_15@27
   - 🇺🇸_US_美国_17_15@28
   - 🇺🇸_US_美国_19_15@30
   - 🇹🇼_TW_台湾_3_15@32
   - 🇹🇼_TW_台湾_4_15@33
+  - 🇩🇪_DE_德国_15@34
   - 🇺🇸_US_美国_21_15@35
   - 🇺🇸_US_美国_22_15@36
   - 🇺🇸_US_美国_1_16@1
@@ -8158,17 +6713,16 @@ proxy-groups:
   - 🇺🇸_US_美国_11_16@16
   - 🇺🇸_US_美国_12_16@17
   - 🇩🇪_DE_德国_1_16@18
-  - 🇺🇸_US_美国->🇳🇱_NL_荷兰_16@20
   - 🇺🇸_US_美国_13_16@21
   - 🇺🇸_US_美国_14_16@22
   - 🇯🇵_JP_日本_2_16@23
+  - 🇺🇸_US_美国_15_16@25
   - 🇺🇸_US_美国_17_16@30
-  - 🇺🇸_US_美国->🇩🇪_DE_德国_2_16@31
   - 🇻🇬_VG_英属维尔京群岛_16@32
+  - 🇳🇱_NL_荷兰_2_16@33
   - 🇭🇰_HK_香港_1_16@34
   - 🇭🇰_HK_香港_2_16@35
   - 🇺🇸_US_美国_18_16@36
-  - 🇨🇭_CH_瑞士->🇯🇵_JP_日本_16@37
   - 🇺🇸_US_美国_20_16@40
   - 🇺🇸_US_美国_21_16@41
   - 🇺🇸_US_美国_1_17@1
@@ -8179,6 +6733,7 @@ proxy-groups:
   - 🇺🇸_US_美国_6_17@9
   - 🇸🇬_SG_新加坡_1_17@10
   - 🇺🇸_US_美国_7_17@11
+  - 🇺🇸_US_美国_8_17@14
   - 🇺🇸_US_美国_9_17@17
   - 🇫🇷_FR_法国_1_17@18
   - 🇫🇷_FR_法国_2_17@19
@@ -8192,13 +6747,10 @@ proxy-groups:
   - 🇺🇸_US_美国_11_17@30
   - 🇸🇬_SG_新加坡_2_17@31
   - 🇸🇬_SG_新加坡_3_17@32
-  - 🇭🇰_HK_香港->🇳🇱_NL_荷兰_17@36
   - 🇺🇸_US_美国_14_17@37
-  - 🇺🇸_US_美国->🇳🇱_NL_荷兰_17@38
   - 🇵🇱_PL_波兰_17@39
   - 🇺🇸_US_美国_15_17@40
   - 🇺🇸_US_美国_16_17@41
-  - 🇳🇱_NL_荷兰->🇺🇸_US_美国_17@42
   - 🇺🇸_US_美国_17_17@43
   - 🇺🇸_US_美国_1_18@0
   - 🇺🇸_US_美国_2_18@1
@@ -8244,7 +6796,6 @@ proxy-groups:
   - 🇺🇸_US_美国_4_19@9
   - 🇺🇸_US_美国_5_19@10
   - 🇺🇸_US_美国_6_19@11
-  - 🇺🇸_US_美国->🇸🇬_SG_新加坡_19@12
   - 🇺🇸_US_美国_7_19@13
   - 🇺🇸_US_美国_8_19@14
   - 🇺🇸_US_美国_9_19@16
@@ -8252,7 +6803,6 @@ proxy-groups:
   - 🇨🇷_CR_哥斯达黎加_1_19@18
   - 🇳🇱_NL_荷兰_19@20
   - 🇯🇵_JP_日本_19@21
-  - 🇺🇸_US_美国->🇳🇱_NL_荷兰_19@24
   - 🇺🇸_US_美国_14_19@25
   - 🇺🇸_US_美国_15_19@26
   - 🇺🇸_US_美国_16_19@27
@@ -8281,24 +6831,19 @@ proxy-groups:
   - 🇺🇸_US_美国_22_20@25
   - 🇺🇸_US_美国_23_20@26
   - 🇺🇸_US_美国_25_20@28
-  - 🇺🇸_US_美国->🇸🇬_SG_新加坡_1_20@29
   - 🇺🇸_US_美国_26_20@30
-  - 🇨🇾_CY_塞浦路斯->🇺🇸_US_美国_20@31
   - 🇸🇬_SG_新加坡_20@32
-  - 🇺🇸_US_美国->🇸🇬_SG_新加坡_2_20@33
   - 🇺🇸_US_美国_27_20@34
   - 🇺🇸_US_美国_28_20@35
   - 🇺🇸_US_美国_30_20@38
   - 🇫🇷_FR_法国_20@40
-  - 🇨🇷_CR_哥斯达黎加->🇸🇬_SG_新加坡_21@1
+  - 🇺🇸_US_美国_1_21@0
   - 🇺🇸_US_美国_2_21@2
-  - 🇺🇸_US_美国->🇸🇬_SG_新加坡_21@4
-  - 🇹🇼_TW_台湾->🇺🇸_US_美国_1_21@5
-  - 🇹🇼_TW_台湾->🇺🇸_US_美国_2_21@6
   - 🇯🇵_JP_日本_21@7
   - 🇺🇸_US_美国_3_21@10
   - 🇺🇸_US_美国_5_21@13
-  - 🇳🇱_NL_荷兰->🇺🇸_US_美国_21@15
+  - 🇺🇸_US_美国_6_21@16
+  - 🇺🇸_US_美国_7_21@17
   - 🇸🇬_SG_新加坡_1_21@18
   - 🇺🇸_US_美国_8_21@19
   - 🇺🇸_US_美国_9_21@20
@@ -8307,10 +6852,9 @@ proxy-groups:
   - 🇺🇸_US_美国_12_21@24
   - 🇺🇸_US_美国_13_21@25
   - 🇺🇸_US_美国_14_21@26
-  - 🇨🇷_CR_哥斯达黎加->🇺🇸_US_美国_1_21@28
+  - 🇺🇸_US_美国_15_21@27
   - 🇺🇸_US_美国_16_21@29
   - 🇺🇸_US_美国_17_21@30
-  - 🇨🇷_CR_哥斯达黎加->🇺🇸_US_美国_2_21@31
   - 🇺🇸_US_美国_18_21@33
   - 🇺🇸_US_美国_19_21@34
   - 🇨🇦_CA_加拿大_21@35
@@ -8320,7 +6864,6 @@ proxy-groups:
   - 🇭🇰_HK_香港_22@23
   - 🇺🇸_US_美国_2_22@28
   - 🇺🇸_US_美国_6_22@33
-  - 🇳🇱_NL_荷兰->🇺🇸_US_美国_22@34
   - 🇺🇸_US_美国_7_22@35
   - 🇺🇸_US_美国_8_22@36
   - 🇺🇸_US_美国_11_22@40
@@ -8329,20 +6872,17 @@ proxy-groups:
   - 🇺🇸_US_美国_14_22@43
   - 🇺🇸_US_美国_15_22@44
   - 🇰🇷_KR_韩国_22@47
-  - 🇰🇷_KR_韩国->🇺🇸_US_美国_23@0
   - 🇭🇰_HK_香港_23@2
   - 🇺🇸_US_美国_1_23@4
   - 🇺🇸_US_美国_2_23@11
   - 🇺🇸_US_美国_3_23@28
   - 🇺🇸_US_美国_5_23@37
-  - 🇰🇿_KZ_哈萨克斯坦->🇸🇬_SG_新加坡_23@38
   - 🇺🇸_US_美国_6_23@39
   - 🇺🇸_US_美国_1_24@0
   - 🇺🇸_US_美国_2_24@1
   - 🇺🇸_US_美国_3_24@2
   - 🇺🇸_US_美国_4_24@3
   - 🇺🇸_US_美国_5_24@4
-  - 🇺🇸_US_美国->🇳🇱_NL_荷兰_24@5
   - 🇺🇸_US_美国_6_24@6
   - 🇰🇷_KR_韩国_1_24@7
   - 🇰🇷_KR_韩国_2_24@8
@@ -8353,7 +6893,6 @@ proxy-groups:
   - 🇺🇸_US_美国_10_24@17
   - 🇺🇸_US_美国_11_24@18
   - 🇺🇸_US_美国_12_24@19
-  - 🇺🇸_US_美国->🇩🇪_DE_德国_24@21
   - 🇺🇸_US_美国_14_24@23
   - 🇺🇸_US_美国_15_24@24
   - 🇺🇸_US_美国_16_24@25
@@ -8361,7 +6900,6 @@ proxy-groups:
   - 🇺🇸_US_美国_19_24@30
   - 🇹🇼_TW_台湾_2_24@31
   - 🇺🇸_US_美国_21_24@33
-  - 🇨🇦_CA_加拿大->🇺🇸_US_美国_24@34
   - 🇰🇷_KR_韩国_3_24@36
   - 🇭🇰_HK_香港_24@37
   type: select
@@ -8371,75 +6909,49 @@ proxy-groups:
   - 🚀 节点选择
   - 🇺🇸_US_美国_1_0@0
   - 🇺🇸_US_美国_2_0@1
-  - 🇺🇸_US_美国->🇳🇱_NL_荷兰_1_0@11
   - 🇺🇸_US_美国_3_0@25
   - 🇺🇸_US_美国_4_0@26
   - 🇩🇪_DE_德国_0@27
   - 🇺🇸_US_美国_5_0@29
   - 🇳🇱_NL_荷兰_0@30
-  - 🇺🇸_US_美国->🇳🇱_NL_荷兰_2_0@31
-  - 🇺🇸_US_美国->🇨🇦_CA_加拿大_0@32
   - 🇺🇸_US_美国_6_0@33
   - 🇸🇬_SG_新加坡_0@34
   - 🇺🇸_US_美国_7_0@35
   - 🇺🇸_US_美国_1_1@3
   - 🇺🇸_US_美国_2_1@5
   - 🇺🇸_US_美国_3_1@7
-  - 🇨🇷_CR_哥斯达黎加->🇺🇸_US_美国_1_1@8
   - 🇺🇸_US_美国_4_1@9
-  - 🇨🇷_CR_哥斯达黎加->🇺🇸_US_美国_2_1@13
   - 🇺🇸_US_美国_5_1@14
-  - 🇨🇷_CR_哥斯达黎加->🇺🇸_US_美国_3_1@16
   - 🇺🇸_US_美国_7_1@20
   - 🇺🇸_US_美国_8_1@21
-  - 🇭🇰_HK_香港->🇺🇸_US_美国_1_1@26
-  - 🇭🇰_HK_香港->🇺🇸_US_美国_2_1@27
-  - 🇭🇰_HK_香港->🇺🇸_US_美国_3_1@28
-  - 🇭🇰_HK_香港->🇺🇸_US_美国_4_1@29
-  - 🇭🇰_HK_香港->🇺🇸_US_美国_5_1@30
-  - 🇭🇰_HK_香港->🇺🇸_US_美国_6_1@31
-  - 🇭🇰_HK_香港->🇺🇸_US_美国_7_1@32
   - 🇯🇵_JP_日本_1_1@33
   - 🇯🇵_JP_日本_2_1@34
   - 🇸🇬_SG_新加坡_1_2@0
   - 🇯🇵_JP_日本_1_2@1
   - 🇷🇺_RU_俄罗斯联邦_2@2
-  - 🇭🇰_HK_香港->🇺🇸_US_美国_1_2@5
-  - 🇭🇰_HK_香港->🇺🇸_US_美国_2_2@6
-  - 🇭🇰_HK_香港->🇺🇸_US_美国_3_2@7
-  - 🇭🇰_HK_香港->🇺🇸_US_美国_5_2@9
   - 🇺🇸_US_美国_2_2@10
   - 🇺🇸_US_美国_3_2@12
   - 🇬🇧_GB_英国_2@13
   - 🇭🇰_HK_香港_1_2@14
   - 🇳🇱_NL_荷兰_2@15
-  - 🇭🇰_HK_香港->🇺🇸_US_美国_6_2@16
-  - 🇭🇰_HK_香港->🇺🇸_US_美国_7_2@17
-  - 🇭🇰_HK_香港->🇺🇸_US_美国_8_2@18
-  - 🇨🇷_CR_哥斯达黎加->🇺🇸_US_美国_2@19
   - 🇺🇸_US_美国_4_2@20
   - 🇰🇷_KR_韩国_2@21
-  - 🇺🇸_US_美国->🇳🇱_NL_荷兰_2@22
   - 🇺🇸_US_美国_5_2@23
   - 🇯🇵_JP_日本_2_2@24
   - 🇯🇵_JP_日本_3_2@25
   - 🇪🇸_ES_西班牙_2@26
-  - 🇫🇷_FR_法国->🇦🇹_AT_奥地利_2@27
   - 🇹🇼_TW_台湾_2@28
   - 🇫🇷_FR_法国_2@29
   - 🇸🇬_SG_新加坡_2_2@30
-  - 🇺🇸_US_美国->🇩🇪_DE_德国_2@31
   - 🇭🇰_HK_香港_2_2@33
   - 🇺🇸_US_美国_6_2@34
   - 🇰🇷_KR_韩国_1_3@0
   - 🇺🇸_US_美国_1_3@2
   - 🇺🇸_US_美国_2_3@3
-  - 🇺🇸_US_美国->🇳🇱_NL_荷兰_3@6
   - 🇺🇸_US_美国_4_3@7
   - 🇺🇸_US_美国_5_3@8
   - 🇺🇸_US_美国_6_3@9
   - 🇸🇬_SG_新加坡_1_3@12
-  - 🇫🇷_FR_法国->🇳🇴_NO_挪威_3@14
   - 🇺🇸_US_美国_7_3@15
   - 🇸🇬_SG_新加坡_2_3@16
   - 🇰🇷_KR_韩国_2_3@17
@@ -8452,17 +6964,13 @@ proxy-groups:
   - 🇸🇬_SG_新加坡_4@2
   - 🇺🇸_US_美国_2_4@3
   - 🇺🇸_US_美国_3_4@5
-  - 🇺🇸_US_美国->🇨🇦_CA_加拿大_1_4@9
-  - 🇺🇸_US_美国->🇨🇦_CA_加拿大_2_4@10
   - 🇺🇸_US_美国_5_4@12
-  - 🇺🇸_US_美国->🇩🇪_DE_德国_2_4@13
   - 🇷🇺_RU_俄罗斯联邦_4@14
   - 🇺🇸_US_美国_6_4@15
-  - 🇺🇸_US_美国->🇯🇵_JP_日本_1_4@17
-  - 🇺🇸_US_美国->🇯🇵_JP_日本_2_4@18
   - 🇮🇳_IN_印度_4@19
   - 🇱🇻_LV_拉脱维亚_4@20
   - 🇰🇷_KR_韩国_1_5@1
+  - 🇫🇷_FR_法国_2_5@2
   - 🇺🇸_US_美国_1_5@3
   - 🇯🇵_JP_日本_1_5@4
   - 🇰🇷_KR_韩国_2_5@5
@@ -8471,7 +6979,6 @@ proxy-groups:
   - 🇯🇵_JP_日本_2_5@9
   - 🇰🇷_KR_韩国_3_5@13
   - 🇺🇸_US_美国_4_5@18
-  - 🇯🇵_JP_日本->🇬🇧_GB_英国_5@19
   - 🇺🇸_US_美国_6_5@21
   - 🇺🇸_US_美国_8_5@23
   - 🇹🇷_TR_土耳其_1_5@25
@@ -8479,6 +6986,7 @@ proxy-groups:
   - 🇺🇸_US_美国_1_6@0
   - 🇺🇸_US_美国_4_6@3
   - 🇺🇸_US_美国_5_6@4
+  - 🇫🇷_FR_法国_6@5
   - 🇺🇸_US_美国_6_6@7
   - 🇺🇸_US_美国_7_6@9
   - 🇩🇪_DE_德国_6@10
@@ -8486,7 +6994,6 @@ proxy-groups:
   - 🇰🇪_KE_肯尼亚_6@12
   - 🇺🇸_US_美国_9_6@13
   - 🇺🇸_US_美国_10_6@14
-  - 🇸🇬_SG_新加坡->🇺🇸_US_美国_6@15
   - 🇺🇸_US_美国_12_6@17
   - 🇸🇬_SG_新加坡_6@18
   - 🇺🇸_US_美国_13_6@20
@@ -8494,8 +7001,8 @@ proxy-groups:
   - 🇮🇳_IN_印度_6@22
   - 🇨🇾_CY_塞浦路斯_6@23
   - 🇹🇷_TR_土耳其_1_6@24
+  - 🇺🇸_US_美国_14_6@26
   - 🇹🇷_TR_土耳其_2_6@27
-  - 🇺🇸_US_美国->🇩🇪_DE_德国_6@28
   - 🇺🇸_US_美国_1_7@0
   - 🇺🇸_US_美国_2_7@1
   - 🇺🇸_US_美国_3_7@2
@@ -8505,7 +7012,6 @@ proxy-groups:
   - 🇺🇸_US_美国_8_7@7
   - 🇺🇸_US_美国_9_7@8
   - 🇺🇸_US_美国_10_7@9
-  - 🇫🇷_FR_法国->🇳🇱_NL_荷兰_7@10
   - 🇺🇸_US_美国_11_7@11
   - 🇺🇸_US_美国_12_7@12
   - 🇺🇸_US_美国_13_7@13
@@ -8525,13 +7031,11 @@ proxy-groups:
   - 🇳🇱_NL_荷兰_7@30
   - 🇳🇴_NO_挪威_7@32
   - 🇺🇸_US_美国_21_7@33
-  - 🇯🇵_JP_日本->🇸🇬_SG_新加坡_7@34
   - 🇯🇵_JP_日本_7@35
   - 🇰🇷_KR_韩国_1_8@0
   - 🇫🇷_FR_法国_1_8@1
   - 🇷🇺_RU_俄罗斯联邦_1_8@2
   - 🇯🇵_JP_日本_1_8@4
-  - 🇺🇸_US_美国->🇳🇱_NL_荷兰_8@13
   - 🇷🇺_RU_俄罗斯联邦_2_8@16
   - 🇸🇬_SG_新加坡_1_8@17
   - 🇯🇵_JP_日本_2_8@18
@@ -8544,20 +7048,15 @@ proxy-groups:
   - 🇺🇸_US_美国_3_8@25
   - 🇭🇰_HK_香港_8@29
   - 🇺🇸_US_美国_4_8@32
-  - 🇳🇱_NL_荷兰->🇹🇼_TW_台湾_8@34
-  - 🇨🇷_CR_哥斯达黎加->🇺🇸_US_美国_1_9@0
   - 🇺🇸_US_美国_1_9@1
   - 🇰🇷_KR_韩国_1_9@3
   - 🇺🇸_US_美国_3_9@4
   - 🇺🇸_US_美国_4_9@5
   - 🇺🇸_US_美国_5_9@6
-  - 🇺🇸_US_美国->🇳🇱_NL_荷兰_9@7
   - 🇭🇰_HK_香港_9@8
   - 🇰🇷_KR_韩国_2_9@9
   - 🇺🇸_US_美国_6_9@11
   - 🇺🇸_US_美国_7_9@12
-  - 🇺🇸_US_美国->🇩🇪_DE_德国_2_9@13
-  - 🇳🇱_NL_荷兰->🇺🇸_US_美国_9@14
   - 🇺🇸_US_美国_8_9@15
   - 🇺🇸_US_美国_9_9@17
   - 🇺🇸_US_美国_10_9@18
@@ -8565,12 +7064,7 @@ proxy-groups:
   - 🇺🇸_US_美国_12_9@22
   - 🇺🇸_US_美国_13_9@23
   - 🇺🇸_US_美国_14_9@24
-  - 🇬🇧_GB_英国->🇭🇰_HK_香港_9@25
-  - 🇦🇺_AU_澳大利亚->🇹🇼_TW_台湾_1_9@26
-  - 🇦🇺_AU_澳大利亚->🇹🇼_TW_台湾_2_9@27
-  - 🇨🇷_CR_哥斯达黎加->🇺🇸_US_美国_2_9@28
   - 🇸🇬_SG_新加坡_9@29
-  - 🇫🇷_FR_法国->🇺🇸_US_美国_9@30
   - 🇺🇸_US_美国_1_10@0
   - 🇺🇸_US_美国_2_10@1
   - 🇺🇸_US_美国_3_10@2
@@ -8592,26 +7086,14 @@ proxy-groups:
   - 🇺🇸_US_美国_2_11@1
   - 🇺🇸_US_美国_3_11@2
   - 🇺🇸_US_美国_4_11@3
-  - 🇨🇷_CR_哥斯达黎加->🇺🇸_US_美国_1_11@4
-  - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_1_11@5
   - 🇯🇵_JP_日本_11@6
-  - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_2_11@7
   - 🇺🇸_US_美国_5_11@8
   - 🇺🇸_US_美国_6_11@9
   - 🇺🇸_US_美国_7_11@10
   - 🇺🇸_US_美国_8_11@11
-  - 🇨🇷_CR_哥斯达黎加->🇰🇷_KR_韩国_11@12
-  - 🇺🇸_US_美国->🇰🇷_KR_韩国_1_11@13
-  - 🇺🇸_US_美国->🇰🇷_KR_韩国_2_11@14
-  - 🇺🇸_US_美国->🇰🇷_KR_韩国_3_11@15
   - 🇺🇸_US_美国_9_11@16
-  - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_3_11@17
-  - 🇺🇸_US_美国->🇸🇬_SG_新加坡_1_11@19
-  - 🇺🇸_US_美国->🇸🇬_SG_新加坡_2_11@20
   - 🇺🇸_US_美国_11_11@21
   - 🇺🇸_US_美国_12_11@23
-  - 🇧🇷_BR_巴西->🇳🇱_NL_荷兰_11@24
-  - 🇺🇸_US_美国->🇸🇬_SG_新加坡_3_11@25
   - 🇺🇸_US_美国_13_11@26
   - 🇸🇬_SG_新加坡_1_11@27
   - 🇭🇰_HK_香港_1_11@28
@@ -8621,10 +7103,8 @@ proxy-groups:
   - 🇸🇬_SG_新加坡_2_11@35
   - 🇱🇻_LV_拉脱维亚_12@1
   - 🇯🇵_JP_日本_1_12@3
-  - 🇨🇾_CY_塞浦路斯->🇳🇱_NL_荷兰_12@7
   - 🇺🇸_US_美国_4_12@10
   - 🇭🇰_HK_香港_12@11
-  - 🇧🇷_BR_巴西->🇩🇪_DE_德国_12@12
   - 🇯🇵_JP_日本_2_12@14
   - 🇺🇸_US_美国_6_12@16
   - 🇺🇸_US_美国_9_12@19
@@ -8635,19 +7115,13 @@ proxy-groups:
   - 🇺🇸_US_美国_14_12@24
   - 🇺🇸_US_美国_15_12@25
   - 🇺🇸_US_美国_17_12@28
-  - 🇸🇬_SG_新加坡->🇺🇸_US_美国_12@29
   - 🇺🇸_US_美国_18_12@31
   - 🇺🇸_US_美国_1_13@2
-  - 🇺🇸_US_美国->🇮🇩_ID_印度尼西亚_13@6
   - 🇺🇸_US_美国_2_13@9
-  - 🇺🇸_US_美国->🇦🇹_AT_奥地利_1_13@13
   - 🇺🇸_US_美国_3_13@15
   - 🇺🇸_US_美国_4_13@16
-  - 🇺🇸_US_美国->🇳🇱_NL_荷兰_1_13@20
-  - 🇺🇸_US_美国->🇦🇹_AT_奥地利_2_13@22
   - 🇺🇸_US_美国_5_13@23
   - 🇺🇸_US_美国_6_13@25
-  - 🇺🇸_US_美国->🇳🇱_NL_荷兰_2_13@26
   - 🇺🇸_US_美国_11_13@32
   - 🇺🇸_US_美国_2_14@1
   - 🇺🇸_US_美国_3_14@2
@@ -8655,20 +7129,15 @@ proxy-groups:
   - 🇺🇸_US_美国_5_14@4
   - 🇫🇷_FR_法国_1_14@5
   - 🇺🇸_US_美国_7_14@9
-  - 🇩🇪_DE_德国->🇪🇸_ES_西班牙_14@10
   - 🇹🇼_TW_台湾_14@12
   - 🇯🇵_JP_日本_14@17
   - 🇬🇧_GB_英国_14@23
   - 🇭🇰_HK_香港_2_14@24
-  - 🇳🇱_NL_荷兰->🇺🇸_US_美国_2_14@27
   - 🇺🇸_US_美国_12_14@28
   - 🇩🇪_DE_德国_14@30
   - 🇺🇸_US_美国_14_14@34
-  - 🇭🇰_HK_香港->🇳🇱_NL_荷兰_14@35
   - 🇫🇷_FR_法国_2_14@36
   - 🇺🇸_US_美国_15_14@38
-  - 🇫🇷_FR_法国->🇳🇱_NL_荷兰_15@1
-  - 🇭🇰_HK_香港->🇳🇱_NL_荷兰_15@2
   - 🇳🇱_NL_荷兰_15@3
   - 🇰🇷_KR_韩国_1_15@4
   - 🇺🇸_US_美国_1_15@5
@@ -8685,12 +7154,12 @@ proxy-groups:
   - 🇺🇸_US_美国_13_15@21
   - 🇺🇸_US_美国_14_15@22
   - 🇺🇸_US_美国_15_15@23
-  - 🇭🇰_HK_香港->🇯🇵_JP_日本_15@26
   - 🇹🇼_TW_台湾_2_15@27
   - 🇺🇸_US_美国_17_15@28
   - 🇺🇸_US_美国_19_15@30
   - 🇹🇼_TW_台湾_3_15@32
   - 🇹🇼_TW_台湾_4_15@33
+  - 🇩🇪_DE_德国_15@34
   - 🇺🇸_US_美国_21_15@35
   - 🇺🇸_US_美国_22_15@36
   - 🇺🇸_US_美国_1_16@1
@@ -8705,17 +7174,16 @@ proxy-groups:
   - 🇺🇸_US_美国_11_16@16
   - 🇺🇸_US_美国_12_16@17
   - 🇩🇪_DE_德国_1_16@18
-  - 🇺🇸_US_美国->🇳🇱_NL_荷兰_16@20
   - 🇺🇸_US_美国_13_16@21
   - 🇺🇸_US_美国_14_16@22
   - 🇯🇵_JP_日本_2_16@23
+  - 🇺🇸_US_美国_15_16@25
   - 🇺🇸_US_美国_17_16@30
-  - 🇺🇸_US_美国->🇩🇪_DE_德国_2_16@31
   - 🇻🇬_VG_英属维尔京群岛_16@32
+  - 🇳🇱_NL_荷兰_2_16@33
   - 🇭🇰_HK_香港_1_16@34
   - 🇭🇰_HK_香港_2_16@35
   - 🇺🇸_US_美国_18_16@36
-  - 🇨🇭_CH_瑞士->🇯🇵_JP_日本_16@37
   - 🇺🇸_US_美国_20_16@40
   - 🇺🇸_US_美国_21_16@41
   - 🇺🇸_US_美国_1_17@1
@@ -8726,6 +7194,7 @@ proxy-groups:
   - 🇺🇸_US_美国_6_17@9
   - 🇸🇬_SG_新加坡_1_17@10
   - 🇺🇸_US_美国_7_17@11
+  - 🇺🇸_US_美国_8_17@14
   - 🇺🇸_US_美国_9_17@17
   - 🇫🇷_FR_法国_1_17@18
   - 🇫🇷_FR_法国_2_17@19
@@ -8739,13 +7208,10 @@ proxy-groups:
   - 🇺🇸_US_美国_11_17@30
   - 🇸🇬_SG_新加坡_2_17@31
   - 🇸🇬_SG_新加坡_3_17@32
-  - 🇭🇰_HK_香港->🇳🇱_NL_荷兰_17@36
   - 🇺🇸_US_美国_14_17@37
-  - 🇺🇸_US_美国->🇳🇱_NL_荷兰_17@38
   - 🇵🇱_PL_波兰_17@39
   - 🇺🇸_US_美国_15_17@40
   - 🇺🇸_US_美国_16_17@41
-  - 🇳🇱_NL_荷兰->🇺🇸_US_美国_17@42
   - 🇺🇸_US_美国_17_17@43
   - 🇺🇸_US_美国_1_18@0
   - 🇺🇸_US_美国_2_18@1
@@ -8791,7 +7257,6 @@ proxy-groups:
   - 🇺🇸_US_美国_4_19@9
   - 🇺🇸_US_美国_5_19@10
   - 🇺🇸_US_美国_6_19@11
-  - 🇺🇸_US_美国->🇸🇬_SG_新加坡_19@12
   - 🇺🇸_US_美国_7_19@13
   - 🇺🇸_US_美国_8_19@14
   - 🇺🇸_US_美国_9_19@16
@@ -8799,7 +7264,6 @@ proxy-groups:
   - 🇨🇷_CR_哥斯达黎加_1_19@18
   - 🇳🇱_NL_荷兰_19@20
   - 🇯🇵_JP_日本_19@21
-  - 🇺🇸_US_美国->🇳🇱_NL_荷兰_19@24
   - 🇺🇸_US_美国_14_19@25
   - 🇺🇸_US_美国_15_19@26
   - 🇺🇸_US_美国_16_19@27
@@ -8828,24 +7292,19 @@ proxy-groups:
   - 🇺🇸_US_美国_22_20@25
   - 🇺🇸_US_美国_23_20@26
   - 🇺🇸_US_美国_25_20@28
-  - 🇺🇸_US_美国->🇸🇬_SG_新加坡_1_20@29
   - 🇺🇸_US_美国_26_20@30
-  - 🇨🇾_CY_塞浦路斯->🇺🇸_US_美国_20@31
   - 🇸🇬_SG_新加坡_20@32
-  - 🇺🇸_US_美国->🇸🇬_SG_新加坡_2_20@33
   - 🇺🇸_US_美国_27_20@34
   - 🇺🇸_US_美国_28_20@35
   - 🇺🇸_US_美国_30_20@38
   - 🇫🇷_FR_法国_20@40
-  - 🇨🇷_CR_哥斯达黎加->🇸🇬_SG_新加坡_21@1
+  - 🇺🇸_US_美国_1_21@0
   - 🇺🇸_US_美国_2_21@2
-  - 🇺🇸_US_美国->🇸🇬_SG_新加坡_21@4
-  - 🇹🇼_TW_台湾->🇺🇸_US_美国_1_21@5
-  - 🇹🇼_TW_台湾->🇺🇸_US_美国_2_21@6
   - 🇯🇵_JP_日本_21@7
   - 🇺🇸_US_美国_3_21@10
   - 🇺🇸_US_美国_5_21@13
-  - 🇳🇱_NL_荷兰->🇺🇸_US_美国_21@15
+  - 🇺🇸_US_美国_6_21@16
+  - 🇺🇸_US_美国_7_21@17
   - 🇸🇬_SG_新加坡_1_21@18
   - 🇺🇸_US_美国_8_21@19
   - 🇺🇸_US_美国_9_21@20
@@ -8854,10 +7313,9 @@ proxy-groups:
   - 🇺🇸_US_美国_12_21@24
   - 🇺🇸_US_美国_13_21@25
   - 🇺🇸_US_美国_14_21@26
-  - 🇨🇷_CR_哥斯达黎加->🇺🇸_US_美国_1_21@28
+  - 🇺🇸_US_美国_15_21@27
   - 🇺🇸_US_美国_16_21@29
   - 🇺🇸_US_美国_17_21@30
-  - 🇨🇷_CR_哥斯达黎加->🇺🇸_US_美国_2_21@31
   - 🇺🇸_US_美国_18_21@33
   - 🇺🇸_US_美国_19_21@34
   - 🇨🇦_CA_加拿大_21@35
@@ -8867,7 +7325,6 @@ proxy-groups:
   - 🇭🇰_HK_香港_22@23
   - 🇺🇸_US_美国_2_22@28
   - 🇺🇸_US_美国_6_22@33
-  - 🇳🇱_NL_荷兰->🇺🇸_US_美国_22@34
   - 🇺🇸_US_美国_7_22@35
   - 🇺🇸_US_美国_8_22@36
   - 🇺🇸_US_美国_11_22@40
@@ -8876,20 +7333,17 @@ proxy-groups:
   - 🇺🇸_US_美国_14_22@43
   - 🇺🇸_US_美国_15_22@44
   - 🇰🇷_KR_韩国_22@47
-  - 🇰🇷_KR_韩国->🇺🇸_US_美国_23@0
   - 🇭🇰_HK_香港_23@2
   - 🇺🇸_US_美国_1_23@4
   - 🇺🇸_US_美国_2_23@11
   - 🇺🇸_US_美国_3_23@28
   - 🇺🇸_US_美国_5_23@37
-  - 🇰🇿_KZ_哈萨克斯坦->🇸🇬_SG_新加坡_23@38
   - 🇺🇸_US_美国_6_23@39
   - 🇺🇸_US_美国_1_24@0
   - 🇺🇸_US_美国_2_24@1
   - 🇺🇸_US_美国_3_24@2
   - 🇺🇸_US_美国_4_24@3
   - 🇺🇸_US_美国_5_24@4
-  - 🇺🇸_US_美国->🇳🇱_NL_荷兰_24@5
   - 🇺🇸_US_美国_6_24@6
   - 🇰🇷_KR_韩国_1_24@7
   - 🇰🇷_KR_韩国_2_24@8
@@ -8900,7 +7354,6 @@ proxy-groups:
   - 🇺🇸_US_美国_10_24@17
   - 🇺🇸_US_美国_11_24@18
   - 🇺🇸_US_美国_12_24@19
-  - 🇺🇸_US_美国->🇩🇪_DE_德国_24@21
   - 🇺🇸_US_美国_14_24@23
   - 🇺🇸_US_美国_15_24@24
   - 🇺🇸_US_美国_16_24@25
@@ -8908,7 +7361,6 @@ proxy-groups:
   - 🇺🇸_US_美国_19_24@30
   - 🇹🇼_TW_台湾_2_24@31
   - 🇺🇸_US_美国_21_24@33
-  - 🇨🇦_CA_加拿大->🇺🇸_US_美国_24@34
   - 🇰🇷_KR_韩国_3_24@36
   - 🇭🇰_HK_香港_24@37
   type: select
@@ -8918,75 +7370,49 @@ proxy-groups:
   - 🎯 全球直连
   - 🇺🇸_US_美国_1_0@0
   - 🇺🇸_US_美国_2_0@1
-  - 🇺🇸_US_美国->🇳🇱_NL_荷兰_1_0@11
   - 🇺🇸_US_美国_3_0@25
   - 🇺🇸_US_美国_4_0@26
   - 🇩🇪_DE_德国_0@27
   - 🇺🇸_US_美国_5_0@29
   - 🇳🇱_NL_荷兰_0@30
-  - 🇺🇸_US_美国->🇳🇱_NL_荷兰_2_0@31
-  - 🇺🇸_US_美国->🇨🇦_CA_加拿大_0@32
   - 🇺🇸_US_美国_6_0@33
   - 🇸🇬_SG_新加坡_0@34
   - 🇺🇸_US_美国_7_0@35
   - 🇺🇸_US_美国_1_1@3
   - 🇺🇸_US_美国_2_1@5
   - 🇺🇸_US_美国_3_1@7
-  - 🇨🇷_CR_哥斯达黎加->🇺🇸_US_美国_1_1@8
   - 🇺🇸_US_美国_4_1@9
-  - 🇨🇷_CR_哥斯达黎加->🇺🇸_US_美国_2_1@13
   - 🇺🇸_US_美国_5_1@14
-  - 🇨🇷_CR_哥斯达黎加->🇺🇸_US_美国_3_1@16
   - 🇺🇸_US_美国_7_1@20
   - 🇺🇸_US_美国_8_1@21
-  - 🇭🇰_HK_香港->🇺🇸_US_美国_1_1@26
-  - 🇭🇰_HK_香港->🇺🇸_US_美国_2_1@27
-  - 🇭🇰_HK_香港->🇺🇸_US_美国_3_1@28
-  - 🇭🇰_HK_香港->🇺🇸_US_美国_4_1@29
-  - 🇭🇰_HK_香港->🇺🇸_US_美国_5_1@30
-  - 🇭🇰_HK_香港->🇺🇸_US_美国_6_1@31
-  - 🇭🇰_HK_香港->🇺🇸_US_美国_7_1@32
   - 🇯🇵_JP_日本_1_1@33
   - 🇯🇵_JP_日本_2_1@34
   - 🇸🇬_SG_新加坡_1_2@0
   - 🇯🇵_JP_日本_1_2@1
   - 🇷🇺_RU_俄罗斯联邦_2@2
-  - 🇭🇰_HK_香港->🇺🇸_US_美国_1_2@5
-  - 🇭🇰_HK_香港->🇺🇸_US_美国_2_2@6
-  - 🇭🇰_HK_香港->🇺🇸_US_美国_3_2@7
-  - 🇭🇰_HK_香港->🇺🇸_US_美国_5_2@9
   - 🇺🇸_US_美国_2_2@10
   - 🇺🇸_US_美国_3_2@12
   - 🇬🇧_GB_英国_2@13
   - 🇭🇰_HK_香港_1_2@14
   - 🇳🇱_NL_荷兰_2@15
-  - 🇭🇰_HK_香港->🇺🇸_US_美国_6_2@16
-  - 🇭🇰_HK_香港->🇺🇸_US_美国_7_2@17
-  - 🇭🇰_HK_香港->🇺🇸_US_美国_8_2@18
-  - 🇨🇷_CR_哥斯达黎加->🇺🇸_US_美国_2@19
   - 🇺🇸_US_美国_4_2@20
   - 🇰🇷_KR_韩国_2@21
-  - 🇺🇸_US_美国->🇳🇱_NL_荷兰_2@22
   - 🇺🇸_US_美国_5_2@23
   - 🇯🇵_JP_日本_2_2@24
   - 🇯🇵_JP_日本_3_2@25
   - 🇪🇸_ES_西班牙_2@26
-  - 🇫🇷_FR_法国->🇦🇹_AT_奥地利_2@27
   - 🇹🇼_TW_台湾_2@28
   - 🇫🇷_FR_法国_2@29
   - 🇸🇬_SG_新加坡_2_2@30
-  - 🇺🇸_US_美国->🇩🇪_DE_德国_2@31
   - 🇭🇰_HK_香港_2_2@33
   - 🇺🇸_US_美国_6_2@34
   - 🇰🇷_KR_韩国_1_3@0
   - 🇺🇸_US_美国_1_3@2
   - 🇺🇸_US_美国_2_3@3
-  - 🇺🇸_US_美国->🇳🇱_NL_荷兰_3@6
   - 🇺🇸_US_美国_4_3@7
   - 🇺🇸_US_美国_5_3@8
   - 🇺🇸_US_美国_6_3@9
   - 🇸🇬_SG_新加坡_1_3@12
-  - 🇫🇷_FR_法国->🇳🇴_NO_挪威_3@14
   - 🇺🇸_US_美国_7_3@15
   - 🇸🇬_SG_新加坡_2_3@16
   - 🇰🇷_KR_韩国_2_3@17
@@ -8999,17 +7425,13 @@ proxy-groups:
   - 🇸🇬_SG_新加坡_4@2
   - 🇺🇸_US_美国_2_4@3
   - 🇺🇸_US_美国_3_4@5
-  - 🇺🇸_US_美国->🇨🇦_CA_加拿大_1_4@9
-  - 🇺🇸_US_美国->🇨🇦_CA_加拿大_2_4@10
   - 🇺🇸_US_美国_5_4@12
-  - 🇺🇸_US_美国->🇩🇪_DE_德国_2_4@13
   - 🇷🇺_RU_俄罗斯联邦_4@14
   - 🇺🇸_US_美国_6_4@15
-  - 🇺🇸_US_美国->🇯🇵_JP_日本_1_4@17
-  - 🇺🇸_US_美国->🇯🇵_JP_日本_2_4@18
   - 🇮🇳_IN_印度_4@19
   - 🇱🇻_LV_拉脱维亚_4@20
   - 🇰🇷_KR_韩国_1_5@1
+  - 🇫🇷_FR_法国_2_5@2
   - 🇺🇸_US_美国_1_5@3
   - 🇯🇵_JP_日本_1_5@4
   - 🇰🇷_KR_韩国_2_5@5
@@ -9018,7 +7440,6 @@ proxy-groups:
   - 🇯🇵_JP_日本_2_5@9
   - 🇰🇷_KR_韩国_3_5@13
   - 🇺🇸_US_美国_4_5@18
-  - 🇯🇵_JP_日本->🇬🇧_GB_英国_5@19
   - 🇺🇸_US_美国_6_5@21
   - 🇺🇸_US_美国_8_5@23
   - 🇹🇷_TR_土耳其_1_5@25
@@ -9026,6 +7447,7 @@ proxy-groups:
   - 🇺🇸_US_美国_1_6@0
   - 🇺🇸_US_美国_4_6@3
   - 🇺🇸_US_美国_5_6@4
+  - 🇫🇷_FR_法国_6@5
   - 🇺🇸_US_美国_6_6@7
   - 🇺🇸_US_美国_7_6@9
   - 🇩🇪_DE_德国_6@10
@@ -9033,7 +7455,6 @@ proxy-groups:
   - 🇰🇪_KE_肯尼亚_6@12
   - 🇺🇸_US_美国_9_6@13
   - 🇺🇸_US_美国_10_6@14
-  - 🇸🇬_SG_新加坡->🇺🇸_US_美国_6@15
   - 🇺🇸_US_美国_12_6@17
   - 🇸🇬_SG_新加坡_6@18
   - 🇺🇸_US_美国_13_6@20
@@ -9041,8 +7462,8 @@ proxy-groups:
   - 🇮🇳_IN_印度_6@22
   - 🇨🇾_CY_塞浦路斯_6@23
   - 🇹🇷_TR_土耳其_1_6@24
+  - 🇺🇸_US_美国_14_6@26
   - 🇹🇷_TR_土耳其_2_6@27
-  - 🇺🇸_US_美国->🇩🇪_DE_德国_6@28
   - 🇺🇸_US_美国_1_7@0
   - 🇺🇸_US_美国_2_7@1
   - 🇺🇸_US_美国_3_7@2
@@ -9052,7 +7473,6 @@ proxy-groups:
   - 🇺🇸_US_美国_8_7@7
   - 🇺🇸_US_美国_9_7@8
   - 🇺🇸_US_美国_10_7@9
-  - 🇫🇷_FR_法国->🇳🇱_NL_荷兰_7@10
   - 🇺🇸_US_美国_11_7@11
   - 🇺🇸_US_美国_12_7@12
   - 🇺🇸_US_美国_13_7@13
@@ -9072,13 +7492,11 @@ proxy-groups:
   - 🇳🇱_NL_荷兰_7@30
   - 🇳🇴_NO_挪威_7@32
   - 🇺🇸_US_美国_21_7@33
-  - 🇯🇵_JP_日本->🇸🇬_SG_新加坡_7@34
   - 🇯🇵_JP_日本_7@35
   - 🇰🇷_KR_韩国_1_8@0
   - 🇫🇷_FR_法国_1_8@1
   - 🇷🇺_RU_俄罗斯联邦_1_8@2
   - 🇯🇵_JP_日本_1_8@4
-  - 🇺🇸_US_美国->🇳🇱_NL_荷兰_8@13
   - 🇷🇺_RU_俄罗斯联邦_2_8@16
   - 🇸🇬_SG_新加坡_1_8@17
   - 🇯🇵_JP_日本_2_8@18
@@ -9091,20 +7509,15 @@ proxy-groups:
   - 🇺🇸_US_美国_3_8@25
   - 🇭🇰_HK_香港_8@29
   - 🇺🇸_US_美国_4_8@32
-  - 🇳🇱_NL_荷兰->🇹🇼_TW_台湾_8@34
-  - 🇨🇷_CR_哥斯达黎加->🇺🇸_US_美国_1_9@0
   - 🇺🇸_US_美国_1_9@1
   - 🇰🇷_KR_韩国_1_9@3
   - 🇺🇸_US_美国_3_9@4
   - 🇺🇸_US_美国_4_9@5
   - 🇺🇸_US_美国_5_9@6
-  - 🇺🇸_US_美国->🇳🇱_NL_荷兰_9@7
   - 🇭🇰_HK_香港_9@8
   - 🇰🇷_KR_韩国_2_9@9
   - 🇺🇸_US_美国_6_9@11
   - 🇺🇸_US_美国_7_9@12
-  - 🇺🇸_US_美国->🇩🇪_DE_德国_2_9@13
-  - 🇳🇱_NL_荷兰->🇺🇸_US_美国_9@14
   - 🇺🇸_US_美国_8_9@15
   - 🇺🇸_US_美国_9_9@17
   - 🇺🇸_US_美国_10_9@18
@@ -9112,12 +7525,7 @@ proxy-groups:
   - 🇺🇸_US_美国_12_9@22
   - 🇺🇸_US_美国_13_9@23
   - 🇺🇸_US_美国_14_9@24
-  - 🇬🇧_GB_英国->🇭🇰_HK_香港_9@25
-  - 🇦🇺_AU_澳大利亚->🇹🇼_TW_台湾_1_9@26
-  - 🇦🇺_AU_澳大利亚->🇹🇼_TW_台湾_2_9@27
-  - 🇨🇷_CR_哥斯达黎加->🇺🇸_US_美国_2_9@28
   - 🇸🇬_SG_新加坡_9@29
-  - 🇫🇷_FR_法国->🇺🇸_US_美国_9@30
   - 🇺🇸_US_美国_1_10@0
   - 🇺🇸_US_美国_2_10@1
   - 🇺🇸_US_美国_3_10@2
@@ -9139,26 +7547,14 @@ proxy-groups:
   - 🇺🇸_US_美国_2_11@1
   - 🇺🇸_US_美国_3_11@2
   - 🇺🇸_US_美国_4_11@3
-  - 🇨🇷_CR_哥斯达黎加->🇺🇸_US_美国_1_11@4
-  - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_1_11@5
   - 🇯🇵_JP_日本_11@6
-  - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_2_11@7
   - 🇺🇸_US_美国_5_11@8
   - 🇺🇸_US_美国_6_11@9
   - 🇺🇸_US_美国_7_11@10
   - 🇺🇸_US_美国_8_11@11
-  - 🇨🇷_CR_哥斯达黎加->🇰🇷_KR_韩国_11@12
-  - 🇺🇸_US_美国->🇰🇷_KR_韩国_1_11@13
-  - 🇺🇸_US_美国->🇰🇷_KR_韩国_2_11@14
-  - 🇺🇸_US_美国->🇰🇷_KR_韩国_3_11@15
   - 🇺🇸_US_美国_9_11@16
-  - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_3_11@17
-  - 🇺🇸_US_美国->🇸🇬_SG_新加坡_1_11@19
-  - 🇺🇸_US_美国->🇸🇬_SG_新加坡_2_11@20
   - 🇺🇸_US_美国_11_11@21
   - 🇺🇸_US_美国_12_11@23
-  - 🇧🇷_BR_巴西->🇳🇱_NL_荷兰_11@24
-  - 🇺🇸_US_美国->🇸🇬_SG_新加坡_3_11@25
   - 🇺🇸_US_美国_13_11@26
   - 🇸🇬_SG_新加坡_1_11@27
   - 🇭🇰_HK_香港_1_11@28
@@ -9168,10 +7564,8 @@ proxy-groups:
   - 🇸🇬_SG_新加坡_2_11@35
   - 🇱🇻_LV_拉脱维亚_12@1
   - 🇯🇵_JP_日本_1_12@3
-  - 🇨🇾_CY_塞浦路斯->🇳🇱_NL_荷兰_12@7
   - 🇺🇸_US_美国_4_12@10
   - 🇭🇰_HK_香港_12@11
-  - 🇧🇷_BR_巴西->🇩🇪_DE_德国_12@12
   - 🇯🇵_JP_日本_2_12@14
   - 🇺🇸_US_美国_6_12@16
   - 🇺🇸_US_美国_9_12@19
@@ -9182,19 +7576,13 @@ proxy-groups:
   - 🇺🇸_US_美国_14_12@24
   - 🇺🇸_US_美国_15_12@25
   - 🇺🇸_US_美国_17_12@28
-  - 🇸🇬_SG_新加坡->🇺🇸_US_美国_12@29
   - 🇺🇸_US_美国_18_12@31
   - 🇺🇸_US_美国_1_13@2
-  - 🇺🇸_US_美国->🇮🇩_ID_印度尼西亚_13@6
   - 🇺🇸_US_美国_2_13@9
-  - 🇺🇸_US_美国->🇦🇹_AT_奥地利_1_13@13
   - 🇺🇸_US_美国_3_13@15
   - 🇺🇸_US_美国_4_13@16
-  - 🇺🇸_US_美国->🇳🇱_NL_荷兰_1_13@20
-  - 🇺🇸_US_美国->🇦🇹_AT_奥地利_2_13@22
   - 🇺🇸_US_美国_5_13@23
   - 🇺🇸_US_美国_6_13@25
-  - 🇺🇸_US_美国->🇳🇱_NL_荷兰_2_13@26
   - 🇺🇸_US_美国_11_13@32
   - 🇺🇸_US_美国_2_14@1
   - 🇺🇸_US_美国_3_14@2
@@ -9202,20 +7590,15 @@ proxy-groups:
   - 🇺🇸_US_美国_5_14@4
   - 🇫🇷_FR_法国_1_14@5
   - 🇺🇸_US_美国_7_14@9
-  - 🇩🇪_DE_德国->🇪🇸_ES_西班牙_14@10
   - 🇹🇼_TW_台湾_14@12
   - 🇯🇵_JP_日本_14@17
   - 🇬🇧_GB_英国_14@23
   - 🇭🇰_HK_香港_2_14@24
-  - 🇳🇱_NL_荷兰->🇺🇸_US_美国_2_14@27
   - 🇺🇸_US_美国_12_14@28
   - 🇩🇪_DE_德国_14@30
   - 🇺🇸_US_美国_14_14@34
-  - 🇭🇰_HK_香港->🇳🇱_NL_荷兰_14@35
   - 🇫🇷_FR_法国_2_14@36
   - 🇺🇸_US_美国_15_14@38
-  - 🇫🇷_FR_法国->🇳🇱_NL_荷兰_15@1
-  - 🇭🇰_HK_香港->🇳🇱_NL_荷兰_15@2
   - 🇳🇱_NL_荷兰_15@3
   - 🇰🇷_KR_韩国_1_15@4
   - 🇺🇸_US_美国_1_15@5
@@ -9232,12 +7615,12 @@ proxy-groups:
   - 🇺🇸_US_美国_13_15@21
   - 🇺🇸_US_美国_14_15@22
   - 🇺🇸_US_美国_15_15@23
-  - 🇭🇰_HK_香港->🇯🇵_JP_日本_15@26
   - 🇹🇼_TW_台湾_2_15@27
   - 🇺🇸_US_美国_17_15@28
   - 🇺🇸_US_美国_19_15@30
   - 🇹🇼_TW_台湾_3_15@32
   - 🇹🇼_TW_台湾_4_15@33
+  - 🇩🇪_DE_德国_15@34
   - 🇺🇸_US_美国_21_15@35
   - 🇺🇸_US_美国_22_15@36
   - 🇺🇸_US_美国_1_16@1
@@ -9252,17 +7635,16 @@ proxy-groups:
   - 🇺🇸_US_美国_11_16@16
   - 🇺🇸_US_美国_12_16@17
   - 🇩🇪_DE_德国_1_16@18
-  - 🇺🇸_US_美国->🇳🇱_NL_荷兰_16@20
   - 🇺🇸_US_美国_13_16@21
   - 🇺🇸_US_美国_14_16@22
   - 🇯🇵_JP_日本_2_16@23
+  - 🇺🇸_US_美国_15_16@25
   - 🇺🇸_US_美国_17_16@30
-  - 🇺🇸_US_美国->🇩🇪_DE_德国_2_16@31
   - 🇻🇬_VG_英属维尔京群岛_16@32
+  - 🇳🇱_NL_荷兰_2_16@33
   - 🇭🇰_HK_香港_1_16@34
   - 🇭🇰_HK_香港_2_16@35
   - 🇺🇸_US_美国_18_16@36
-  - 🇨🇭_CH_瑞士->🇯🇵_JP_日本_16@37
   - 🇺🇸_US_美国_20_16@40
   - 🇺🇸_US_美国_21_16@41
   - 🇺🇸_US_美国_1_17@1
@@ -9273,6 +7655,7 @@ proxy-groups:
   - 🇺🇸_US_美国_6_17@9
   - 🇸🇬_SG_新加坡_1_17@10
   - 🇺🇸_US_美国_7_17@11
+  - 🇺🇸_US_美国_8_17@14
   - 🇺🇸_US_美国_9_17@17
   - 🇫🇷_FR_法国_1_17@18
   - 🇫🇷_FR_法国_2_17@19
@@ -9286,13 +7669,10 @@ proxy-groups:
   - 🇺🇸_US_美国_11_17@30
   - 🇸🇬_SG_新加坡_2_17@31
   - 🇸🇬_SG_新加坡_3_17@32
-  - 🇭🇰_HK_香港->🇳🇱_NL_荷兰_17@36
   - 🇺🇸_US_美国_14_17@37
-  - 🇺🇸_US_美国->🇳🇱_NL_荷兰_17@38
   - 🇵🇱_PL_波兰_17@39
   - 🇺🇸_US_美国_15_17@40
   - 🇺🇸_US_美国_16_17@41
-  - 🇳🇱_NL_荷兰->🇺🇸_US_美国_17@42
   - 🇺🇸_US_美国_17_17@43
   - 🇺🇸_US_美国_1_18@0
   - 🇺🇸_US_美国_2_18@1
@@ -9338,7 +7718,6 @@ proxy-groups:
   - 🇺🇸_US_美国_4_19@9
   - 🇺🇸_US_美国_5_19@10
   - 🇺🇸_US_美国_6_19@11
-  - 🇺🇸_US_美国->🇸🇬_SG_新加坡_19@12
   - 🇺🇸_US_美国_7_19@13
   - 🇺🇸_US_美国_8_19@14
   - 🇺🇸_US_美国_9_19@16
@@ -9346,7 +7725,6 @@ proxy-groups:
   - 🇨🇷_CR_哥斯达黎加_1_19@18
   - 🇳🇱_NL_荷兰_19@20
   - 🇯🇵_JP_日本_19@21
-  - 🇺🇸_US_美国->🇳🇱_NL_荷兰_19@24
   - 🇺🇸_US_美国_14_19@25
   - 🇺🇸_US_美国_15_19@26
   - 🇺🇸_US_美国_16_19@27
@@ -9375,24 +7753,19 @@ proxy-groups:
   - 🇺🇸_US_美国_22_20@25
   - 🇺🇸_US_美国_23_20@26
   - 🇺🇸_US_美国_25_20@28
-  - 🇺🇸_US_美国->🇸🇬_SG_新加坡_1_20@29
   - 🇺🇸_US_美国_26_20@30
-  - 🇨🇾_CY_塞浦路斯->🇺🇸_US_美国_20@31
   - 🇸🇬_SG_新加坡_20@32
-  - 🇺🇸_US_美国->🇸🇬_SG_新加坡_2_20@33
   - 🇺🇸_US_美国_27_20@34
   - 🇺🇸_US_美国_28_20@35
   - 🇺🇸_US_美国_30_20@38
   - 🇫🇷_FR_法国_20@40
-  - 🇨🇷_CR_哥斯达黎加->🇸🇬_SG_新加坡_21@1
+  - 🇺🇸_US_美国_1_21@0
   - 🇺🇸_US_美国_2_21@2
-  - 🇺🇸_US_美国->🇸🇬_SG_新加坡_21@4
-  - 🇹🇼_TW_台湾->🇺🇸_US_美国_1_21@5
-  - 🇹🇼_TW_台湾->🇺🇸_US_美国_2_21@6
   - 🇯🇵_JP_日本_21@7
   - 🇺🇸_US_美国_3_21@10
   - 🇺🇸_US_美国_5_21@13
-  - 🇳🇱_NL_荷兰->🇺🇸_US_美国_21@15
+  - 🇺🇸_US_美国_6_21@16
+  - 🇺🇸_US_美国_7_21@17
   - 🇸🇬_SG_新加坡_1_21@18
   - 🇺🇸_US_美国_8_21@19
   - 🇺🇸_US_美国_9_21@20
@@ -9401,10 +7774,9 @@ proxy-groups:
   - 🇺🇸_US_美国_12_21@24
   - 🇺🇸_US_美国_13_21@25
   - 🇺🇸_US_美国_14_21@26
-  - 🇨🇷_CR_哥斯达黎加->🇺🇸_US_美国_1_21@28
+  - 🇺🇸_US_美国_15_21@27
   - 🇺🇸_US_美国_16_21@29
   - 🇺🇸_US_美国_17_21@30
-  - 🇨🇷_CR_哥斯达黎加->🇺🇸_US_美国_2_21@31
   - 🇺🇸_US_美国_18_21@33
   - 🇺🇸_US_美国_19_21@34
   - 🇨🇦_CA_加拿大_21@35
@@ -9414,7 +7786,6 @@ proxy-groups:
   - 🇭🇰_HK_香港_22@23
   - 🇺🇸_US_美国_2_22@28
   - 🇺🇸_US_美国_6_22@33
-  - 🇳🇱_NL_荷兰->🇺🇸_US_美国_22@34
   - 🇺🇸_US_美国_7_22@35
   - 🇺🇸_US_美国_8_22@36
   - 🇺🇸_US_美国_11_22@40
@@ -9423,20 +7794,17 @@ proxy-groups:
   - 🇺🇸_US_美国_14_22@43
   - 🇺🇸_US_美国_15_22@44
   - 🇰🇷_KR_韩国_22@47
-  - 🇰🇷_KR_韩国->🇺🇸_US_美国_23@0
   - 🇭🇰_HK_香港_23@2
   - 🇺🇸_US_美国_1_23@4
   - 🇺🇸_US_美国_2_23@11
   - 🇺🇸_US_美国_3_23@28
   - 🇺🇸_US_美国_5_23@37
-  - 🇰🇿_KZ_哈萨克斯坦->🇸🇬_SG_新加坡_23@38
   - 🇺🇸_US_美国_6_23@39
   - 🇺🇸_US_美国_1_24@0
   - 🇺🇸_US_美国_2_24@1
   - 🇺🇸_US_美国_3_24@2
   - 🇺🇸_US_美国_4_24@3
   - 🇺🇸_US_美国_5_24@4
-  - 🇺🇸_US_美国->🇳🇱_NL_荷兰_24@5
   - 🇺🇸_US_美国_6_24@6
   - 🇰🇷_KR_韩国_1_24@7
   - 🇰🇷_KR_韩国_2_24@8
@@ -9447,7 +7815,6 @@ proxy-groups:
   - 🇺🇸_US_美国_10_24@17
   - 🇺🇸_US_美国_11_24@18
   - 🇺🇸_US_美国_12_24@19
-  - 🇺🇸_US_美国->🇩🇪_DE_德国_24@21
   - 🇺🇸_US_美国_14_24@23
   - 🇺🇸_US_美国_15_24@24
   - 🇺🇸_US_美国_16_24@25
@@ -9455,7 +7822,6 @@ proxy-groups:
   - 🇺🇸_US_美国_19_24@30
   - 🇹🇼_TW_台湾_2_24@31
   - 🇺🇸_US_美国_21_24@33
-  - 🇨🇦_CA_加拿大->🇺🇸_US_美国_24@34
   - 🇰🇷_KR_韩国_3_24@36
   - 🇭🇰_HK_香港_24@37
   type: select
@@ -9482,75 +7848,49 @@ proxy-groups:
   - 🎯 全球直连
   - 🇺🇸_US_美国_1_0@0
   - 🇺🇸_US_美国_2_0@1
-  - 🇺🇸_US_美国->🇳🇱_NL_荷兰_1_0@11
   - 🇺🇸_US_美国_3_0@25
   - 🇺🇸_US_美国_4_0@26
   - 🇩🇪_DE_德国_0@27
   - 🇺🇸_US_美国_5_0@29
   - 🇳🇱_NL_荷兰_0@30
-  - 🇺🇸_US_美国->🇳🇱_NL_荷兰_2_0@31
-  - 🇺🇸_US_美国->🇨🇦_CA_加拿大_0@32
   - 🇺🇸_US_美国_6_0@33
   - 🇸🇬_SG_新加坡_0@34
   - 🇺🇸_US_美国_7_0@35
   - 🇺🇸_US_美国_1_1@3
   - 🇺🇸_US_美国_2_1@5
   - 🇺🇸_US_美国_3_1@7
-  - 🇨🇷_CR_哥斯达黎加->🇺🇸_US_美国_1_1@8
   - 🇺🇸_US_美国_4_1@9
-  - 🇨🇷_CR_哥斯达黎加->🇺🇸_US_美国_2_1@13
   - 🇺🇸_US_美国_5_1@14
-  - 🇨🇷_CR_哥斯达黎加->🇺🇸_US_美国_3_1@16
   - 🇺🇸_US_美国_7_1@20
   - 🇺🇸_US_美国_8_1@21
-  - 🇭🇰_HK_香港->🇺🇸_US_美国_1_1@26
-  - 🇭🇰_HK_香港->🇺🇸_US_美国_2_1@27
-  - 🇭🇰_HK_香港->🇺🇸_US_美国_3_1@28
-  - 🇭🇰_HK_香港->🇺🇸_US_美国_4_1@29
-  - 🇭🇰_HK_香港->🇺🇸_US_美国_5_1@30
-  - 🇭🇰_HK_香港->🇺🇸_US_美国_6_1@31
-  - 🇭🇰_HK_香港->🇺🇸_US_美国_7_1@32
   - 🇯🇵_JP_日本_1_1@33
   - 🇯🇵_JP_日本_2_1@34
   - 🇸🇬_SG_新加坡_1_2@0
   - 🇯🇵_JP_日本_1_2@1
   - 🇷🇺_RU_俄罗斯联邦_2@2
-  - 🇭🇰_HK_香港->🇺🇸_US_美国_1_2@5
-  - 🇭🇰_HK_香港->🇺🇸_US_美国_2_2@6
-  - 🇭🇰_HK_香港->🇺🇸_US_美国_3_2@7
-  - 🇭🇰_HK_香港->🇺🇸_US_美国_5_2@9
   - 🇺🇸_US_美国_2_2@10
   - 🇺🇸_US_美国_3_2@12
   - 🇬🇧_GB_英国_2@13
   - 🇭🇰_HK_香港_1_2@14
   - 🇳🇱_NL_荷兰_2@15
-  - 🇭🇰_HK_香港->🇺🇸_US_美国_6_2@16
-  - 🇭🇰_HK_香港->🇺🇸_US_美国_7_2@17
-  - 🇭🇰_HK_香港->🇺🇸_US_美国_8_2@18
-  - 🇨🇷_CR_哥斯达黎加->🇺🇸_US_美国_2@19
   - 🇺🇸_US_美国_4_2@20
   - 🇰🇷_KR_韩国_2@21
-  - 🇺🇸_US_美国->🇳🇱_NL_荷兰_2@22
   - 🇺🇸_US_美国_5_2@23
   - 🇯🇵_JP_日本_2_2@24
   - 🇯🇵_JP_日本_3_2@25
   - 🇪🇸_ES_西班牙_2@26
-  - 🇫🇷_FR_法国->🇦🇹_AT_奥地利_2@27
   - 🇹🇼_TW_台湾_2@28
   - 🇫🇷_FR_法国_2@29
   - 🇸🇬_SG_新加坡_2_2@30
-  - 🇺🇸_US_美国->🇩🇪_DE_德国_2@31
   - 🇭🇰_HK_香港_2_2@33
   - 🇺🇸_US_美国_6_2@34
   - 🇰🇷_KR_韩国_1_3@0
   - 🇺🇸_US_美国_1_3@2
   - 🇺🇸_US_美国_2_3@3
-  - 🇺🇸_US_美国->🇳🇱_NL_荷兰_3@6
   - 🇺🇸_US_美国_4_3@7
   - 🇺🇸_US_美国_5_3@8
   - 🇺🇸_US_美国_6_3@9
   - 🇸🇬_SG_新加坡_1_3@12
-  - 🇫🇷_FR_法国->🇳🇴_NO_挪威_3@14
   - 🇺🇸_US_美国_7_3@15
   - 🇸🇬_SG_新加坡_2_3@16
   - 🇰🇷_KR_韩国_2_3@17
@@ -9563,17 +7903,13 @@ proxy-groups:
   - 🇸🇬_SG_新加坡_4@2
   - 🇺🇸_US_美国_2_4@3
   - 🇺🇸_US_美国_3_4@5
-  - 🇺🇸_US_美国->🇨🇦_CA_加拿大_1_4@9
-  - 🇺🇸_US_美国->🇨🇦_CA_加拿大_2_4@10
   - 🇺🇸_US_美国_5_4@12
-  - 🇺🇸_US_美国->🇩🇪_DE_德国_2_4@13
   - 🇷🇺_RU_俄罗斯联邦_4@14
   - 🇺🇸_US_美国_6_4@15
-  - 🇺🇸_US_美国->🇯🇵_JP_日本_1_4@17
-  - 🇺🇸_US_美国->🇯🇵_JP_日本_2_4@18
   - 🇮🇳_IN_印度_4@19
   - 🇱🇻_LV_拉脱维亚_4@20
   - 🇰🇷_KR_韩国_1_5@1
+  - 🇫🇷_FR_法国_2_5@2
   - 🇺🇸_US_美国_1_5@3
   - 🇯🇵_JP_日本_1_5@4
   - 🇰🇷_KR_韩国_2_5@5
@@ -9582,7 +7918,6 @@ proxy-groups:
   - 🇯🇵_JP_日本_2_5@9
   - 🇰🇷_KR_韩国_3_5@13
   - 🇺🇸_US_美国_4_5@18
-  - 🇯🇵_JP_日本->🇬🇧_GB_英国_5@19
   - 🇺🇸_US_美国_6_5@21
   - 🇺🇸_US_美国_8_5@23
   - 🇹🇷_TR_土耳其_1_5@25
@@ -9590,6 +7925,7 @@ proxy-groups:
   - 🇺🇸_US_美国_1_6@0
   - 🇺🇸_US_美国_4_6@3
   - 🇺🇸_US_美国_5_6@4
+  - 🇫🇷_FR_法国_6@5
   - 🇺🇸_US_美国_6_6@7
   - 🇺🇸_US_美国_7_6@9
   - 🇩🇪_DE_德国_6@10
@@ -9597,7 +7933,6 @@ proxy-groups:
   - 🇰🇪_KE_肯尼亚_6@12
   - 🇺🇸_US_美国_9_6@13
   - 🇺🇸_US_美国_10_6@14
-  - 🇸🇬_SG_新加坡->🇺🇸_US_美国_6@15
   - 🇺🇸_US_美国_12_6@17
   - 🇸🇬_SG_新加坡_6@18
   - 🇺🇸_US_美国_13_6@20
@@ -9605,8 +7940,8 @@ proxy-groups:
   - 🇮🇳_IN_印度_6@22
   - 🇨🇾_CY_塞浦路斯_6@23
   - 🇹🇷_TR_土耳其_1_6@24
+  - 🇺🇸_US_美国_14_6@26
   - 🇹🇷_TR_土耳其_2_6@27
-  - 🇺🇸_US_美国->🇩🇪_DE_德国_6@28
   - 🇺🇸_US_美国_1_7@0
   - 🇺🇸_US_美国_2_7@1
   - 🇺🇸_US_美国_3_7@2
@@ -9616,7 +7951,6 @@ proxy-groups:
   - 🇺🇸_US_美国_8_7@7
   - 🇺🇸_US_美国_9_7@8
   - 🇺🇸_US_美国_10_7@9
-  - 🇫🇷_FR_法国->🇳🇱_NL_荷兰_7@10
   - 🇺🇸_US_美国_11_7@11
   - 🇺🇸_US_美国_12_7@12
   - 🇺🇸_US_美国_13_7@13
@@ -9636,13 +7970,11 @@ proxy-groups:
   - 🇳🇱_NL_荷兰_7@30
   - 🇳🇴_NO_挪威_7@32
   - 🇺🇸_US_美国_21_7@33
-  - 🇯🇵_JP_日本->🇸🇬_SG_新加坡_7@34
   - 🇯🇵_JP_日本_7@35
   - 🇰🇷_KR_韩国_1_8@0
   - 🇫🇷_FR_法国_1_8@1
   - 🇷🇺_RU_俄罗斯联邦_1_8@2
   - 🇯🇵_JP_日本_1_8@4
-  - 🇺🇸_US_美国->🇳🇱_NL_荷兰_8@13
   - 🇷🇺_RU_俄罗斯联邦_2_8@16
   - 🇸🇬_SG_新加坡_1_8@17
   - 🇯🇵_JP_日本_2_8@18
@@ -9655,20 +7987,15 @@ proxy-groups:
   - 🇺🇸_US_美国_3_8@25
   - 🇭🇰_HK_香港_8@29
   - 🇺🇸_US_美国_4_8@32
-  - 🇳🇱_NL_荷兰->🇹🇼_TW_台湾_8@34
-  - 🇨🇷_CR_哥斯达黎加->🇺🇸_US_美国_1_9@0
   - 🇺🇸_US_美国_1_9@1
   - 🇰🇷_KR_韩国_1_9@3
   - 🇺🇸_US_美国_3_9@4
   - 🇺🇸_US_美国_4_9@5
   - 🇺🇸_US_美国_5_9@6
-  - 🇺🇸_US_美国->🇳🇱_NL_荷兰_9@7
   - 🇭🇰_HK_香港_9@8
   - 🇰🇷_KR_韩国_2_9@9
   - 🇺🇸_US_美国_6_9@11
   - 🇺🇸_US_美国_7_9@12
-  - 🇺🇸_US_美国->🇩🇪_DE_德国_2_9@13
-  - 🇳🇱_NL_荷兰->🇺🇸_US_美国_9@14
   - 🇺🇸_US_美国_8_9@15
   - 🇺🇸_US_美国_9_9@17
   - 🇺🇸_US_美国_10_9@18
@@ -9676,12 +8003,7 @@ proxy-groups:
   - 🇺🇸_US_美国_12_9@22
   - 🇺🇸_US_美国_13_9@23
   - 🇺🇸_US_美国_14_9@24
-  - 🇬🇧_GB_英国->🇭🇰_HK_香港_9@25
-  - 🇦🇺_AU_澳大利亚->🇹🇼_TW_台湾_1_9@26
-  - 🇦🇺_AU_澳大利亚->🇹🇼_TW_台湾_2_9@27
-  - 🇨🇷_CR_哥斯达黎加->🇺🇸_US_美国_2_9@28
   - 🇸🇬_SG_新加坡_9@29
-  - 🇫🇷_FR_法国->🇺🇸_US_美国_9@30
   - 🇺🇸_US_美国_1_10@0
   - 🇺🇸_US_美国_2_10@1
   - 🇺🇸_US_美国_3_10@2
@@ -9703,26 +8025,14 @@ proxy-groups:
   - 🇺🇸_US_美国_2_11@1
   - 🇺🇸_US_美国_3_11@2
   - 🇺🇸_US_美国_4_11@3
-  - 🇨🇷_CR_哥斯达黎加->🇺🇸_US_美国_1_11@4
-  - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_1_11@5
   - 🇯🇵_JP_日本_11@6
-  - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_2_11@7
   - 🇺🇸_US_美国_5_11@8
   - 🇺🇸_US_美国_6_11@9
   - 🇺🇸_US_美国_7_11@10
   - 🇺🇸_US_美国_8_11@11
-  - 🇨🇷_CR_哥斯达黎加->🇰🇷_KR_韩国_11@12
-  - 🇺🇸_US_美国->🇰🇷_KR_韩国_1_11@13
-  - 🇺🇸_US_美国->🇰🇷_KR_韩国_2_11@14
-  - 🇺🇸_US_美国->🇰🇷_KR_韩国_3_11@15
   - 🇺🇸_US_美国_9_11@16
-  - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_3_11@17
-  - 🇺🇸_US_美国->🇸🇬_SG_新加坡_1_11@19
-  - 🇺🇸_US_美国->🇸🇬_SG_新加坡_2_11@20
   - 🇺🇸_US_美国_11_11@21
   - 🇺🇸_US_美国_12_11@23
-  - 🇧🇷_BR_巴西->🇳🇱_NL_荷兰_11@24
-  - 🇺🇸_US_美国->🇸🇬_SG_新加坡_3_11@25
   - 🇺🇸_US_美国_13_11@26
   - 🇸🇬_SG_新加坡_1_11@27
   - 🇭🇰_HK_香港_1_11@28
@@ -9732,10 +8042,8 @@ proxy-groups:
   - 🇸🇬_SG_新加坡_2_11@35
   - 🇱🇻_LV_拉脱维亚_12@1
   - 🇯🇵_JP_日本_1_12@3
-  - 🇨🇾_CY_塞浦路斯->🇳🇱_NL_荷兰_12@7
   - 🇺🇸_US_美国_4_12@10
   - 🇭🇰_HK_香港_12@11
-  - 🇧🇷_BR_巴西->🇩🇪_DE_德国_12@12
   - 🇯🇵_JP_日本_2_12@14
   - 🇺🇸_US_美国_6_12@16
   - 🇺🇸_US_美国_9_12@19
@@ -9746,19 +8054,13 @@ proxy-groups:
   - 🇺🇸_US_美国_14_12@24
   - 🇺🇸_US_美国_15_12@25
   - 🇺🇸_US_美国_17_12@28
-  - 🇸🇬_SG_新加坡->🇺🇸_US_美国_12@29
   - 🇺🇸_US_美国_18_12@31
   - 🇺🇸_US_美国_1_13@2
-  - 🇺🇸_US_美国->🇮🇩_ID_印度尼西亚_13@6
   - 🇺🇸_US_美国_2_13@9
-  - 🇺🇸_US_美国->🇦🇹_AT_奥地利_1_13@13
   - 🇺🇸_US_美国_3_13@15
   - 🇺🇸_US_美国_4_13@16
-  - 🇺🇸_US_美国->🇳🇱_NL_荷兰_1_13@20
-  - 🇺🇸_US_美国->🇦🇹_AT_奥地利_2_13@22
   - 🇺🇸_US_美国_5_13@23
   - 🇺🇸_US_美国_6_13@25
-  - 🇺🇸_US_美国->🇳🇱_NL_荷兰_2_13@26
   - 🇺🇸_US_美国_11_13@32
   - 🇺🇸_US_美国_2_14@1
   - 🇺🇸_US_美国_3_14@2
@@ -9766,20 +8068,15 @@ proxy-groups:
   - 🇺🇸_US_美国_5_14@4
   - 🇫🇷_FR_法国_1_14@5
   - 🇺🇸_US_美国_7_14@9
-  - 🇩🇪_DE_德国->🇪🇸_ES_西班牙_14@10
   - 🇹🇼_TW_台湾_14@12
   - 🇯🇵_JP_日本_14@17
   - 🇬🇧_GB_英国_14@23
   - 🇭🇰_HK_香港_2_14@24
-  - 🇳🇱_NL_荷兰->🇺🇸_US_美国_2_14@27
   - 🇺🇸_US_美国_12_14@28
   - 🇩🇪_DE_德国_14@30
   - 🇺🇸_US_美国_14_14@34
-  - 🇭🇰_HK_香港->🇳🇱_NL_荷兰_14@35
   - 🇫🇷_FR_法国_2_14@36
   - 🇺🇸_US_美国_15_14@38
-  - 🇫🇷_FR_法国->🇳🇱_NL_荷兰_15@1
-  - 🇭🇰_HK_香港->🇳🇱_NL_荷兰_15@2
   - 🇳🇱_NL_荷兰_15@3
   - 🇰🇷_KR_韩国_1_15@4
   - 🇺🇸_US_美国_1_15@5
@@ -9796,12 +8093,12 @@ proxy-groups:
   - 🇺🇸_US_美国_13_15@21
   - 🇺🇸_US_美国_14_15@22
   - 🇺🇸_US_美国_15_15@23
-  - 🇭🇰_HK_香港->🇯🇵_JP_日本_15@26
   - 🇹🇼_TW_台湾_2_15@27
   - 🇺🇸_US_美国_17_15@28
   - 🇺🇸_US_美国_19_15@30
   - 🇹🇼_TW_台湾_3_15@32
   - 🇹🇼_TW_台湾_4_15@33
+  - 🇩🇪_DE_德国_15@34
   - 🇺🇸_US_美国_21_15@35
   - 🇺🇸_US_美国_22_15@36
   - 🇺🇸_US_美国_1_16@1
@@ -9816,17 +8113,16 @@ proxy-groups:
   - 🇺🇸_US_美国_11_16@16
   - 🇺🇸_US_美国_12_16@17
   - 🇩🇪_DE_德国_1_16@18
-  - 🇺🇸_US_美国->🇳🇱_NL_荷兰_16@20
   - 🇺🇸_US_美国_13_16@21
   - 🇺🇸_US_美国_14_16@22
   - 🇯🇵_JP_日本_2_16@23
+  - 🇺🇸_US_美国_15_16@25
   - 🇺🇸_US_美国_17_16@30
-  - 🇺🇸_US_美国->🇩🇪_DE_德国_2_16@31
   - 🇻🇬_VG_英属维尔京群岛_16@32
+  - 🇳🇱_NL_荷兰_2_16@33
   - 🇭🇰_HK_香港_1_16@34
   - 🇭🇰_HK_香港_2_16@35
   - 🇺🇸_US_美国_18_16@36
-  - 🇨🇭_CH_瑞士->🇯🇵_JP_日本_16@37
   - 🇺🇸_US_美国_20_16@40
   - 🇺🇸_US_美国_21_16@41
   - 🇺🇸_US_美国_1_17@1
@@ -9837,6 +8133,7 @@ proxy-groups:
   - 🇺🇸_US_美国_6_17@9
   - 🇸🇬_SG_新加坡_1_17@10
   - 🇺🇸_US_美国_7_17@11
+  - 🇺🇸_US_美国_8_17@14
   - 🇺🇸_US_美国_9_17@17
   - 🇫🇷_FR_法国_1_17@18
   - 🇫🇷_FR_法国_2_17@19
@@ -9850,13 +8147,10 @@ proxy-groups:
   - 🇺🇸_US_美国_11_17@30
   - 🇸🇬_SG_新加坡_2_17@31
   - 🇸🇬_SG_新加坡_3_17@32
-  - 🇭🇰_HK_香港->🇳🇱_NL_荷兰_17@36
   - 🇺🇸_US_美国_14_17@37
-  - 🇺🇸_US_美国->🇳🇱_NL_荷兰_17@38
   - 🇵🇱_PL_波兰_17@39
   - 🇺🇸_US_美国_15_17@40
   - 🇺🇸_US_美国_16_17@41
-  - 🇳🇱_NL_荷兰->🇺🇸_US_美国_17@42
   - 🇺🇸_US_美国_17_17@43
   - 🇺🇸_US_美国_1_18@0
   - 🇺🇸_US_美国_2_18@1
@@ -9902,7 +8196,6 @@ proxy-groups:
   - 🇺🇸_US_美国_4_19@9
   - 🇺🇸_US_美国_5_19@10
   - 🇺🇸_US_美国_6_19@11
-  - 🇺🇸_US_美国->🇸🇬_SG_新加坡_19@12
   - 🇺🇸_US_美国_7_19@13
   - 🇺🇸_US_美国_8_19@14
   - 🇺🇸_US_美国_9_19@16
@@ -9910,7 +8203,6 @@ proxy-groups:
   - 🇨🇷_CR_哥斯达黎加_1_19@18
   - 🇳🇱_NL_荷兰_19@20
   - 🇯🇵_JP_日本_19@21
-  - 🇺🇸_US_美国->🇳🇱_NL_荷兰_19@24
   - 🇺🇸_US_美国_14_19@25
   - 🇺🇸_US_美国_15_19@26
   - 🇺🇸_US_美国_16_19@27
@@ -9939,24 +8231,19 @@ proxy-groups:
   - 🇺🇸_US_美国_22_20@25
   - 🇺🇸_US_美国_23_20@26
   - 🇺🇸_US_美国_25_20@28
-  - 🇺🇸_US_美国->🇸🇬_SG_新加坡_1_20@29
   - 🇺🇸_US_美国_26_20@30
-  - 🇨🇾_CY_塞浦路斯->🇺🇸_US_美国_20@31
   - 🇸🇬_SG_新加坡_20@32
-  - 🇺🇸_US_美国->🇸🇬_SG_新加坡_2_20@33
   - 🇺🇸_US_美国_27_20@34
   - 🇺🇸_US_美国_28_20@35
   - 🇺🇸_US_美国_30_20@38
   - 🇫🇷_FR_法国_20@40
-  - 🇨🇷_CR_哥斯达黎加->🇸🇬_SG_新加坡_21@1
+  - 🇺🇸_US_美国_1_21@0
   - 🇺🇸_US_美国_2_21@2
-  - 🇺🇸_US_美国->🇸🇬_SG_新加坡_21@4
-  - 🇹🇼_TW_台湾->🇺🇸_US_美国_1_21@5
-  - 🇹🇼_TW_台湾->🇺🇸_US_美国_2_21@6
   - 🇯🇵_JP_日本_21@7
   - 🇺🇸_US_美国_3_21@10
   - 🇺🇸_US_美国_5_21@13
-  - 🇳🇱_NL_荷兰->🇺🇸_US_美国_21@15
+  - 🇺🇸_US_美国_6_21@16
+  - 🇺🇸_US_美国_7_21@17
   - 🇸🇬_SG_新加坡_1_21@18
   - 🇺🇸_US_美国_8_21@19
   - 🇺🇸_US_美国_9_21@20
@@ -9965,10 +8252,9 @@ proxy-groups:
   - 🇺🇸_US_美国_12_21@24
   - 🇺🇸_US_美国_13_21@25
   - 🇺🇸_US_美国_14_21@26
-  - 🇨🇷_CR_哥斯达黎加->🇺🇸_US_美国_1_21@28
+  - 🇺🇸_US_美国_15_21@27
   - 🇺🇸_US_美国_16_21@29
   - 🇺🇸_US_美国_17_21@30
-  - 🇨🇷_CR_哥斯达黎加->🇺🇸_US_美国_2_21@31
   - 🇺🇸_US_美国_18_21@33
   - 🇺🇸_US_美国_19_21@34
   - 🇨🇦_CA_加拿大_21@35
@@ -9978,7 +8264,6 @@ proxy-groups:
   - 🇭🇰_HK_香港_22@23
   - 🇺🇸_US_美国_2_22@28
   - 🇺🇸_US_美国_6_22@33
-  - 🇳🇱_NL_荷兰->🇺🇸_US_美国_22@34
   - 🇺🇸_US_美国_7_22@35
   - 🇺🇸_US_美国_8_22@36
   - 🇺🇸_US_美国_11_22@40
@@ -9987,20 +8272,17 @@ proxy-groups:
   - 🇺🇸_US_美国_14_22@43
   - 🇺🇸_US_美国_15_22@44
   - 🇰🇷_KR_韩国_22@47
-  - 🇰🇷_KR_韩国->🇺🇸_US_美国_23@0
   - 🇭🇰_HK_香港_23@2
   - 🇺🇸_US_美国_1_23@4
   - 🇺🇸_US_美国_2_23@11
   - 🇺🇸_US_美国_3_23@28
   - 🇺🇸_US_美国_5_23@37
-  - 🇰🇿_KZ_哈萨克斯坦->🇸🇬_SG_新加坡_23@38
   - 🇺🇸_US_美国_6_23@39
   - 🇺🇸_US_美国_1_24@0
   - 🇺🇸_US_美国_2_24@1
   - 🇺🇸_US_美国_3_24@2
   - 🇺🇸_US_美国_4_24@3
   - 🇺🇸_US_美国_5_24@4
-  - 🇺🇸_US_美国->🇳🇱_NL_荷兰_24@5
   - 🇺🇸_US_美国_6_24@6
   - 🇰🇷_KR_韩国_1_24@7
   - 🇰🇷_KR_韩国_2_24@8
@@ -10011,7 +8293,6 @@ proxy-groups:
   - 🇺🇸_US_美国_10_24@17
   - 🇺🇸_US_美国_11_24@18
   - 🇺🇸_US_美国_12_24@19
-  - 🇺🇸_US_美国->🇩🇪_DE_德国_24@21
   - 🇺🇸_US_美国_14_24@23
   - 🇺🇸_US_美国_15_24@24
   - 🇺🇸_US_美国_16_24@25
@@ -10019,7 +8300,6 @@ proxy-groups:
   - 🇺🇸_US_美国_19_24@30
   - 🇹🇼_TW_台湾_2_24@31
   - 🇺🇸_US_美国_21_24@33
-  - 🇨🇦_CA_加拿大->🇺🇸_US_美国_24@34
   - 🇰🇷_KR_韩国_3_24@36
   - 🇭🇰_HK_香港_24@37
   type: select
