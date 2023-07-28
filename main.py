@@ -46,7 +46,7 @@ def fetch_html(url:str) -> str:
         print(f'[-] Error Occurs When Fetching Content Of {url}: {e}')
         return ''
 
-def is_proxy_valid(proxy: Dict[str, Any], test_url: str = "http://www.gstatic.com/generate_204") -> bool:
+def is_proxy_valid(proxy: Dict[str, Any], test_url: str = "http://www.gstatic.com/generate_204", timeout: int = 3) -> bool:
     """
     测试代理节点是否有效
     """
@@ -55,10 +55,23 @@ def is_proxy_valid(proxy: Dict[str, Any], test_url: str = "http://www.gstatic.co
         'https': f"{proxy['type']}://{proxy['server']}:{proxy['port']}"
     }
     try:
-        resp = requests.get(test_url, proxies=proxies, timeout=5)
+        # 记录开始时间
+        start_time = time.time()
+        # 发送网络请求
+        resp = requests.get(test_url, proxies=proxies, timeout=timeout)
+        # 记录结束时间
+        end_time = time.time()
+        # 计算延迟（单位为秒）
+        latency = end_time - start_time
+        # 打印延迟信息
+        print(f"[+] Proxy {proxy['name']} has a latency of {latency:.2f} seconds")
+        # 判断是否成功访问网站
         return resp.status_code == 200
     except:
+        # 打印错误信息
+        print(f"[-] Proxy {proxy['name']} is not valid or timed out")
         return False
+
 
 
 def merge_clash(configs:List[str]) -> str:
