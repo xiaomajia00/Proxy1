@@ -1,4 +1,5 @@
 requests==2.31.0
 pyyaml
+pyproject.toml-based
 v2ray_util
 ssr_utils
