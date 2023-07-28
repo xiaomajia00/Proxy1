@@ -50,10 +50,26 @@ def is_proxy_valid(proxy: Dict[str, Any], test_url: str = "http://ip.cn", timeou
     """
     测试代理节点是否有效
     """
-    proxies = {
-        'http': f"{proxy['type']}://{proxy['server']}:{proxy['port']}",
-        'https': f"{proxy['type']}://{proxy['server']}:{proxy['port']}"
-    }
+    # 根据代理节点的类型和协议来设置 HTTP 和 HTTPS 的代理
+    if proxy['type'] == 'http':
+        proxies = {
+            'http': f"http://{proxy['server']}:{proxy['port']}",
+            'https': f"http://{proxy['server']}:{proxy['port']}"
+        }
+    elif proxy['type'] == 'https':
+        proxies = {
+            'http': f"https://{proxy['server']}:{proxy['port']}",
+            'https': f"https://{proxy['server']}:{proxy['port']}"
+        }
+    elif proxy['type'] == 'socks5':
+        proxies = {
+            'http': f"socks5://{proxy['server']}:{proxy['port']}",
+            'https': f"socks5://{proxy['server']}:{proxy['port']}"
+        }
+    else:
+        # 如果代理节点的类型不是以上三种，那么返回 False
+        print(f"[-] Proxy {proxy['name']} has an invalid type: {proxy['type']}")
+        return False
     try:
         # 记录开始时间
         start_time = time.time()
@@ -71,8 +87,6 @@ def is_proxy_valid(proxy: Dict[str, Any], test_url: str = "http://ip.cn", timeou
         # 打印错误信息
         print(f"[-] Proxy {proxy['name']} is not valid or timed out")
         return False
-
-
 
 def merge_clash(configs:List[str]) -> str:
     '''
