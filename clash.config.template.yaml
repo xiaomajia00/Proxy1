@@ -2,7 +2,6 @@ mixed-port: 7890
 allow-lan: true
 mode: Rule
 log-level: info
-external-controller: 0.0.0.0:9090
 proxies:
   - {"key": "value"}
 proxy-groups:
