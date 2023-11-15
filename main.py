@@ -130,6 +130,8 @@ def merge_clash(configs:List[str]) -> str:
             if ">" in proxy['name']:
                 continue
             # 测试代理节点是否有效，如果无效，则跳过该节点
+            if "vless" in proxy['type']:
+                continue
             #if not is_proxy_valid(proxy):
                # continue
             # 修改代理节点的名称，添加序号信息
