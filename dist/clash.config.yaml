@@ -1112,46 +1112,6 @@ proxies:
   udp: true
   ws-opts:
     path: /jsjc/us2
-- name: 🇺🇸_US_美国_1_11@2
-  network: ws
-  port: 443
-  server: 104.24.176.7
-  servername: cf-wkrs-pages-vless-aoy.pages.dev
-  tls: true
-  type: vless
-  uuid: 884f9b2c-f0c5-44dd-a68e-3e39ce93bb39
-  ws-opts:
-    path: /@v2ray_god = چنل تلگرام🇮🇷@v2ray_god = چنل تلگرام🇮🇷
-- name: 🇺🇸_US_美国_2_11@4
-  network: ws
-  port: 443
-  server: 172.66.47.84
-  servername: cf-wkrs-pages-vless-aoy.pages.dev
-  tls: true
-  type: vless
-  uuid: 884f9b2c-f0c5-44dd-a68e-3e39ce93bb39
-  ws-opts:
-    path: /
-- name: 🇺🇸_US_美国_3_11@6
-  network: ws
-  port: 443
-  server: 172.67.217.82
-  servername: interlopers.realbarcafootball.com
-  tls: true
-  type: vless
-  uuid: 3480ec71-92aa-4e2a-ae74-efc2e12f0fbf
-  ws-opts:
-    path: /nimws
-- name: 🇺🇸_US_美国_4_11@7
-  network: ws
-  port: 2083
-  server: 104.24.145.43
-  servername: vip1.futurevpn.fun
-  tls: true
-  type: vless
-  uuid: b3c67462-87f5-442e-8cdc-fc298e397815
-  ws-opts:
-    path: /
 - alterId: 0
   cipher: auto
   name: 🇺🇸_US_美国_5_11@9
@@ -1166,26 +1126,6 @@ proxies:
     headers:
       host: airusa.daozhang.link
     path: /
-- name: 🇺🇸_US_美国_6_11@10
-  network: ws
-  port: 443
-  server: 172.66.47.174
-  servername: edtunnel-b6t.pages.dev
-  tls: true
-  type: vless
-  uuid: c688395a-b36b-4071-974b-bc91ac2ad2c4
-  ws-opts:
-    path: /
-- name: 🇺🇸_US_美国_7_11@13
-  network: ws
-  port: 8443
-  server: 104.18.203.232
-  servername: ca1.vlessx.info
-  tls: true
-  type: vless
-  uuid: e9d5bad8-387f-4e02-ae4f-afcdca9c7b08
-  ws-opts:
-    path: '@freeiranweb'
 - name: 🇩🇪_DE_德国_1_11@21
   network: tcp
   password: telegram-id-privatevpns
@@ -1352,17 +1292,6 @@ proxies:
   port: 8080
   server: 54.36.174.181
   type: ss
-- name: 🇺🇸_US_美国_2_14@12
-  network: ws
-  port: 2083
-  server: 104.18.202.232
-  servername: dk1.vlessx.info
-  tls: true
-  type: vless
-  uuid: 63f1f221-443b-4164-8f96-373e26fb6026
-  ws-opts:
-    path: '@astrovpn_ir @astrovpn_ir @astrovpn_ir @astrovpn_ir @astrovpn_ir @astrovpn_ir
-      @astrovpn_ir'
 - name: 🇵🇰_PK_巴基斯坦_14@15
   network: tcp
   password: 038e8456-5546-4031-8e77-a5bde7f0bfc4
@@ -1372,16 +1301,6 @@ proxies:
   sni: 13-231-155-134.nhost.00cdn.com
   type: trojan
   udp: true
-- name: 🇺🇸_US_美国_3_14@17
-  network: ws
-  port: 443
-  server: 104.21.15.141
-  servername: yara00.game-rsa.buzz
-  tls: true
-  type: vless
-  uuid: ea3d1288-5b55-4b78-93de-aa7d0beebd37
-  ws-opts:
-    path: /
 - alterId: 64
   cipher: auto
   name: 🇳🇱_NL_荷兰_14@18
@@ -2111,13 +2030,7 @@ proxy-groups:
   - 🇨🇦_CA_加拿大_2_10@3
   - 🇺🇸_US_美国_1_10@4
   - 🇨🇦_CA_加拿大_3_10@6
-  - 🇺🇸_US_美国_1_11@2
-  - 🇺🇸_US_美国_2_11@4
-  - 🇺🇸_US_美国_3_11@6
-  - 🇺🇸_US_美国_4_11@7
   - 🇺🇸_US_美国_5_11@9
-  - 🇺🇸_US_美国_6_11@10
-  - 🇺🇸_US_美国_7_11@13
   - 🇩🇪_DE_德国_1_11@21
   - 🇩🇪_DE_德国_2_11@22
   - 🇫🇷_FR_法国_11@23
@@ -2137,9 +2050,7 @@ proxy-groups:
   - 🇫🇷_FR_法国_4_14@7
   - 🇫🇷_FR_法国_5_14@10
   - 🇫🇷_FR_法国_6_14@11
-  - 🇺🇸_US_美国_2_14@12
   - 🇵🇰_PK_巴基斯坦_14@15
-  - 🇺🇸_US_美国_3_14@17
   - 🇳🇱_NL_荷兰_14@18
   - 🇫🇷_FR_法国_8_14@19
   - 🇫🇷_FR_法国_9_14@20
@@ -2323,13 +2234,7 @@ proxy-groups:
   - 🇨🇦_CA_加拿大_2_10@3
   - 🇺🇸_US_美国_1_10@4
   - 🇨🇦_CA_加拿大_3_10@6
-  - 🇺🇸_US_美国_1_11@2
-  - 🇺🇸_US_美国_2_11@4
-  - 🇺🇸_US_美国_3_11@6
-  - 🇺🇸_US_美国_4_11@7
   - 🇺🇸_US_美国_5_11@9
-  - 🇺🇸_US_美国_6_11@10
-  - 🇺🇸_US_美国_7_11@13
   - 🇩🇪_DE_德国_1_11@21
   - 🇩🇪_DE_德国_2_11@22
   - 🇫🇷_FR_法国_11@23
@@ -2349,9 +2254,7 @@ proxy-groups:
   - 🇫🇷_FR_法国_4_14@7
   - 🇫🇷_FR_法国_5_14@10
   - 🇫🇷_FR_法国_6_14@11
-  - 🇺🇸_US_美国_2_14@12
   - 🇵🇰_PK_巴基斯坦_14@15
-  - 🇺🇸_US_美国_3_14@17
   - 🇳🇱_NL_荷兰_14@18
   - 🇫🇷_FR_法国_8_14@19
   - 🇫🇷_FR_法国_9_14@20
