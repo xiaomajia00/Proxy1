@@ -7,130 +7,19 @@ proxies:
   cipher: auto
   name: 🇺🇸_US_美国_1_0@0
   network: ws
-  port: 8080
-  server: 172.67.212.114
+  port: 2052
+  server: cfcdn1.sanfencdn9.com
   skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
+  uuid: 58ecb66f-8b55-4b2a-97c9-7b87e189d2f7
   ws-opts:
     headers:
-      host: www.crispyrainbow.biz
-    path: /
+      host: us3AJ8biuQx.fzbqfrse.xyz
+    path: /video/QXjZG5u4F2
 - alterId: 0
   cipher: auto
   name: 🇺🇸_US_美国_2_0@1
-  network: ws
-  port: 8080
-  server: www.coldstone.club
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
-  ws-opts:
-    headers:
-      host: www.coldstone.club
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国_3_0@2
-  network: ws
-  port: 8080
-  server: 104.21.83.10
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
-  ws-opts:
-    headers:
-      host: www.coldstone.club
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇨🇦_CA_加拿大_1_0@3
-  network: tcp
-  port: 33445
-  server: 108.181.2.154
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 7de8d7aa-ae4a-4d75-82f4-2e8b46fc0290
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国_4_0@4
-  network: ws
-  port: 80
-  server: 104.20.231.30
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  ws-opts:
-    headers:
-      host: my1.tooters.ir
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇨🇦_CA_加拿大_2_0@7
-  network: tcp
-  port: 18657
-  server: 108.181.5.18
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 636ba072-493e-4235-b7a8-822bd4e340d5
-- cipher: chacha20-ietf-poly1305
-  name: 🇨🇦_CA_加拿大_3_0@10
-  password: KVcdcsJT6f0OWL5sEyM38A
-  port: 1080
-  server: 158.69.0.27
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国_5_0@11
-  network: http
-  port: 13489
-  server: 35.87.209.22
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 61761e55-dff5-4f94-f75f-b0a4718bba98
-- cipher: chacha20-ietf-poly1305
-  name: 🇷🇺_RU_俄罗斯联邦_0@20
-  password: B5JoPritUlCbuFoPzjpHuR
-  port: 10220
-  server: 77.246.106.242
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国_6_0@21
-  network: ws
-  port: 443
-  server: cold-dawn-9246.fly.dev
-  servername: cold-dawn-9246.fly.dev
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: ea4909ef-7ca6-4b46-bf2e-6c07896ef338
-  ws-opts:
-    path: /ea4909ef-7ca6-4b46-bf2e-6c07896ef338-vm
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国_7_0@22
-  network: ws
-  port: 8880
-  server: server2.beheshtbaneh.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 8420ee38-4cf6-4d79-a9ec-2731207cf83a
-  ws-opts:
-    headers:
-      host: server2.beheshtbaneh.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国_8_0@23
   network: ws
   port: 8880
   server: 104.21.82.183
@@ -144,46 +33,17 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇺🇸_US_美国_9_0@24
-  network: ws
-  port: 80
-  server: 104.18.15.151
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 3a333291-9bd1-46c5-b9a9-370b5a3d1bd9
-  ws-opts:
-    headers:
-      host: us3.889611.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国_10_0@26
-  network: ws
-  port: 80
-  server: 104.18.15.147
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 3a333291-9bd1-46c5-b9a9-370b5a3d1bd9
-  ws-opts:
-    headers:
-      host: us3.889611.com
-    path: /
-- alpn:
-  - http/1.1
-  name: 🇩🇪_DE_德国_1_0@27
+  name: 🇨🇦_CA_加拿大_0@2
   network: tcp
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 18.157.63.148
+  port: 18657
+  server: 108.181.5.18
   skip-cert-verify: true
-  sni: trojan.miwan.co.uk
-  type: trojan
-  udp: true
+  tls: false
+  type: vmess
+  uuid: 636ba072-493e-4235-b7a8-822bd4e340d5
 - alterId: 0
   cipher: auto
-  name: 🇺🇸_US_美国_11_0@28
+  name: 🇺🇸_US_美国_3_0@4
   network: ws
   port: 8880
   server: server12.beheshtbaneh.com
@@ -195,746 +55,35 @@ proxies:
     headers:
       host: server12.beheshtbaneh.com
     path: /
-- name: 🇩🇪_DE_德国_2_0@29
-  network: tcp
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 18.156.123.121
-  skip-cert-verify: true
-  sni: trojan.miwan.co.uk
-  type: trojan
-  udp: true
-- name: 🇬🇧_GB_英国_0@30
-  network: tcp
-  password: 81dfb458-9a26-486a-a0da-914c380459c6
-  port: 443
-  server: 198.244.190.189
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- cipher: aes-256-cfb
-  name: 🇺🇸_US_美国_1_1@0
-  password: amazonskr05
-  port: 443
-  server: 34.217.80.153
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国_2_1@1
-  network: ws
-  port: 80
-  server: 104.18.154.42
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 3a333291-9bd1-46c5-b9a9-370b5a3d1bd9
-  ws-opts:
-    headers:
-      host: us3.visaapp.top
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇷🇺_RU_俄罗斯联邦_1@3
-  network: ws
-  port: 80
-  server: 45.144.2.113
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 3a333291-9bd1-46c5-b9a9-370b5a3d1bd9
-  ws-opts:
-    headers:
-      host: www.apple.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国_5_1@12
-  network: ws
-  port: 80
-  server: 162.159.142.209
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 3a333291-9bd1-46c5-b9a9-370b5a3d1bd9
-  ws-opts:
-    headers:
-      host: us3.visaapp.top
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国_6_1@13
-  network: ws
-  port: 2082
-  server: 2.namesilo123.top
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 1da87704-2807-4f4a-bb7c-4414dc0e817e
-  ws-opts:
-    headers:
-      host: freezhang.sanfen002.top
-    path: /?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国_7_1@14
-  network: ws
-  port: 2082
-  server: 27.namesilo123.top
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 1da87704-2807-4f4a-bb7c-4414dc0e817e
-  ws-opts:
-    headers:
-      host: freezhang.sanfen002.top
-    path: /?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国_8_1@15
-  network: ws
-  port: 2082
-  server: 8.namesilo123.top
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 1da87704-2807-4f4a-bb7c-4414dc0e817e
-  ws-opts:
-    headers:
-      host: freezhang.sanfen002.top
-    path: /?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国_9_1@16
-  network: ws
-  port: 8880
-  server: 27.namesilo123.top
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 1da87704-2807-4f4a-bb7c-4414dc0e817e
-  ws-opts:
-    headers:
-      host: freezhang.sanfen002.top
-    path: /?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国_10_1@17
-  network: ws
-  port: 8880
-  server: 11.namesilo123.top
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 1da87704-2807-4f4a-bb7c-4414dc0e817e
-  ws-opts:
-    headers:
-      host: freezhang.sanfen002.top
-    path: /?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国_12_1@24
-  network: ws
-  port: 80
-  server: 104.248.223.120
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 7477009d-4aa3-4f11-9e35-8da20459b59d
-  ws-opts:
-    headers:
-      host: newus2.xn--mes53ddysu0o3gl.top
-    path: /xn--mes53ddysu0o3gl
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国_13_1@25
-  network: ws
-  port: 8080
-  server: 94.131.10.135
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: e2021c91-6e29-49d6-9641-14a8f2600e05
-  ws-opts:
-    path: /vmess
-- cipher: aes-256-gcm
-  name: 🇺🇸_US_美国_14_1@27
-  password: cdBIDV42DCwnfIN
-  port: 8119
-  server: 38.54.108.222
+- cipher: chacha20-ietf-poly1305
+  name: 🇫🇷_FR_法国_0@5
+  password: 1NuiNBTUl7mwxFwtpDxL-g
+  port: 1165
+  server: 51.158.204.157
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 🇺🇸_US_美国_15_1@28
-  password: uUjyhRvJrLsMwDFxDUAtar
-  port: 49845
-  server: 94.131.121.130
-  type: ss
-- name: 🇩🇪_DE_德国_1@29
-  network: tcp
-  password: ebecf1d2-6db1-4caa-9fa4-f4504b0328e5
-  port: 443
-  server: 51.75.77.237
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- cipher: aes-256-gcm
-  name: 🇺🇸_US_美国_16_1@30
-  password: KixLvKzwjekG00rm
-  port: 8000
-  server: 38.75.136.135
-  type: ss
-- cipher: aes-256-gcm
-  name: 🇺🇸_US_美国_17_1@31
-  password: Y6R9pAtvxxzmGC
-  port: 3389
-  server: 38.75.136.135
-  type: ss
-- alpn:
-  - http/1.1
-  name: 🇫🇷_FR_法国_1@33
-  network: tcp
-  password: telegram-id-directvpn
-  port: 22222
-  server: 15.237.201.223
-  skip-cert-verify: true
-  sni: trj.rollingnext.co.uk
-  type: trojan
-  udp: true
-- name: 🇺🇸_US_美国_18_1@34
-  network: tcp
-  password: 760da1d0-c059-11ee-89b2-1239d0255272
-  port: 443
-  server: 15.204.240.119
-  skip-cert-verify: true
-  sni: us1.test3.net
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 🇷🇼_RW_卢旺达_1@35
-  network: tcp
-  port: 22222
-  server: 197.243.57.239
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: e4c9dc48-f9dc-4d9b-9318-a3933d113736
-- name: 🇮🇪_IE_爱尔兰_1@36
-  network: tcp
-  password: telegram-id-directvpn
-  port: 22222
-  server: 52.49.249.102
-  skip-cert-verify: true
-  sni: trj.rollingnext.co.uk
-  type: trojan
-  udp: true
-- alpn:
-  - http/1.1
-  name: 🇩🇪_DE_德国_2@26
-  network: tcp
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 3.72.117.197
-  skip-cert-verify: true
-  sni: trojan.miwan.co.uk
-  type: trojan
-  udp: true
-- alpn:
-  - http/1.1
-  name: 🇮🇪_IE_爱尔兰_1_2@28
-  network: tcp
-  password: telegram-id-directvpn
-  port: 22222
-  server: 34.247.125.249
-  skip-cert-verify: true
-  sni: trojan.miwan.co.uk
-  type: trojan
-  udp: true
-- alpn:
-  - http/1.1
-  name: 🇮🇪_IE_爱尔兰_2_2@29
-  network: tcp
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 63.32.156.81
-  skip-cert-verify: true
-  sni: trojan.miwan.co.uk
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 🇩🇪_DE_德国_1_3@3
-  network: http
-  port: 34310
-  server: 167.235.65.233
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: b067a70b-5579-4b61-bc34-4c3266909d19
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国_3_3@6
-  network: ws
-  port: 2095
-  server: cfcdn1.sanfencdn9.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 657140e4-fb53-4404-80b7-fcbac652671f
-  ws-opts:
-    headers:
-      host: us82pRzxDMb.fzbqfrse.xyz
-    path: /video/qYZue4zaWS
-- alterId: 0
-  cipher: auto
-  name: 🇬🇹_GT_危地马拉_3@8
-  network: ws
-  port: 80
-  server: 181.174.80.182
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: c220f88c-8883-44aa-b66f-f4776a4053d7
-  ws-opts:
-    headers:
-      host: xyz33.servecounterstrike.com
-    path: /@forwardv2ray
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国_5_3@9
-  network: ws
-  port: 80
-  server: be1-vmess.sshmax.xyz
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 38df59ec-30e2-45e9-86c7-5a58667e6994
-  ws-opts:
-    headers:
-      host: be1-vmess.sshmax.xyz
-    path: /vmess
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国_7_3@11
-  network: ws
-  port: 2095
-  server: 104.19.234.82
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 657140e4-fb53-4404-80b7-fcbac652671f
-  ws-opts:
-    headers:
-      host: us82pRzxDMb.fzbqfrse.xyz
-    path: /video/qYZue4zaWS
-- alterId: 0
-  cipher: auto
-  name: 🇱🇾_LY_利比亚_3@12
-  network: ws
-  port: 80
-  server: 197.215.140.234
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: f0028153-2a2d-45fe-b44e-a1a6dbd0c65e
-  ws-opts:
-    headers:
-      host: saman8888.servecounterstrike.com
-    path: /@forwardv2ray
-- cipher: chacha20-ietf-poly1305
-  name: 🇨🇦_CA_加拿大_3@13
-  password: Kl3erVrjUy2rC0l9jCsrhX
-  port: 34539
-  server: 149.56.95.159
+  name: 🇺🇸_US_美国_4_0@6
+  password: KBnPIuBNoue5acFpQ28LHg
+  port: 41743
+  server: 74.119.194.192
   type: ss
 - alterId: 0
   cipher: auto
-  name: 🇺🇸_US_美国_8_3@14
+  name: 🇺🇸_US_美国_5_0@7
   network: ws
-  port: 2052
-  server: cfcdn1.yuzhoucloud003.xyz
+  port: 8880
+  server: server2.beheshtbaneh.com
   skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: 4eff3792-6078-4ad1-aa31-7772830c78ac
+  uuid: 8420ee38-4cf6-4d79-a9ec-2731207cf83a
   ws-opts:
     headers:
-      host: huzfxqdgus1.zvhdeaof.xyz
-    path: /video/LpPP8QNC
-- name: 🇩🇪_DE_德国_2_3@17
-  network: tcp
-  password: e86e242e-b5d5-46ae-a410-3684f7d70ac2
-  port: 443
-  server: 5.104.108.120
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国_2_4@1
-  network: ws
-  port: 8080
-  server: 172.67.166.190
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
-  ws-opts:
-    headers:
-      host: www.crispyrainbow.online
-    path: /
-- cipher: aes-256-cfb
-  name: 🇺🇸_US_美国_3_4@3
-  password: amazonskr05
-  port: 443
-  server: 52.43.22.188
-  type: ss
-- name: 🇩🇪_DE_德国_1_4@4
-  network: tcp
-  password: 877347fb-3c6e-4d44-b2c8-5c63e97c0521
-  port: 443
-  server: 5.104.108.109
-  skip-cert-verify: true
-  sni: 20-24-33-134.nhost.00cdn.com
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国_6_4@12
-  network: ws
-  port: 443
-  server: 104.21.20.16
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 802c1068-ee2b-4c87-b49d-e7f3043e75d2
-  ws-opts:
-    headers:
-      host: se2-vmess.sshmax.xyz
-    path: /vmess
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国_8_4@24
-  network: ws
-  port: 80
-  server: pt2-vmess.sshmax.xyz
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 099b5b7a-9d71-43cd-80e3-b8fbe1cc2695
-  ws-opts:
-    path: /vmess
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国_9_4@28
-  network: tcp
-  port: 8080
-  server: 23.137.248.47
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: c65dd227-86bb-5854-bdf7-54c9c16acdb2
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国_10_4@29
-  network: ws
-  port: 80
-  server: 94.131.10.135
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 099b5b7a-9d71-43cd-80e3-b8fbe1cc2695
-  ws-opts:
-    path: /vmess
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国_11_4@30
-  network: ws
-  port: 80
-  server: 172.67.217.144
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 85674552-ce41-44d9-bb2a-50f76450b3d8
-  ws-opts:
-    headers:
-      host: lv1.xv2ray.net
+      host: server2.beheshtbaneh.com
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇺🇸_US_美国_1_5@2
-  network: ws
-  port: 8080
-  server: www.blueberrywindow.online
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
-  ws-opts:
-    headers:
-      host: www.blueberrywindow.online
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国_2_5@3
-  network: ws
-  port: 8080
-  server: www.crispyrainbow.online
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
-  ws-opts:
-    headers:
-      host: www.crispyrainbow.online
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国_3_5@5
-  network: ws
-  port: 8080
-  server: cfcdn1.sanfencdn9.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 5a1bd666-441a-4446-9b4b-3538f6209d31
-  ws-opts:
-    headers:
-      host: us5PhAx6xsj.fzbqfrse.xyz
-    path: /video/f8ZKTGaGoC/
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国_4_5@6
-  network: ws
-  port: 8080
-  server: 104.19.234.82
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 5a1bd666-441a-4446-9b4b-3538f6209d31
-  ws-opts:
-    headers:
-      host: us5PhAx6xsj.fzbqfrse.xyz
-    path: /video/f8ZKTGaGoC/
-- name: 🇰🇷_KR_韩国_5@8
-  network: tcp
-  password: 6x8HcghsjS
-  port: 10003
-  server: 103.214.68.57
-  skip-cert-verify: true
-  sni: yes998.chickenkiller.com
-  type: trojan
-  udp: true
-- name: 🇬🇧_GB_英国_1_5@10
-  network: tcp
-  password: telegram-id-directvpn
-  port: 22222
-  server: 18.134.162.104
-  skip-cert-verify: true
-  sni: trj.rollingnext.co.uk
-  type: trojan
-  udp: true
-- alpn:
-  - http/1.1
-  name: 🇬🇧_GB_英国_2_5@16
-  network: tcp
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 3.9.87.53
-  skip-cert-verify: true
-  sni: trojan.miwan.co.uk
-  type: trojan
-  udp: true
-- alpn:
-  - http/1.1
-  name: 🇮🇪_IE_爱尔兰_5@18
-  network: tcp
-  password: telegram-id-directvpn
-  port: 22222
-  server: 54.77.32.3
-  skip-cert-verify: true
-  sni: trojan.miwan.co.uk
-  type: trojan
-  udp: true
-- cipher: aes-256-cfb
-  name: 🇺🇸_US_美国_11_5@19
-  password: amazonskr05
-  port: 443
-  server: 34.222.2.189
-  type: ss
-- name: 🇱🇺_LU_卢森堡_6@12
-  network: ws
-  password: 933e3c9c-701e-45df-978b-ca8f42fb8871
-  port: 443
-  server: 188.42.145.73
-  skip-cert-verify: true
-  sni: k6nl1.yfjc.sbs
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: k6nl1.yfjc.sbs
-    path: /yfjc/knl1
-- cipher: aes-256-cfb
-  name: 🇺🇸_US_美国_3_6@15
-  password: amazonskr05
-  port: 443
-  server: 34.221.71.169
-  type: ss
-- name: 🇺🇸_US_美国_7_6@24
-  network: tcp
-  password: telegram-id-directvpn
-  port: 22222
-  server: 44.226.30.52
-  skip-cert-verify: true
-  sni: trj.rollingnext.co.uk
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国_2_7@1
-  network: ws
-  port: 8080
-  server: www.crispyrainbow.biz
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
-  ws-opts:
-    headers:
-      host: www.crispyrainbow.biz
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国_3_7@2
-  network: ws
-  port: 8080
-  server: 104.31.16.104
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 3a6752b4-8353-4172-85b1-32202116714d
-  ws-opts:
-    headers:
-      host: asan3.azad1.tech
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇬🇧_GB_英国_1_7@3
-  network: ws
-  port: 443
-  server: 172.99.190.109
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    path: linkvws
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国_5_7@6
-  network: ws
-  port: 80
-  server: 104.18.15.150
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 4899b015-5823-486d-bfe6-06c3239260f5
-  ws-opts:
-    headers:
-      host: er3.889611.com
-    path: /
-- name: 🇮🇪_IE_爱尔兰_7@16
-  network: tcp
-  password: telegram-id-directvpn
-  port: 22222
-  server: 63.35.135.61
-  skip-cert-verify: true
-  sni: trj.rollingnext.co.uk
-  type: trojan
-  udp: true
-- name: 🇬🇧_GB_英国_2_7@17
-  network: tcp
-  password: telegram-id-directvpn
-  port: 22222
-  server: 18.168.50.183
-  skip-cert-verify: true
-  sni: trj.rollingnext.co.uk
-  type: trojan
-  udp: true
-- cipher: aes-256-cfb
-  name: 🇺🇸_US_美国_8_7@19
-  password: amazonskr05
-  port: 443
-  server: 54.201.23.39
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 🇺🇦_UA_乌克兰_8@3
-  network: ws
-  port: 80
-  server: 185.158.211.186
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: b82493e3-07b4-4cf2-b585-965575cfeb32
-  ws-opts:
-    headers:
-      host: softiri.serveirc.com
-    path: /@forwardv2ray
-- alterId: 0
-  cipher: auto
-  name: 🇬🇮_GI_直布罗陀_1_8@10
-  network: ws
-  port: 80
-  server: 95.164.8.106
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: c1ebe8c7-bdd9-4aca-a2f7-01bea79279b3
-  ws-opts:
-    headers:
-      host: ee2-vmess.sshmax.xyz
-    path: /vmess
-- alterId: 0
-  cipher: auto
-  name: 🇳🇱_NL_荷兰_8@13
-  network: ws
-  port: 2086
-  server: 91.242.229.69
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 88c216b8-56c6-4f34-bcfd-e198ce11f7d6
-  ws-opts:
-    headers:
-      host: nl1.xv2ray.net
-    path: /vmess
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国_6_8@15
-  network: ws
-  port: 2095
-  server: 104.17.184.241
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 0f42a063-315b-4524-8501-469c51838bb6
-  ws-opts:
-    headers:
-      host: mgone_cdn.yunjisuan.cf
-    path: /
-- name: 🇫🇷_FR_法国_8@17
-  network: tcp
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 35.181.194.132
-  skip-cert-verify: true
-  sni: trojan.miwan.co.uk
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 🇬🇮_GI_直布罗陀_2_8@18
+  name: 🇬🇮_GI_直布罗陀_0@8
   network: ws
   port: 80
   server: ee2-vmess.sshmax.xyz
@@ -948,7 +97,1014 @@ proxies:
     path: /vmess
 - alterId: 0
   cipher: auto
-  name: 🇺🇸_US_美国_8_8@20
+  name: 🇺🇸_US_美国_6_0@9
+  network: ws
+  port: 80
+  server: 104.22.51.162
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  ws-opts:
+    headers:
+      host: my1.tooters.ir
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸_US_美国_7_0@10
+  network: ws
+  port: 8080
+  server: 104.21.94.99
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
+  ws-opts:
+    headers:
+      host: www.blueberrywindow.online
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸_US_美国_8_0@11
+  network: ws
+  port: 2095
+  server: 104.18.99.110
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: bdede9d3-68c4-4bb1-8ad1-9a8eb07ff76f
+  ws-opts:
+    headers:
+      host: us82pRzxDMb.fzbqfrse.xyz
+    path: /video/qYZue4zaWS
+- name: 🇩🇪_DE_德国_1_0@12
+  network: tcp
+  password: 676ccd3b-793d-4efd-b93c-48943711055d
+  port: 443
+  server: 5.104.108.120
+  skip-cert-verify: true
+  sni: 20-24-33-134.nhost.00cdn.com
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸_US_美国_9_0@17
+  network: ws
+  port: 8880
+  server: server21.beheshtbaneh.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 11cd2b93-a102-49a2-97be-27c33c743618
+  ws-opts:
+    headers:
+      host: server21.beheshtbaneh.com
+    path: /
+- name: 🇩🇪_DE_德国_2_0@20
+  network: tcp
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 35.156.129.20
+  skip-cert-verify: true
+  sni: trojan.miwan.co.uk
+  type: trojan
+  udp: true
+- name: 🇩🇪_DE_德国_3_0@22
+  network: tcp
+  password: 676ccd3b-793d-4efd-b93c-48943711055d
+  port: 443
+  server: 5.104.108.109
+  skip-cert-verify: true
+  sni: 20-24-33-134.nhost.00cdn.com
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸_US_美国_10_0@24
+  network: http
+  port: 13489
+  server: 35.87.209.22
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 61761e55-dff5-4f94-f75f-b0a4718bba98
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸_US_美国_11_0@27
+  network: ws
+  port: 8880
+  server: server10.beheshtbaneh.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 66d4af1c-fcc3-479b-847c-3260253e1faa
+  ws-opts:
+    headers:
+      host: server10.beheshtbaneh.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸_US_美国_12_0@28
+  network: ws
+  port: 2086
+  server: 94.131.10.135
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: e2021c91-6e29-49d6-9641-14a8f2600e05
+  ws-opts:
+    path: /vmess
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸_US_美国_13_0@30
+  network: ws
+  port: 443
+  server: cold-dawn-9246.fly.dev
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: ea4909ef-7ca6-4b46-bf2e-6c07896ef338
+  ws-opts:
+    headers:
+      host: cold-dawn-9246.fly.dev
+    path: /ea4909ef-7ca6-4b46-bf2e-6c07896ef338-vm
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸_US_美国_14_0@31
+  network: ws
+  port: 8880
+  server: server5.beheshtbaneh.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 352ecc6f-21f1-4dc8-8177-4ebd52c55b12
+  ws-opts:
+    headers:
+      host: server5.beheshtbaneh.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸_US_美国_15_0@32
+  network: ws
+  port: 8880
+  server: server3.beheshtbaneh.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: e305fc57-6153-4650-8c52-9a36865a199d
+  ws-opts:
+    headers:
+      host: server3.beheshtbaneh.com
+    path: /
+- name: 🇩🇪_DE_德国_4_0@33
+  network: tcp
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 3.70.41.199
+  skip-cert-verify: true
+  sni: trojan.miwan.co.uk
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸_US_美国_1_1@0
+  network: ws
+  port: 8080
+  server: 172.67.212.114
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
+  ws-opts:
+    headers:
+      host: www.crispyrainbow.biz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸_US_美国_2_1@1
+  network: ws
+  port: 8080
+  server: www.coldstone.club
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
+  ws-opts:
+    headers:
+      host: www.coldstone.club
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸_US_美国_3_1@2
+  network: ws
+  port: 8080
+  server: 104.21.83.10
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
+  ws-opts:
+    headers:
+      host: www.coldstone.club
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇨🇦_CA_加拿大_1_1@3
+  network: tcp
+  port: 33445
+  server: 108.181.2.154
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 7de8d7aa-ae4a-4d75-82f4-2e8b46fc0290
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸_US_美国_4_1@4
+  network: ws
+  port: 80
+  server: 104.20.231.30
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  ws-opts:
+    headers:
+      host: my1.tooters.ir
+    path: /
+- cipher: chacha20-ietf-poly1305
+  name: 🇨🇦_CA_加拿大_3_1@10
+  password: KVcdcsJT6f0OWL5sEyM38A
+  port: 1080
+  server: 158.69.0.27
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇷🇺_RU_俄罗斯联邦_1@20
+  password: B5JoPritUlCbuFoPzjpHuR
+  port: 10220
+  server: 77.246.106.242
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸_US_美国_9_1@24
+  network: ws
+  port: 80
+  server: 104.18.15.151
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 3a333291-9bd1-46c5-b9a9-370b5a3d1bd9
+  ws-opts:
+    headers:
+      host: us3.889611.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸_US_美国_10_1@26
+  network: ws
+  port: 80
+  server: 104.18.15.147
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 3a333291-9bd1-46c5-b9a9-370b5a3d1bd9
+  ws-opts:
+    headers:
+      host: us3.889611.com
+    path: /
+- alpn:
+  - http/1.1
+  name: 🇩🇪_DE_德国_1_1@27
+  network: tcp
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 18.157.63.148
+  skip-cert-verify: true
+  sni: trojan.miwan.co.uk
+  type: trojan
+  udp: true
+- name: 🇩🇪_DE_德国_2_1@29
+  network: tcp
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 18.156.123.121
+  skip-cert-verify: true
+  sni: trojan.miwan.co.uk
+  type: trojan
+  udp: true
+- name: 🇬🇧_GB_英国_1@30
+  network: tcp
+  password: 81dfb458-9a26-486a-a0da-914c380459c6
+  port: 443
+  server: 198.244.190.189
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- cipher: aes-256-cfb
+  name: 🇺🇸_US_美国_1_2@0
+  password: amazonskr05
+  port: 443
+  server: 34.217.80.153
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸_US_美国_2_2@1
+  network: ws
+  port: 80
+  server: 104.18.154.42
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 3a333291-9bd1-46c5-b9a9-370b5a3d1bd9
+  ws-opts:
+    headers:
+      host: us3.visaapp.top
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇷🇺_RU_俄罗斯联邦_2@3
+  network: ws
+  port: 80
+  server: 45.144.2.113
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 3a333291-9bd1-46c5-b9a9-370b5a3d1bd9
+  ws-opts:
+    headers:
+      host: www.apple.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸_US_美国_5_2@12
+  network: ws
+  port: 80
+  server: 162.159.142.209
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 3a333291-9bd1-46c5-b9a9-370b5a3d1bd9
+  ws-opts:
+    headers:
+      host: us3.visaapp.top
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸_US_美国_6_2@13
+  network: ws
+  port: 2082
+  server: 2.namesilo123.top
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 1da87704-2807-4f4a-bb7c-4414dc0e817e
+  ws-opts:
+    headers:
+      host: freezhang.sanfen002.top
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸_US_美国_7_2@14
+  network: ws
+  port: 2082
+  server: 27.namesilo123.top
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 1da87704-2807-4f4a-bb7c-4414dc0e817e
+  ws-opts:
+    headers:
+      host: freezhang.sanfen002.top
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸_US_美国_8_2@15
+  network: ws
+  port: 2082
+  server: 8.namesilo123.top
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 1da87704-2807-4f4a-bb7c-4414dc0e817e
+  ws-opts:
+    headers:
+      host: freezhang.sanfen002.top
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸_US_美国_9_2@16
+  network: ws
+  port: 8880
+  server: 27.namesilo123.top
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 1da87704-2807-4f4a-bb7c-4414dc0e817e
+  ws-opts:
+    headers:
+      host: freezhang.sanfen002.top
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸_US_美国_10_2@17
+  network: ws
+  port: 8880
+  server: 11.namesilo123.top
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 1da87704-2807-4f4a-bb7c-4414dc0e817e
+  ws-opts:
+    headers:
+      host: freezhang.sanfen002.top
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸_US_美国_12_2@24
+  network: ws
+  port: 80
+  server: 104.248.223.120
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 7477009d-4aa3-4f11-9e35-8da20459b59d
+  ws-opts:
+    headers:
+      host: newus2.xn--mes53ddysu0o3gl.top
+    path: /xn--mes53ddysu0o3gl
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸_US_美国_13_2@25
+  network: ws
+  port: 8080
+  server: 94.131.10.135
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: e2021c91-6e29-49d6-9641-14a8f2600e05
+  ws-opts:
+    path: /vmess
+- cipher: aes-256-gcm
+  name: 🇺🇸_US_美国_14_2@27
+  password: cdBIDV42DCwnfIN
+  port: 8119
+  server: 38.54.108.222
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸_US_美国_15_2@28
+  password: uUjyhRvJrLsMwDFxDUAtar
+  port: 49845
+  server: 94.131.121.130
+  type: ss
+- name: 🇩🇪_DE_德国_2@29
+  network: tcp
+  password: ebecf1d2-6db1-4caa-9fa4-f4504b0328e5
+  port: 443
+  server: 51.75.77.237
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- cipher: aes-256-gcm
+  name: 🇺🇸_US_美国_16_2@30
+  password: KixLvKzwjekG00rm
+  port: 8000
+  server: 38.75.136.135
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇺🇸_US_美国_17_2@31
+  password: Y6R9pAtvxxzmGC
+  port: 3389
+  server: 38.75.136.135
+  type: ss
+- alpn:
+  - http/1.1
+  name: 🇫🇷_FR_法国_2@33
+  network: tcp
+  password: telegram-id-directvpn
+  port: 22222
+  server: 15.237.201.223
+  skip-cert-verify: true
+  sni: trj.rollingnext.co.uk
+  type: trojan
+  udp: true
+- name: 🇺🇸_US_美国_18_2@34
+  network: tcp
+  password: 760da1d0-c059-11ee-89b2-1239d0255272
+  port: 443
+  server: 15.204.240.119
+  skip-cert-verify: true
+  sni: us1.test3.net
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 🇷🇼_RW_卢旺达_2@35
+  network: tcp
+  port: 22222
+  server: 197.243.57.239
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: e4c9dc48-f9dc-4d9b-9318-a3933d113736
+- name: 🇮🇪_IE_爱尔兰_2@36
+  network: tcp
+  password: telegram-id-directvpn
+  port: 22222
+  server: 52.49.249.102
+  skip-cert-verify: true
+  sni: trj.rollingnext.co.uk
+  type: trojan
+  udp: true
+- alpn:
+  - http/1.1
+  name: 🇩🇪_DE_德国_3@26
+  network: tcp
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 3.72.117.197
+  skip-cert-verify: true
+  sni: trojan.miwan.co.uk
+  type: trojan
+  udp: true
+- alpn:
+  - http/1.1
+  name: 🇮🇪_IE_爱尔兰_1_3@28
+  network: tcp
+  password: telegram-id-directvpn
+  port: 22222
+  server: 34.247.125.249
+  skip-cert-verify: true
+  sni: trojan.miwan.co.uk
+  type: trojan
+  udp: true
+- alpn:
+  - http/1.1
+  name: 🇮🇪_IE_爱尔兰_2_3@29
+  network: tcp
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 63.32.156.81
+  skip-cert-verify: true
+  sni: trojan.miwan.co.uk
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 🇩🇪_DE_德国_1_4@3
+  network: http
+  port: 34310
+  server: 167.235.65.233
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: b067a70b-5579-4b61-bc34-4c3266909d19
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸_US_美国_3_4@6
+  network: ws
+  port: 2095
+  server: cfcdn1.sanfencdn9.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 657140e4-fb53-4404-80b7-fcbac652671f
+  ws-opts:
+    headers:
+      host: us82pRzxDMb.fzbqfrse.xyz
+    path: /video/qYZue4zaWS
+- alterId: 0
+  cipher: auto
+  name: 🇬🇹_GT_危地马拉_4@8
+  network: ws
+  port: 80
+  server: 181.174.80.182
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: c220f88c-8883-44aa-b66f-f4776a4053d7
+  ws-opts:
+    headers:
+      host: xyz33.servecounterstrike.com
+    path: /@forwardv2ray
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸_US_美国_5_4@9
+  network: ws
+  port: 80
+  server: be1-vmess.sshmax.xyz
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 38df59ec-30e2-45e9-86c7-5a58667e6994
+  ws-opts:
+    headers:
+      host: be1-vmess.sshmax.xyz
+    path: /vmess
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸_US_美国_7_4@11
+  network: ws
+  port: 2095
+  server: 104.19.234.82
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 657140e4-fb53-4404-80b7-fcbac652671f
+  ws-opts:
+    headers:
+      host: us82pRzxDMb.fzbqfrse.xyz
+    path: /video/qYZue4zaWS
+- alterId: 0
+  cipher: auto
+  name: 🇱🇾_LY_利比亚_4@12
+  network: ws
+  port: 80
+  server: 197.215.140.234
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: f0028153-2a2d-45fe-b44e-a1a6dbd0c65e
+  ws-opts:
+    headers:
+      host: saman8888.servecounterstrike.com
+    path: /@forwardv2ray
+- cipher: chacha20-ietf-poly1305
+  name: 🇨🇦_CA_加拿大_4@13
+  password: Kl3erVrjUy2rC0l9jCsrhX
+  port: 34539
+  server: 149.56.95.159
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸_US_美国_8_4@14
+  network: ws
+  port: 2052
+  server: cfcdn1.yuzhoucloud003.xyz
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 4eff3792-6078-4ad1-aa31-7772830c78ac
+  ws-opts:
+    headers:
+      host: huzfxqdgus1.zvhdeaof.xyz
+    path: /video/LpPP8QNC
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸_US_美国_2_5@1
+  network: ws
+  port: 8080
+  server: 172.67.166.190
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
+  ws-opts:
+    headers:
+      host: www.crispyrainbow.online
+    path: /
+- cipher: aes-256-cfb
+  name: 🇺🇸_US_美国_3_5@3
+  password: amazonskr05
+  port: 443
+  server: 52.43.22.188
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸_US_美国_6_5@12
+  network: ws
+  port: 443
+  server: 104.21.20.16
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 802c1068-ee2b-4c87-b49d-e7f3043e75d2
+  ws-opts:
+    headers:
+      host: se2-vmess.sshmax.xyz
+    path: /vmess
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸_US_美国_8_5@24
+  network: ws
+  port: 80
+  server: pt2-vmess.sshmax.xyz
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 099b5b7a-9d71-43cd-80e3-b8fbe1cc2695
+  ws-opts:
+    path: /vmess
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸_US_美国_9_5@28
+  network: tcp
+  port: 8080
+  server: 23.137.248.47
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: c65dd227-86bb-5854-bdf7-54c9c16acdb2
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸_US_美国_10_5@29
+  network: ws
+  port: 80
+  server: 94.131.10.135
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 099b5b7a-9d71-43cd-80e3-b8fbe1cc2695
+  ws-opts:
+    path: /vmess
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸_US_美国_11_5@30
+  network: ws
+  port: 80
+  server: 172.67.217.144
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 85674552-ce41-44d9-bb2a-50f76450b3d8
+  ws-opts:
+    headers:
+      host: lv1.xv2ray.net
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸_US_美国_1_6@2
+  network: ws
+  port: 8080
+  server: www.blueberrywindow.online
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
+  ws-opts:
+    headers:
+      host: www.blueberrywindow.online
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸_US_美国_2_6@3
+  network: ws
+  port: 8080
+  server: www.crispyrainbow.online
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
+  ws-opts:
+    headers:
+      host: www.crispyrainbow.online
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸_US_美国_3_6@5
+  network: ws
+  port: 8080
+  server: cfcdn1.sanfencdn9.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 5a1bd666-441a-4446-9b4b-3538f6209d31
+  ws-opts:
+    headers:
+      host: us5PhAx6xsj.fzbqfrse.xyz
+    path: /video/f8ZKTGaGoC/
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸_US_美国_4_6@6
+  network: ws
+  port: 8080
+  server: 104.19.234.82
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 5a1bd666-441a-4446-9b4b-3538f6209d31
+  ws-opts:
+    headers:
+      host: us5PhAx6xsj.fzbqfrse.xyz
+    path: /video/f8ZKTGaGoC/
+- name: 🇰🇷_KR_韩国_6@8
+  network: tcp
+  password: 6x8HcghsjS
+  port: 10003
+  server: 103.214.68.57
+  skip-cert-verify: true
+  sni: yes998.chickenkiller.com
+  type: trojan
+  udp: true
+- name: 🇬🇧_GB_英国_1_6@10
+  network: tcp
+  password: telegram-id-directvpn
+  port: 22222
+  server: 18.134.162.104
+  skip-cert-verify: true
+  sni: trj.rollingnext.co.uk
+  type: trojan
+  udp: true
+- alpn:
+  - http/1.1
+  name: 🇬🇧_GB_英国_2_6@16
+  network: tcp
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 3.9.87.53
+  skip-cert-verify: true
+  sni: trojan.miwan.co.uk
+  type: trojan
+  udp: true
+- alpn:
+  - http/1.1
+  name: 🇮🇪_IE_爱尔兰_6@18
+  network: tcp
+  password: telegram-id-directvpn
+  port: 22222
+  server: 54.77.32.3
+  skip-cert-verify: true
+  sni: trojan.miwan.co.uk
+  type: trojan
+  udp: true
+- cipher: aes-256-cfb
+  name: 🇺🇸_US_美国_11_6@19
+  password: amazonskr05
+  port: 443
+  server: 34.222.2.189
+  type: ss
+- name: 🇱🇺_LU_卢森堡_7@12
+  network: ws
+  password: 933e3c9c-701e-45df-978b-ca8f42fb8871
+  port: 443
+  server: 188.42.145.73
+  skip-cert-verify: true
+  sni: k6nl1.yfjc.sbs
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      host: k6nl1.yfjc.sbs
+    path: /yfjc/knl1
+- cipher: aes-256-cfb
+  name: 🇺🇸_US_美国_3_7@15
+  password: amazonskr05
+  port: 443
+  server: 34.221.71.169
+  type: ss
+- name: 🇺🇸_US_美国_7_7@24
+  network: tcp
+  password: telegram-id-directvpn
+  port: 22222
+  server: 44.226.30.52
+  skip-cert-verify: true
+  sni: trj.rollingnext.co.uk
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸_US_美国_2_8@1
+  network: ws
+  port: 8080
+  server: www.crispyrainbow.biz
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
+  ws-opts:
+    headers:
+      host: www.crispyrainbow.biz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸_US_美国_3_8@2
+  network: ws
+  port: 8080
+  server: 104.31.16.104
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 3a6752b4-8353-4172-85b1-32202116714d
+  ws-opts:
+    headers:
+      host: asan3.azad1.tech
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇬🇧_GB_英国_1_8@3
+  network: ws
+  port: 443
+  server: 172.99.190.109
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    path: linkvws
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸_US_美国_5_8@6
+  network: ws
+  port: 80
+  server: 104.18.15.150
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 4899b015-5823-486d-bfe6-06c3239260f5
+  ws-opts:
+    headers:
+      host: er3.889611.com
+    path: /
+- name: 🇮🇪_IE_爱尔兰_8@16
+  network: tcp
+  password: telegram-id-directvpn
+  port: 22222
+  server: 63.35.135.61
+  skip-cert-verify: true
+  sni: trj.rollingnext.co.uk
+  type: trojan
+  udp: true
+- name: 🇬🇧_GB_英国_2_8@17
+  network: tcp
+  password: telegram-id-directvpn
+  port: 22222
+  server: 18.168.50.183
+  skip-cert-verify: true
+  sni: trj.rollingnext.co.uk
+  type: trojan
+  udp: true
+- cipher: aes-256-cfb
+  name: 🇺🇸_US_美国_8_8@19
+  password: amazonskr05
+  port: 443
+  server: 54.201.23.39
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 🇺🇦_UA_乌克兰_9@3
+  network: ws
+  port: 80
+  server: 185.158.211.186
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: b82493e3-07b4-4cf2-b585-965575cfeb32
+  ws-opts:
+    headers:
+      host: softiri.serveirc.com
+    path: /@forwardv2ray
+- alterId: 0
+  cipher: auto
+  name: 🇬🇮_GI_直布罗陀_1_9@10
+  network: ws
+  port: 80
+  server: 95.164.8.106
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: c1ebe8c7-bdd9-4aca-a2f7-01bea79279b3
+  ws-opts:
+    headers:
+      host: ee2-vmess.sshmax.xyz
+    path: /vmess
+- alterId: 0
+  cipher: auto
+  name: 🇳🇱_NL_荷兰_9@13
+  network: ws
+  port: 2086
+  server: 91.242.229.69
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 88c216b8-56c6-4f34-bcfd-e198ce11f7d6
+  ws-opts:
+    headers:
+      host: nl1.xv2ray.net
+    path: /vmess
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸_US_美国_6_9@15
+  network: ws
+  port: 2095
+  server: 104.17.184.241
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 0f42a063-315b-4524-8501-469c51838bb6
+  ws-opts:
+    headers:
+      host: mgone_cdn.yunjisuan.cf
+    path: /
+- name: 🇫🇷_FR_法国_9@17
+  network: tcp
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 35.181.194.132
+  skip-cert-verify: true
+  sni: trojan.miwan.co.uk
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸_US_美国_8_9@20
   network: ws
   port: 80
   server: 158.101.7.8
@@ -959,7 +1115,7 @@ proxies:
   uuid: 95b45c49-f5c0-4959-bb64-2b8fbc4a869c
   ws-opts:
     path: /
-- name: 🇮🇪_IE_爱尔兰_8@22
+- name: 🇮🇪_IE_爱尔兰_9@22
   network: tcp
   password: telegram-id-privatevpns
   port: 22222
@@ -970,7 +1126,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 🇳🇱_NL_荷兰_1_9@8
+  name: 🇳🇱_NL_荷兰_1_10@8
   network: ws
   port: 80
   server: 91.242.229.77
@@ -982,7 +1138,7 @@ proxies:
     path: /vmess
 - alterId: 0
   cipher: auto
-  name: 🇺🇸_US_美国_2_9@10
+  name: 🇺🇸_US_美国_2_10@10
   network: ws
   port: 80
   server: 94.131.13.110
@@ -996,7 +1152,7 @@ proxies:
     path: /vmess
 - alterId: 0
   cipher: auto
-  name: 🇺🇸_US_美国_3_9@12
+  name: 🇺🇸_US_美国_3_10@12
   network: ws
   port: 80
   server: 162.159.200.6
@@ -1010,7 +1166,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇺🇸_US_美国_4_9@17
+  name: 🇺🇸_US_美国_4_10@17
   network: ws
   port: 80
   server: yhnsb3.shabijichang.com
@@ -1022,7 +1178,7 @@ proxies:
     headers:
       host: yhnsb3.shabijichang.com
     path: /
-- name: 🇺🇸_US_美国_1_10@1
+- name: 🇺🇸_US_美国_1_11@1
   network: ws
   password: f34ec9d8-3ae0-46ba-94e7-a03eaf2af651
   port: 443
@@ -1035,7 +1191,7 @@ proxies:
     headers:
       host: 3us2.pqjc.buzz
     path: /pq/us2
-- name: 🇺🇸_US_美国_2_10@2
+- name: 🇺🇸_US_美国_2_11@2
   network: ws
   password: f34ec9d8-3ae0-46ba-94e7-a03eaf2af651
   port: 443
@@ -1048,7 +1204,7 @@ proxies:
     headers:
       host: p6us4.pqjc.buzz
     path: /pq/us4
-- name: 🇺🇸_US_美国_3_10@4
+- name: 🇺🇸_US_美国_3_11@4
   network: ws
   password: f34ec9d8-3ae0-46ba-94e7-a03eaf2af651
   port: 443
@@ -1061,7 +1217,7 @@ proxies:
     headers:
       host: p1us1.pqjc.buzz
     path: /pq/us1
-- name: 🇺🇸_US_美国_5_10@9
+- name: 🇺🇸_US_美国_5_11@9
   network: ws
   password: f34ec9d8-3ae0-46ba-94e7-a03eaf2af651
   port: 443
@@ -1076,7 +1232,7 @@ proxies:
     path: /pq/us3
 - alterId: 0
   cipher: auto
-  name: 🇺🇸_US_美国_6_10@10
+  name: 🇺🇸_US_美国_6_11@10
   network: ws
   port: 8080
   server: 95.164.46.154
@@ -1088,7 +1244,7 @@ proxies:
     path: /vmess
 - alterId: 0
   cipher: auto
-  name: 🇨🇭_CH_瑞士_10@12
+  name: 🇨🇭_CH_瑞士_11@12
   network: tcp
   port: 47182
   server: 94.131.99.8
@@ -1098,7 +1254,7 @@ proxies:
   uuid: 81b2b630-8b6a-404f-b996-b12f13db5786
 - alterId: 64
   cipher: auto
-  name: 🇨🇦_CA_加拿大_11@14
+  name: 🇨🇦_CA_加拿大_12@14
   network: ws
   port: 443
   server: 142.171.237.214
@@ -1112,7 +1268,7 @@ proxies:
     path: /path/221312281009
 - alterId: 0
   cipher: auto
-  name: 🇺🇸_US_美国_2_11@16
+  name: 🇺🇸_US_美国_2_12@16
   network: ws
   port: 80
   server: 162.159.135.221
@@ -1124,7 +1280,7 @@ proxies:
     headers:
       host: us.baipiao.fixddns.store
     path: /?ed=2048
-- name: 🇪🇸_ES_西班牙_11@17
+- name: 🇪🇸_ES_西班牙_12@17
   network: tcp
   password: 842b5f9dd11e458d8613c907c4cc5723
   port: 443
@@ -1135,7 +1291,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 🇺🇸_US_美国_3_11@18
+  name: 🇺🇸_US_美国_3_12@18
   network: ws
   port: 80
   server: 94.131.117.159
@@ -1147,7 +1303,7 @@ proxies:
     path: /vmess
 - alterId: 0
   cipher: auto
-  name: 🇺🇸_US_美国_1_12@5
+  name: 🇺🇸_US_美国_1_13@5
   network: ws
   port: 80
   server: 162.159.200.7
@@ -1161,7 +1317,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇺🇸_US_美国_6_12@14
+  name: 🇺🇸_US_美国_6_13@14
   network: ws
   port: 80
   server: 104.18.15.148
@@ -1175,7 +1331,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇳🇱_NL_荷兰_12@17
+  name: 🇳🇱_NL_荷兰_13@17
   network: tcp
   port: 32567
   server: 45.136.51.175
@@ -1184,14 +1340,14 @@ proxies:
   type: vmess
   uuid: df35304b-1f31-4b0d-9d02-f70256f732f1
 - cipher: chacha20-ietf-poly1305
-  name: 🇷🇺_RU_俄罗斯联邦_2_12@20
+  name: 🇷🇺_RU_俄罗斯联邦_2_13@20
   password: NE1maM9InLOKgK3dRPcuy6llYUKjZxhs3RGOWSqNRddj9Yn2
   port: 51348
   server: 92.223.109.205
   type: ss
 - alpn:
   - http/1.1
-  name: 🇩🇪_DE_德国_12@21
+  name: 🇩🇪_DE_德国_13@21
   network: tcp
   password: telegram-id-directvpn
   port: 22222
@@ -1202,7 +1358,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 🇺🇸_US_美国_7_12@22
+  name: 🇺🇸_US_美国_7_13@22
   network: ws
   port: 2082
   server: cfcdn1.sanfencdn9.com
@@ -1216,7 +1372,7 @@ proxies:
     path: /video/CuTy87zAzV/
 - alterId: 0
   cipher: auto
-  name: 🇺🇸_US_美国_8_12@23
+  name: 🇺🇸_US_美国_8_13@23
   network: ws
   port: 2082
   server: 104.21.229.78
@@ -1228,7 +1384,7 @@ proxies:
     headers:
       host: us4Bb5oSgJA.fzbqfrse.xyz
     path: /video/CuTy87zAzV/
-- name: 🇫🇷_FR_法国_12@24
+- name: 🇫🇷_FR_法国_13@24
   network: tcp
   password: telegram-id-directvpn
   port: 22222
@@ -1239,7 +1395,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: aes-128-gcm
-  name: 🇺🇸_US_美国_3_13@3
+  name: 🇺🇸_US_美国_3_14@3
   network: ws
   port: 80
   server: glaSco.fx-trAder.shop
@@ -1253,7 +1409,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇬🇮_GI_直布罗陀_14@1
+  name: 🇬🇮_GI_直布罗陀_15@1
   network: ws
   port: 80
   server: 95.164.69.27
@@ -1266,68 +1422,68 @@ proxies:
       host: internet.life.com.by
     path: /vmess
 - cipher: aes-256-cfb
-  name: 🇺🇸_US_美国_1_15@0
+  name: 🇺🇸_US_美国_1_16@0
   password: amazonskr05
   port: 443
   server: 54.185.37.169
   type: ss
 - cipher: aes-256-cfb
-  name: 🇷🇴_RO_罗马尼亚_15@1
+  name: 🇷🇴_RO_罗马尼亚_16@1
   password: f8f7aCzcPKbsF8p3
   port: 989
   server: 194.14.217.115
   type: ss
 - cipher: aes-256-cfb
-  name: 🇺🇸_US_美国_2_15@2
+  name: 🇺🇸_US_美国_2_16@2
   password: f8f7aCzcPKbsF8p3
   port: 989
   server: 74.121.191.98
   type: ss
 - cipher: aes-256-cfb
-  name: 🇫🇷_FR_法国_15@3
+  name: 🇫🇷_FR_法国_16@3
   password: f8f7aCzcPKbsF8p3
   port: 989
   server: 195.154.169.198
   type: ss
 - cipher: aes-256-cfb
-  name: 🇬🇧_GB_英国_1_15@4
+  name: 🇬🇧_GB_英国_1_16@4
   password: f8f7aCzcPKbsF8p3
   port: 989
   server: 77.72.5.113
   type: ss
 - cipher: aes-256-cfb
-  name: 🇵🇦_PA_巴拿马_16@1
+  name: 🇵🇦_PA_巴拿马_17@1
   password: f8f7aCzcPKbsF8p3
   port: 989
   server: 138.186.142.4
   type: ss
 - cipher: aes-256-cfb
-  name: 🇫🇷_FR_法国_1_16@2
+  name: 🇫🇷_FR_法国_1_17@2
   password: f8f7aCzcPKbsF8p3
   port: 989
   server: 195.154.185.174
   type: ss
 - cipher: aes-256-cfb
-  name: 🇧🇦_BA_波黑_16@6
+  name: 🇧🇦_BA_波黑_17@6
   password: f8f7aCzcPKbsF8p3
   port: 989
   server: 185.164.35.9
   type: ss
 - cipher: aes-128-cfb
-  name: 🇺🇸_US_美国_1_16@7
+  name: 🇺🇸_US_美国_1_17@7
   password: shadowsocks
   port: 443
   server: 212.102.47.198
   type: ss
 - cipher: aes-256-cfb
-  name: 🇫🇷_FR_法国_2_16@8
+  name: 🇫🇷_FR_法国_2_17@8
   password: f8f7aCzcPKbsF8p3
   port: 989
   server: 51.159.111.208
   type: ss
 - alterId: 0
   cipher: auto
-  name: 🇺🇸_US_美国_2_16@9
+  name: 🇺🇸_US_美国_2_17@9
   network: ws
   port: 2086
   server: cfcdn1.sanfencdn9.com
@@ -1341,7 +1497,7 @@ proxies:
     path: /video/Z7qdcrAGRw
 - alterId: 0
   cipher: auto
-  name: 🇭🇰_HK_香港_16@12
+  name: 🇭🇰_HK_香港_17@12
   network: ws
   port: 443
   server: 199.15.76.35
@@ -1354,26 +1510,26 @@ proxies:
       host: hk-300.changding.tech
     path: /changding-tls1?ed=2048
 - cipher: aes-256-cfb
-  name: 🇳🇱_NL_荷兰_16@16
+  name: 🇳🇱_NL_荷兰_17@16
   password: f8f7aCzcPKbsF8p3
   port: 989
   server: 51.15.27.48
   type: ss
 - cipher: aes-256-gcm
-  name: 🇺🇸_US_美国_4_16@17
+  name: 🇺🇸_US_美国_4_17@17
   password: TEzjfAYq2IjtuoS
   port: 6679
   server: 38.54.108.110
   type: ss
 - cipher: aes-256-gcm
-  name: 🇺🇸_US_美国_5_16@18
+  name: 🇺🇸_US_美国_5_17@18
   password: lGqs95QkFHo2NV
   port: 5498
   server: 38.91.101.42
   type: ss
 - alterId: 0
   cipher: auto
-  name: 🇱🇺_LU_卢森堡_16@21
+  name: 🇱🇺_LU_卢森堡_17@21
   network: ws
   port: 80
   server: 202.78.162.6
@@ -1385,7 +1541,7 @@ proxies:
     headers:
       host: irisoft.servecounterstrike.com
     path: /@forwardv2ray
-- name: 🇺🇸_US_美国_7_16@22
+- name: 🇺🇸_US_美国_7_17@22
   network: tcp
   password: telegram-id-directvpn
   port: 22222
@@ -1395,50 +1551,50 @@ proxies:
   type: trojan
   udp: true
 - cipher: aes-256-cfb
-  name: 🇪🇸_ES_西班牙_17@0
+  name: 🇪🇸_ES_西班牙_18@0
   password: f8f7aCzcPKbsF8p3
   port: 989
   server: 92.38.171.89
   type: ss
 - cipher: aes-256-cfb
-  name: 🇬🇧_GB_英国_1_17@1
+  name: 🇬🇧_GB_英国_1_18@1
   password: f8f7aCzcPKbsF8p3
   port: 989
   server: 77.72.5.150
   type: ss
 - cipher: aes-256-cfb
-  name: 🇦🇷_AR_阿根廷_17@2
+  name: 🇦🇷_AR_阿根廷_18@2
   password: f8f7aCzcPKbsF8p3
   port: 989
   server: 190.103.176.29
   type: ss
 - cipher: aes-256-cfb
-  name: 🇨🇱_CL_智利_17@15
+  name: 🇨🇱_CL_智利_18@15
   password: f8f7aCzcPKbsF8p3
   port: 989
   server: 190.120.230.9
   type: ss
 - cipher: aes-256-gcm
-  name: 🇫🇷_FR_法国_17@16
+  name: 🇫🇷_FR_法国_18@16
   password: pKEW8JPByTVTLtM
   port: 4444
   server: 145.239.6.202
   type: ss
 - cipher: aes-256-gcm
-  name: 🇺🇸_US_美国_2_17@17
+  name: 🇺🇸_US_美国_2_18@17
   password: faBAoD54k87UJG7
   port: 2376
   server: 167.88.62.104
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 🇳🇱_NL_荷兰_17@19
+  name: 🇳🇱_NL_荷兰_18@19
   password: ENi-aO7DAppEy5q1Oqpucg
   port: 1165
   server: 109.107.177.244
   type: ss
 - alterId: 0
   cipher: auto
-  name: 🇺🇸_US_美国_1_18@0
+  name: 🇺🇸_US_美国_1_19@0
   network: ws
   port: 8880
   server: cfcdn1.sanfencdn9.com
@@ -1452,21 +1608,7 @@ proxies:
     path: /video/bYdJ7Vc2We
 - alterId: 0
   cipher: auto
-  name: 🇺🇸_US_美国_3_18@4
-  network: ws
-  port: 2052
-  server: cfcdn1.sanfencdn9.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: a7d5e71f-3905-42be-8115-bbc1844eb833
-  ws-opts:
-    headers:
-      host: tw1bQiWSE4x.fzbqfrse.xyz
-    path: /video/GQ2qE5Us9g
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国_4_18@5
+  name: 🇺🇸_US_美国_4_19@5
   network: ws
   port: 8880
   server: 104.17.175.23
@@ -1480,7 +1622,7 @@ proxies:
     path: /video/bYdJ7Vc2We
 - alterId: 0
   cipher: auto
-  name: 🇰🇿_KZ_哈萨克斯坦_18@12
+  name: 🇰🇿_KZ_哈萨克斯坦_19@12
   network: tcp
   port: 8443
   server: kz-v2ray.ipracevpn.com
@@ -1490,7 +1632,7 @@ proxies:
   uuid: 48b10b02-2c60-4323-bc65-a11b15144745
 - alterId: 0
   cipher: auto
-  name: 🇮🇷_IR_伊朗_19@6
+  name: 🇮🇷_IR_伊朗_20@6
   network: tcp
   port: 25477
   server: 79.143.84.117
@@ -1500,7 +1642,7 @@ proxies:
   uuid: 9b788fa7-9e35-4ed5-e0e9-7d788b26ec07
 - alterId: 0
   cipher: auto
-  name: 🇺🇸_US_美国_1_20@0
+  name: 🇺🇸_US_美国_1_21@0
   network: ws
   port: 8880
   server: a3.bcbot.in
@@ -1512,7 +1654,7 @@ proxies:
     headers:
       host: a3.bcbot.in
     path: /
-- name: 🇩🇪_DE_德国_20@4
+- name: 🇩🇪_DE_德国_21@4
   network: tcp
   password: 94fe4445-fc3f-4dd4-9bac-438b54f994c9
   port: 443
@@ -1523,7 +1665,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 🇺🇸_US_美国_4_20@5
+  name: 🇺🇸_US_美国_4_21@5
   network: ws
   port: 8880
   server: www.visa.com.tw
@@ -1537,7 +1679,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇺🇸_US_美国_5_20@8
+  name: 🇺🇸_US_美国_5_21@8
   network: ws
   port: 8880
   server: 104.21.32.215
@@ -1551,7 +1693,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇺🇸_US_美国_6_20@10
+  name: 🇺🇸_US_美国_6_21@10
   network: ws
   port: 80
   server: 104.18.15.149
@@ -1563,7 +1705,7 @@ proxies:
     headers:
       host: er3.889611.com
     path: /
-- name: 🇳🇿_NZ_新西兰_20@21
+- name: 🇳🇿_NZ_新西兰_21@21
   network: tcp
   password: 11e247e5-136d-45f1-844a-a7f054d36bab
   port: 443
@@ -1572,7 +1714,7 @@ proxies:
   sni: 216.73.156.230
   type: trojan
   udp: true
-- name: 🇫🇷_FR_法国_20@25
+- name: 🇫🇷_FR_法国_21@25
   network: tcp
   password: telegram-id-privatevpns
   port: 22222
@@ -1583,7 +1725,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 🇦🇺_AU_澳大利亚_21@5
+  name: 🇦🇺_AU_澳大利亚_22@5
   network: ws
   port: 8080
   server: 202.139.228.198
@@ -1598,7 +1740,7 @@ proxies:
     path: /vm-tls1-tls1?ed=2048
 - alterId: 0
   cipher: auto
-  name: 🇺🇸_US_美国_4_21@8
+  name: 🇺🇸_US_美国_4_22@8
   network: ws
   port: 80
   server: 95.164.84.131
@@ -1610,7 +1752,7 @@ proxies:
     path: /vmess
 - alterId: 0
   cipher: auto
-  name: 🇺🇸_US_美国_7_22@9
+  name: 🇺🇸_US_美国_7_23@9
   network: ws
   port: 80
   server: 104.17.184.241
@@ -1623,91 +1765,28 @@ proxies:
       host: mg_cdn.yunjisuan.cf
     path: /
 - cipher: aes-256-gcm
-  name: 🇬🇧_GB_英国_22@10
+  name: 🇬🇧_GB_英国_23@10
   password: GeZbX4Enoc
   port: 15100
   server: 5.181.27.97
   type: ss
 - cipher: aes-256-cfb
-  name: 🇦🇹_AT_奥地利_22@11
+  name: 🇦🇹_AT_奥地利_23@11
   password: f8f7aCzcPKbsF8p3
   port: 989
   server: 185.180.12.81
   type: ss
 - cipher: aes-256-cfb
-  name: 🇲🇰_MK_前南马其顿_22@12
+  name: 🇲🇰_MK_前南马其顿_23@12
   password: f8f7aCzcPKbsF8p3
   port: 989
   server: 46.183.185.15
   type: ss
-- name: 🇫🇷_FR_法国_3_23@34
+- name: 🇫🇷_FR_法国_3_24@34
   network: tcp
   password: telegram-id-privatevpns
   port: 22222
   server: 13.38.208.28
-  skip-cert-verify: true
-  sni: trj.rollingnext.co.uk
-  type: trojan
-  udp: true
-- cipher: aes-256-cfb
-  name: 🇺🇸_US_美国_1_24@2
-  password: amazonskr05
-  port: 443
-  server: 54.188.25.27
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国_2_24@5
-  network: ws
-  port: 2052
-  server: singapore.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: bf3d038a-93a2-4e24-886c-6bc64e3c3a90
-  ws-opts:
-    headers:
-      host: mg_cdn.yunjisuan.cf
-    path: /
-- cipher: aes-256-cfb
-  name: 🇲🇽_MX_墨西哥_24@15
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 190.103.179.23
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国_7_24@21
-  network: ws
-  port: 80
-  server: 172.67.187.109
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 2e87cebc-977b-4fec-b079-b1ddc55b19c8
-  ws-opts:
-    headers:
-      host: ee1.xv2ray.net
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国_9_24@23
-  network: ws
-  port: 37121
-  server: 132.145.132.227
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 93845b50-26f6-4203-f5ad-4d231d4e8f45
-  ws-opts:
-    headers:
-      host: 132.145.132.227
-    path: /
-- name: 🇩🇪_DE_德国_24@25
-  network: tcp
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 3.79.162.137
   skip-cert-verify: true
   sni: trj.rollingnext.co.uk
   type: trojan
@@ -1724,162 +1803,168 @@ proxy-groups:
   proxies:
   - 🇺🇸_US_美国_1_0@0
   - 🇺🇸_US_美国_2_0@1
-  - 🇺🇸_US_美国_3_0@2
-  - 🇨🇦_CA_加拿大_1_0@3
-  - 🇺🇸_US_美国_4_0@4
-  - 🇨🇦_CA_加拿大_2_0@7
-  - 🇨🇦_CA_加拿大_3_0@10
-  - 🇺🇸_US_美国_5_0@11
-  - 🇷🇺_RU_俄罗斯联邦_0@20
-  - 🇺🇸_US_美国_6_0@21
-  - 🇺🇸_US_美国_7_0@22
-  - 🇺🇸_US_美国_8_0@23
-  - 🇺🇸_US_美国_9_0@24
-  - 🇺🇸_US_美国_10_0@26
-  - 🇩🇪_DE_德国_1_0@27
-  - 🇺🇸_US_美国_11_0@28
-  - 🇩🇪_DE_德国_2_0@29
-  - 🇬🇧_GB_英国_0@30
+  - 🇨🇦_CA_加拿大_0@2
+  - 🇺🇸_US_美国_3_0@4
+  - 🇫🇷_FR_法国_0@5
+  - 🇺🇸_US_美国_4_0@6
+  - 🇺🇸_US_美国_5_0@7
+  - 🇬🇮_GI_直布罗陀_0@8
+  - 🇺🇸_US_美国_6_0@9
+  - 🇺🇸_US_美国_7_0@10
+  - 🇺🇸_US_美国_8_0@11
+  - 🇩🇪_DE_德国_1_0@12
+  - 🇺🇸_US_美国_9_0@17
+  - 🇩🇪_DE_德国_2_0@20
+  - 🇩🇪_DE_德国_3_0@22
+  - 🇺🇸_US_美国_10_0@24
+  - 🇺🇸_US_美国_11_0@27
+  - 🇺🇸_US_美国_12_0@28
+  - 🇺🇸_US_美国_13_0@30
+  - 🇺🇸_US_美国_14_0@31
+  - 🇺🇸_US_美国_15_0@32
+  - 🇩🇪_DE_德国_4_0@33
   - 🇺🇸_US_美国_1_1@0
   - 🇺🇸_US_美国_2_1@1
-  - 🇷🇺_RU_俄罗斯联邦_1@3
-  - 🇺🇸_US_美国_5_1@12
-  - 🇺🇸_US_美国_6_1@13
-  - 🇺🇸_US_美国_7_1@14
-  - 🇺🇸_US_美国_8_1@15
-  - 🇺🇸_US_美国_9_1@16
-  - 🇺🇸_US_美国_10_1@17
-  - 🇺🇸_US_美国_12_1@24
-  - 🇺🇸_US_美国_13_1@25
-  - 🇺🇸_US_美国_14_1@27
-  - 🇺🇸_US_美国_15_1@28
-  - 🇩🇪_DE_德国_1@29
-  - 🇺🇸_US_美国_16_1@30
-  - 🇺🇸_US_美国_17_1@31
-  - 🇫🇷_FR_法国_1@33
-  - 🇺🇸_US_美国_18_1@34
-  - 🇷🇼_RW_卢旺达_1@35
-  - 🇮🇪_IE_爱尔兰_1@36
-  - 🇩🇪_DE_德国_2@26
-  - 🇮🇪_IE_爱尔兰_1_2@28
-  - 🇮🇪_IE_爱尔兰_2_2@29
-  - 🇩🇪_DE_德国_1_3@3
-  - 🇺🇸_US_美国_3_3@6
-  - 🇬🇹_GT_危地马拉_3@8
-  - 🇺🇸_US_美国_5_3@9
-  - 🇺🇸_US_美国_7_3@11
-  - 🇱🇾_LY_利比亚_3@12
-  - 🇨🇦_CA_加拿大_3@13
-  - 🇺🇸_US_美国_8_3@14
-  - 🇩🇪_DE_德国_2_3@17
-  - 🇺🇸_US_美国_2_4@1
-  - 🇺🇸_US_美国_3_4@3
-  - 🇩🇪_DE_德国_1_4@4
-  - 🇺🇸_US_美国_6_4@12
-  - 🇺🇸_US_美国_8_4@24
-  - 🇺🇸_US_美国_9_4@28
-  - 🇺🇸_US_美国_10_4@29
-  - 🇺🇸_US_美国_11_4@30
-  - 🇺🇸_US_美国_1_5@2
-  - 🇺🇸_US_美国_2_5@3
-  - 🇺🇸_US_美国_3_5@5
-  - 🇺🇸_US_美国_4_5@6
-  - 🇰🇷_KR_韩国_5@8
-  - 🇬🇧_GB_英国_1_5@10
-  - 🇬🇧_GB_英国_2_5@16
-  - 🇮🇪_IE_爱尔兰_5@18
-  - 🇺🇸_US_美国_11_5@19
-  - 🇱🇺_LU_卢森堡_6@12
-  - 🇺🇸_US_美国_3_6@15
-  - 🇺🇸_US_美国_7_6@24
-  - 🇺🇸_US_美国_2_7@1
-  - 🇺🇸_US_美国_3_7@2
-  - 🇬🇧_GB_英国_1_7@3
-  - 🇺🇸_US_美国_5_7@6
-  - 🇮🇪_IE_爱尔兰_7@16
-  - 🇬🇧_GB_英国_2_7@17
-  - 🇺🇸_US_美国_8_7@19
-  - 🇺🇦_UA_乌克兰_8@3
-  - 🇬🇮_GI_直布罗陀_1_8@10
-  - 🇳🇱_NL_荷兰_8@13
-  - 🇺🇸_US_美国_6_8@15
-  - 🇫🇷_FR_法国_8@17
-  - 🇬🇮_GI_直布罗陀_2_8@18
-  - 🇺🇸_US_美国_8_8@20
-  - 🇮🇪_IE_爱尔兰_8@22
-  - 🇳🇱_NL_荷兰_1_9@8
-  - 🇺🇸_US_美国_2_9@10
-  - 🇺🇸_US_美国_3_9@12
-  - 🇺🇸_US_美国_4_9@17
-  - 🇺🇸_US_美国_1_10@1
-  - 🇺🇸_US_美国_2_10@2
-  - 🇺🇸_US_美国_3_10@4
-  - 🇺🇸_US_美国_5_10@9
-  - 🇺🇸_US_美国_6_10@10
-  - 🇨🇭_CH_瑞士_10@12
-  - 🇨🇦_CA_加拿大_11@14
-  - 🇺🇸_US_美国_2_11@16
-  - 🇪🇸_ES_西班牙_11@17
-  - 🇺🇸_US_美国_3_11@18
-  - 🇺🇸_US_美国_1_12@5
-  - 🇺🇸_US_美国_6_12@14
-  - 🇳🇱_NL_荷兰_12@17
-  - 🇷🇺_RU_俄罗斯联邦_2_12@20
-  - 🇩🇪_DE_德国_12@21
-  - 🇺🇸_US_美国_7_12@22
-  - 🇺🇸_US_美国_8_12@23
-  - 🇫🇷_FR_法国_12@24
-  - 🇺🇸_US_美国_3_13@3
-  - 🇬🇮_GI_直布罗陀_14@1
-  - 🇺🇸_US_美国_1_15@0
-  - 🇷🇴_RO_罗马尼亚_15@1
-  - 🇺🇸_US_美国_2_15@2
-  - 🇫🇷_FR_法国_15@3
-  - 🇬🇧_GB_英国_1_15@4
-  - 🇵🇦_PA_巴拿马_16@1
-  - 🇫🇷_FR_法国_1_16@2
-  - 🇧🇦_BA_波黑_16@6
-  - 🇺🇸_US_美国_1_16@7
-  - 🇫🇷_FR_法国_2_16@8
-  - 🇺🇸_US_美国_2_16@9
-  - 🇭🇰_HK_香港_16@12
-  - 🇳🇱_NL_荷兰_16@16
-  - 🇺🇸_US_美国_4_16@17
-  - 🇺🇸_US_美国_5_16@18
-  - 🇱🇺_LU_卢森堡_16@21
-  - 🇺🇸_US_美国_7_16@22
-  - 🇪🇸_ES_西班牙_17@0
-  - 🇬🇧_GB_英国_1_17@1
-  - 🇦🇷_AR_阿根廷_17@2
-  - 🇨🇱_CL_智利_17@15
-  - 🇫🇷_FR_法国_17@16
-  - 🇺🇸_US_美国_2_17@17
-  - 🇳🇱_NL_荷兰_17@19
-  - 🇺🇸_US_美国_1_18@0
-  - 🇺🇸_US_美国_3_18@4
-  - 🇺🇸_US_美国_4_18@5
-  - 🇰🇿_KZ_哈萨克斯坦_18@12
-  - 🇮🇷_IR_伊朗_19@6
-  - 🇺🇸_US_美国_1_20@0
-  - 🇩🇪_DE_德国_20@4
-  - 🇺🇸_US_美国_4_20@5
-  - 🇺🇸_US_美国_5_20@8
-  - 🇺🇸_US_美国_6_20@10
-  - 🇳🇿_NZ_新西兰_20@21
-  - 🇫🇷_FR_法国_20@25
-  - 🇦🇺_AU_澳大利亚_21@5
-  - 🇺🇸_US_美国_4_21@8
-  - 🇺🇸_US_美国_7_22@9
-  - 🇬🇧_GB_英国_22@10
-  - 🇦🇹_AT_奥地利_22@11
-  - 🇲🇰_MK_前南马其顿_22@12
-  - 🇫🇷_FR_法国_3_23@34
-  - 🇺🇸_US_美国_1_24@2
-  - 🇺🇸_US_美国_2_24@5
-  - 🇲🇽_MX_墨西哥_24@15
-  - 🇺🇸_US_美国_7_24@21
-  - 🇺🇸_US_美国_9_24@23
-  - 🇩🇪_DE_德国_24@25
+  - 🇺🇸_US_美国_3_1@2
+  - 🇨🇦_CA_加拿大_1_1@3
+  - 🇺🇸_US_美国_4_1@4
+  - 🇨🇦_CA_加拿大_3_1@10
+  - 🇷🇺_RU_俄罗斯联邦_1@20
+  - 🇺🇸_US_美国_9_1@24
+  - 🇺🇸_US_美国_10_1@26
+  - 🇩🇪_DE_德国_1_1@27
+  - 🇩🇪_DE_德国_2_1@29
+  - 🇬🇧_GB_英国_1@30
+  - 🇺🇸_US_美国_1_2@0
+  - 🇺🇸_US_美国_2_2@1
+  - 🇷🇺_RU_俄罗斯联邦_2@3
+  - 🇺🇸_US_美国_5_2@12
+  - 🇺🇸_US_美国_6_2@13
+  - 🇺🇸_US_美国_7_2@14
+  - 🇺🇸_US_美国_8_2@15
+  - 🇺🇸_US_美国_9_2@16
+  - 🇺🇸_US_美国_10_2@17
+  - 🇺🇸_US_美国_12_2@24
+  - 🇺🇸_US_美国_13_2@25
+  - 🇺🇸_US_美国_14_2@27
+  - 🇺🇸_US_美国_15_2@28
+  - 🇩🇪_DE_德国_2@29
+  - 🇺🇸_US_美国_16_2@30
+  - 🇺🇸_US_美国_17_2@31
+  - 🇫🇷_FR_法国_2@33
+  - 🇺🇸_US_美国_18_2@34
+  - 🇷🇼_RW_卢旺达_2@35
+  - 🇮🇪_IE_爱尔兰_2@36
+  - 🇩🇪_DE_德国_3@26
+  - 🇮🇪_IE_爱尔兰_1_3@28
+  - 🇮🇪_IE_爱尔兰_2_3@29
+  - 🇩🇪_DE_德国_1_4@3
+  - 🇺🇸_US_美国_3_4@6
+  - 🇬🇹_GT_危地马拉_4@8
+  - 🇺🇸_US_美国_5_4@9
+  - 🇺🇸_US_美国_7_4@11
+  - 🇱🇾_LY_利比亚_4@12
+  - 🇨🇦_CA_加拿大_4@13
+  - 🇺🇸_US_美国_8_4@14
+  - 🇺🇸_US_美国_2_5@1
+  - 🇺🇸_US_美国_3_5@3
+  - 🇺🇸_US_美国_6_5@12
+  - 🇺🇸_US_美国_8_5@24
+  - 🇺🇸_US_美国_9_5@28
+  - 🇺🇸_US_美国_10_5@29
+  - 🇺🇸_US_美国_11_5@30
+  - 🇺🇸_US_美国_1_6@2
+  - 🇺🇸_US_美国_2_6@3
+  - 🇺🇸_US_美国_3_6@5
+  - 🇺🇸_US_美国_4_6@6
+  - 🇰🇷_KR_韩国_6@8
+  - 🇬🇧_GB_英国_1_6@10
+  - 🇬🇧_GB_英国_2_6@16
+  - 🇮🇪_IE_爱尔兰_6@18
+  - 🇺🇸_US_美国_11_6@19
+  - 🇱🇺_LU_卢森堡_7@12
+  - 🇺🇸_US_美国_3_7@15
+  - 🇺🇸_US_美国_7_7@24
+  - 🇺🇸_US_美国_2_8@1
+  - 🇺🇸_US_美国_3_8@2
+  - 🇬🇧_GB_英国_1_8@3
+  - 🇺🇸_US_美国_5_8@6
+  - 🇮🇪_IE_爱尔兰_8@16
+  - 🇬🇧_GB_英国_2_8@17
+  - 🇺🇸_US_美国_8_8@19
+  - 🇺🇦_UA_乌克兰_9@3
+  - 🇬🇮_GI_直布罗陀_1_9@10
+  - 🇳🇱_NL_荷兰_9@13
+  - 🇺🇸_US_美国_6_9@15
+  - 🇫🇷_FR_法国_9@17
+  - 🇺🇸_US_美国_8_9@20
+  - 🇮🇪_IE_爱尔兰_9@22
+  - 🇳🇱_NL_荷兰_1_10@8
+  - 🇺🇸_US_美国_2_10@10
+  - 🇺🇸_US_美国_3_10@12
+  - 🇺🇸_US_美国_4_10@17
+  - 🇺🇸_US_美国_1_11@1
+  - 🇺🇸_US_美国_2_11@2
+  - 🇺🇸_US_美国_3_11@4
+  - 🇺🇸_US_美国_5_11@9
+  - 🇺🇸_US_美国_6_11@10
+  - 🇨🇭_CH_瑞士_11@12
+  - 🇨🇦_CA_加拿大_12@14
+  - 🇺🇸_US_美国_2_12@16
+  - 🇪🇸_ES_西班牙_12@17
+  - 🇺🇸_US_美国_3_12@18
+  - 🇺🇸_US_美国_1_13@5
+  - 🇺🇸_US_美国_6_13@14
+  - 🇳🇱_NL_荷兰_13@17
+  - 🇷🇺_RU_俄罗斯联邦_2_13@20
+  - 🇩🇪_DE_德国_13@21
+  - 🇺🇸_US_美国_7_13@22
+  - 🇺🇸_US_美国_8_13@23
+  - 🇫🇷_FR_法国_13@24
+  - 🇺🇸_US_美国_3_14@3
+  - 🇬🇮_GI_直布罗陀_15@1
+  - 🇺🇸_US_美国_1_16@0
+  - 🇷🇴_RO_罗马尼亚_16@1
+  - 🇺🇸_US_美国_2_16@2
+  - 🇫🇷_FR_法国_16@3
+  - 🇬🇧_GB_英国_1_16@4
+  - 🇵🇦_PA_巴拿马_17@1
+  - 🇫🇷_FR_法国_1_17@2
+  - 🇧🇦_BA_波黑_17@6
+  - 🇺🇸_US_美国_1_17@7
+  - 🇫🇷_FR_法国_2_17@8
+  - 🇺🇸_US_美国_2_17@9
+  - 🇭🇰_HK_香港_17@12
+  - 🇳🇱_NL_荷兰_17@16
+  - 🇺🇸_US_美国_4_17@17
+  - 🇺🇸_US_美国_5_17@18
+  - 🇱🇺_LU_卢森堡_17@21
+  - 🇺🇸_US_美国_7_17@22
+  - 🇪🇸_ES_西班牙_18@0
+  - 🇬🇧_GB_英国_1_18@1
+  - 🇦🇷_AR_阿根廷_18@2
+  - 🇨🇱_CL_智利_18@15
+  - 🇫🇷_FR_法国_18@16
+  - 🇺🇸_US_美国_2_18@17
+  - 🇳🇱_NL_荷兰_18@19
+  - 🇺🇸_US_美国_1_19@0
+  - 🇺🇸_US_美国_4_19@5
+  - 🇰🇿_KZ_哈萨克斯坦_19@12
+  - 🇮🇷_IR_伊朗_20@6
+  - 🇺🇸_US_美国_1_21@0
+  - 🇩🇪_DE_德国_21@4
+  - 🇺🇸_US_美国_4_21@5
+  - 🇺🇸_US_美国_5_21@8
+  - 🇺🇸_US_美国_6_21@10
+  - 🇳🇿_NZ_新西兰_21@21
+  - 🇫🇷_FR_法国_21@25
+  - 🇦🇺_AU_澳大利亚_22@5
+  - 🇺🇸_US_美国_4_22@8
+  - 🇺🇸_US_美国_7_23@9
+  - 🇬🇧_GB_英国_23@10
+  - 🇦🇹_AT_奥地利_23@11
+  - 🇲🇰_MK_前南马其顿_23@12
+  - 🇫🇷_FR_法国_3_24@34
   tolerance: 50
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -1888,162 +1973,168 @@ proxy-groups:
   proxies:
   - 🇺🇸_US_美国_1_0@0
   - 🇺🇸_US_美国_2_0@1
-  - 🇺🇸_US_美国_3_0@2
-  - 🇨🇦_CA_加拿大_1_0@3
-  - 🇺🇸_US_美国_4_0@4
-  - 🇨🇦_CA_加拿大_2_0@7
-  - 🇨🇦_CA_加拿大_3_0@10
-  - 🇺🇸_US_美国_5_0@11
-  - 🇷🇺_RU_俄罗斯联邦_0@20
-  - 🇺🇸_US_美国_6_0@21
-  - 🇺🇸_US_美国_7_0@22
-  - 🇺🇸_US_美国_8_0@23
-  - 🇺🇸_US_美国_9_0@24
-  - 🇺🇸_US_美国_10_0@26
-  - 🇩🇪_DE_德国_1_0@27
-  - 🇺🇸_US_美国_11_0@28
-  - 🇩🇪_DE_德国_2_0@29
-  - 🇬🇧_GB_英国_0@30
+  - 🇨🇦_CA_加拿大_0@2
+  - 🇺🇸_US_美国_3_0@4
+  - 🇫🇷_FR_法国_0@5
+  - 🇺🇸_US_美国_4_0@6
+  - 🇺🇸_US_美国_5_0@7
+  - 🇬🇮_GI_直布罗陀_0@8
+  - 🇺🇸_US_美国_6_0@9
+  - 🇺🇸_US_美国_7_0@10
+  - 🇺🇸_US_美国_8_0@11
+  - 🇩🇪_DE_德国_1_0@12
+  - 🇺🇸_US_美国_9_0@17
+  - 🇩🇪_DE_德国_2_0@20
+  - 🇩🇪_DE_德国_3_0@22
+  - 🇺🇸_US_美国_10_0@24
+  - 🇺🇸_US_美国_11_0@27
+  - 🇺🇸_US_美国_12_0@28
+  - 🇺🇸_US_美国_13_0@30
+  - 🇺🇸_US_美国_14_0@31
+  - 🇺🇸_US_美国_15_0@32
+  - 🇩🇪_DE_德国_4_0@33
   - 🇺🇸_US_美国_1_1@0
   - 🇺🇸_US_美国_2_1@1
-  - 🇷🇺_RU_俄罗斯联邦_1@3
-  - 🇺🇸_US_美国_5_1@12
-  - 🇺🇸_US_美国_6_1@13
-  - 🇺🇸_US_美国_7_1@14
-  - 🇺🇸_US_美国_8_1@15
-  - 🇺🇸_US_美国_9_1@16
-  - 🇺🇸_US_美国_10_1@17
-  - 🇺🇸_US_美国_12_1@24
-  - 🇺🇸_US_美国_13_1@25
-  - 🇺🇸_US_美国_14_1@27
-  - 🇺🇸_US_美国_15_1@28
-  - 🇩🇪_DE_德国_1@29
-  - 🇺🇸_US_美国_16_1@30
-  - 🇺🇸_US_美国_17_1@31
-  - 🇫🇷_FR_法国_1@33
-  - 🇺🇸_US_美国_18_1@34
-  - 🇷🇼_RW_卢旺达_1@35
-  - 🇮🇪_IE_爱尔兰_1@36
-  - 🇩🇪_DE_德国_2@26
-  - 🇮🇪_IE_爱尔兰_1_2@28
-  - 🇮🇪_IE_爱尔兰_2_2@29
-  - 🇩🇪_DE_德国_1_3@3
-  - 🇺🇸_US_美国_3_3@6
-  - 🇬🇹_GT_危地马拉_3@8
-  - 🇺🇸_US_美国_5_3@9
-  - 🇺🇸_US_美国_7_3@11
-  - 🇱🇾_LY_利比亚_3@12
-  - 🇨🇦_CA_加拿大_3@13
-  - 🇺🇸_US_美国_8_3@14
-  - 🇩🇪_DE_德国_2_3@17
-  - 🇺🇸_US_美国_2_4@1
-  - 🇺🇸_US_美国_3_4@3
-  - 🇩🇪_DE_德国_1_4@4
-  - 🇺🇸_US_美国_6_4@12
-  - 🇺🇸_US_美国_8_4@24
-  - 🇺🇸_US_美国_9_4@28
-  - 🇺🇸_US_美国_10_4@29
-  - 🇺🇸_US_美国_11_4@30
-  - 🇺🇸_US_美国_1_5@2
-  - 🇺🇸_US_美国_2_5@3
-  - 🇺🇸_US_美国_3_5@5
-  - 🇺🇸_US_美国_4_5@6
-  - 🇰🇷_KR_韩国_5@8
-  - 🇬🇧_GB_英国_1_5@10
-  - 🇬🇧_GB_英国_2_5@16
-  - 🇮🇪_IE_爱尔兰_5@18
-  - 🇺🇸_US_美国_11_5@19
-  - 🇱🇺_LU_卢森堡_6@12
-  - 🇺🇸_US_美国_3_6@15
-  - 🇺🇸_US_美国_7_6@24
-  - 🇺🇸_US_美国_2_7@1
-  - 🇺🇸_US_美国_3_7@2
-  - 🇬🇧_GB_英国_1_7@3
-  - 🇺🇸_US_美国_5_7@6
-  - 🇮🇪_IE_爱尔兰_7@16
-  - 🇬🇧_GB_英国_2_7@17
-  - 🇺🇸_US_美国_8_7@19
-  - 🇺🇦_UA_乌克兰_8@3
-  - 🇬🇮_GI_直布罗陀_1_8@10
-  - 🇳🇱_NL_荷兰_8@13
-  - 🇺🇸_US_美国_6_8@15
-  - 🇫🇷_FR_法国_8@17
-  - 🇬🇮_GI_直布罗陀_2_8@18
-  - 🇺🇸_US_美国_8_8@20
-  - 🇮🇪_IE_爱尔兰_8@22
-  - 🇳🇱_NL_荷兰_1_9@8
-  - 🇺🇸_US_美国_2_9@10
-  - 🇺🇸_US_美国_3_9@12
-  - 🇺🇸_US_美国_4_9@17
-  - 🇺🇸_US_美国_1_10@1
-  - 🇺🇸_US_美国_2_10@2
-  - 🇺🇸_US_美国_3_10@4
-  - 🇺🇸_US_美国_5_10@9
-  - 🇺🇸_US_美国_6_10@10
-  - 🇨🇭_CH_瑞士_10@12
-  - 🇨🇦_CA_加拿大_11@14
-  - 🇺🇸_US_美国_2_11@16
-  - 🇪🇸_ES_西班牙_11@17
-  - 🇺🇸_US_美国_3_11@18
-  - 🇺🇸_US_美国_1_12@5
-  - 🇺🇸_US_美国_6_12@14
-  - 🇳🇱_NL_荷兰_12@17
-  - 🇷🇺_RU_俄罗斯联邦_2_12@20
-  - 🇩🇪_DE_德国_12@21
-  - 🇺🇸_US_美国_7_12@22
-  - 🇺🇸_US_美国_8_12@23
-  - 🇫🇷_FR_法国_12@24
-  - 🇺🇸_US_美国_3_13@3
-  - 🇬🇮_GI_直布罗陀_14@1
-  - 🇺🇸_US_美国_1_15@0
-  - 🇷🇴_RO_罗马尼亚_15@1
-  - 🇺🇸_US_美国_2_15@2
-  - 🇫🇷_FR_法国_15@3
-  - 🇬🇧_GB_英国_1_15@4
-  - 🇵🇦_PA_巴拿马_16@1
-  - 🇫🇷_FR_法国_1_16@2
-  - 🇧🇦_BA_波黑_16@6
-  - 🇺🇸_US_美国_1_16@7
-  - 🇫🇷_FR_法国_2_16@8
-  - 🇺🇸_US_美国_2_16@9
-  - 🇭🇰_HK_香港_16@12
-  - 🇳🇱_NL_荷兰_16@16
-  - 🇺🇸_US_美国_4_16@17
-  - 🇺🇸_US_美国_5_16@18
-  - 🇱🇺_LU_卢森堡_16@21
-  - 🇺🇸_US_美国_7_16@22
-  - 🇪🇸_ES_西班牙_17@0
-  - 🇬🇧_GB_英国_1_17@1
-  - 🇦🇷_AR_阿根廷_17@2
-  - 🇨🇱_CL_智利_17@15
-  - 🇫🇷_FR_法国_17@16
-  - 🇺🇸_US_美国_2_17@17
-  - 🇳🇱_NL_荷兰_17@19
-  - 🇺🇸_US_美国_1_18@0
-  - 🇺🇸_US_美国_3_18@4
-  - 🇺🇸_US_美国_4_18@5
-  - 🇰🇿_KZ_哈萨克斯坦_18@12
-  - 🇮🇷_IR_伊朗_19@6
-  - 🇺🇸_US_美国_1_20@0
-  - 🇩🇪_DE_德国_20@4
-  - 🇺🇸_US_美国_4_20@5
-  - 🇺🇸_US_美国_5_20@8
-  - 🇺🇸_US_美国_6_20@10
-  - 🇳🇿_NZ_新西兰_20@21
-  - 🇫🇷_FR_法国_20@25
-  - 🇦🇺_AU_澳大利亚_21@5
-  - 🇺🇸_US_美国_4_21@8
-  - 🇺🇸_US_美国_7_22@9
-  - 🇬🇧_GB_英国_22@10
-  - 🇦🇹_AT_奥地利_22@11
-  - 🇲🇰_MK_前南马其顿_22@12
-  - 🇫🇷_FR_法国_3_23@34
-  - 🇺🇸_US_美国_1_24@2
-  - 🇺🇸_US_美国_2_24@5
-  - 🇲🇽_MX_墨西哥_24@15
-  - 🇺🇸_US_美国_7_24@21
-  - 🇺🇸_US_美国_9_24@23
-  - 🇩🇪_DE_德国_24@25
+  - 🇺🇸_US_美国_3_1@2
+  - 🇨🇦_CA_加拿大_1_1@3
+  - 🇺🇸_US_美国_4_1@4
+  - 🇨🇦_CA_加拿大_3_1@10
+  - 🇷🇺_RU_俄罗斯联邦_1@20
+  - 🇺🇸_US_美国_9_1@24
+  - 🇺🇸_US_美国_10_1@26
+  - 🇩🇪_DE_德国_1_1@27
+  - 🇩🇪_DE_德国_2_1@29
+  - 🇬🇧_GB_英国_1@30
+  - 🇺🇸_US_美国_1_2@0
+  - 🇺🇸_US_美国_2_2@1
+  - 🇷🇺_RU_俄罗斯联邦_2@3
+  - 🇺🇸_US_美国_5_2@12
+  - 🇺🇸_US_美国_6_2@13
+  - 🇺🇸_US_美国_7_2@14
+  - 🇺🇸_US_美国_8_2@15
+  - 🇺🇸_US_美国_9_2@16
+  - 🇺🇸_US_美国_10_2@17
+  - 🇺🇸_US_美国_12_2@24
+  - 🇺🇸_US_美国_13_2@25
+  - 🇺🇸_US_美国_14_2@27
+  - 🇺🇸_US_美国_15_2@28
+  - 🇩🇪_DE_德国_2@29
+  - 🇺🇸_US_美国_16_2@30
+  - 🇺🇸_US_美国_17_2@31
+  - 🇫🇷_FR_法国_2@33
+  - 🇺🇸_US_美国_18_2@34
+  - 🇷🇼_RW_卢旺达_2@35
+  - 🇮🇪_IE_爱尔兰_2@36
+  - 🇩🇪_DE_德国_3@26
+  - 🇮🇪_IE_爱尔兰_1_3@28
+  - 🇮🇪_IE_爱尔兰_2_3@29
+  - 🇩🇪_DE_德国_1_4@3
+  - 🇺🇸_US_美国_3_4@6
+  - 🇬🇹_GT_危地马拉_4@8
+  - 🇺🇸_US_美国_5_4@9
+  - 🇺🇸_US_美国_7_4@11
+  - 🇱🇾_LY_利比亚_4@12
+  - 🇨🇦_CA_加拿大_4@13
+  - 🇺🇸_US_美国_8_4@14
+  - 🇺🇸_US_美国_2_5@1
+  - 🇺🇸_US_美国_3_5@3
+  - 🇺🇸_US_美国_6_5@12
+  - 🇺🇸_US_美国_8_5@24
+  - 🇺🇸_US_美国_9_5@28
+  - 🇺🇸_US_美国_10_5@29
+  - 🇺🇸_US_美国_11_5@30
+  - 🇺🇸_US_美国_1_6@2
+  - 🇺🇸_US_美国_2_6@3
+  - 🇺🇸_US_美国_3_6@5
+  - 🇺🇸_US_美国_4_6@6
+  - 🇰🇷_KR_韩国_6@8
+  - 🇬🇧_GB_英国_1_6@10
+  - 🇬🇧_GB_英国_2_6@16
+  - 🇮🇪_IE_爱尔兰_6@18
+  - 🇺🇸_US_美国_11_6@19
+  - 🇱🇺_LU_卢森堡_7@12
+  - 🇺🇸_US_美国_3_7@15
+  - 🇺🇸_US_美国_7_7@24
+  - 🇺🇸_US_美国_2_8@1
+  - 🇺🇸_US_美国_3_8@2
+  - 🇬🇧_GB_英国_1_8@3
+  - 🇺🇸_US_美国_5_8@6
+  - 🇮🇪_IE_爱尔兰_8@16
+  - 🇬🇧_GB_英国_2_8@17
+  - 🇺🇸_US_美国_8_8@19
+  - 🇺🇦_UA_乌克兰_9@3
+  - 🇬🇮_GI_直布罗陀_1_9@10
+  - 🇳🇱_NL_荷兰_9@13
+  - 🇺🇸_US_美国_6_9@15
+  - 🇫🇷_FR_法国_9@17
+  - 🇺🇸_US_美国_8_9@20
+  - 🇮🇪_IE_爱尔兰_9@22
+  - 🇳🇱_NL_荷兰_1_10@8
+  - 🇺🇸_US_美国_2_10@10
+  - 🇺🇸_US_美国_3_10@12
+  - 🇺🇸_US_美国_4_10@17
+  - 🇺🇸_US_美国_1_11@1
+  - 🇺🇸_US_美国_2_11@2
+  - 🇺🇸_US_美国_3_11@4
+  - 🇺🇸_US_美国_5_11@9
+  - 🇺🇸_US_美国_6_11@10
+  - 🇨🇭_CH_瑞士_11@12
+  - 🇨🇦_CA_加拿大_12@14
+  - 🇺🇸_US_美国_2_12@16
+  - 🇪🇸_ES_西班牙_12@17
+  - 🇺🇸_US_美国_3_12@18
+  - 🇺🇸_US_美国_1_13@5
+  - 🇺🇸_US_美国_6_13@14
+  - 🇳🇱_NL_荷兰_13@17
+  - 🇷🇺_RU_俄罗斯联邦_2_13@20
+  - 🇩🇪_DE_德国_13@21
+  - 🇺🇸_US_美国_7_13@22
+  - 🇺🇸_US_美国_8_13@23
+  - 🇫🇷_FR_法国_13@24
+  - 🇺🇸_US_美国_3_14@3
+  - 🇬🇮_GI_直布罗陀_15@1
+  - 🇺🇸_US_美国_1_16@0
+  - 🇷🇴_RO_罗马尼亚_16@1
+  - 🇺🇸_US_美国_2_16@2
+  - 🇫🇷_FR_法国_16@3
+  - 🇬🇧_GB_英国_1_16@4
+  - 🇵🇦_PA_巴拿马_17@1
+  - 🇫🇷_FR_法国_1_17@2
+  - 🇧🇦_BA_波黑_17@6
+  - 🇺🇸_US_美国_1_17@7
+  - 🇫🇷_FR_法国_2_17@8
+  - 🇺🇸_US_美国_2_17@9
+  - 🇭🇰_HK_香港_17@12
+  - 🇳🇱_NL_荷兰_17@16
+  - 🇺🇸_US_美国_4_17@17
+  - 🇺🇸_US_美国_5_17@18
+  - 🇱🇺_LU_卢森堡_17@21
+  - 🇺🇸_US_美国_7_17@22
+  - 🇪🇸_ES_西班牙_18@0
+  - 🇬🇧_GB_英国_1_18@1
+  - 🇦🇷_AR_阿根廷_18@2
+  - 🇨🇱_CL_智利_18@15
+  - 🇫🇷_FR_法国_18@16
+  - 🇺🇸_US_美国_2_18@17
+  - 🇳🇱_NL_荷兰_18@19
+  - 🇺🇸_US_美国_1_19@0
+  - 🇺🇸_US_美国_4_19@5
+  - 🇰🇿_KZ_哈萨克斯坦_19@12
+  - 🇮🇷_IR_伊朗_20@6
+  - 🇺🇸_US_美国_1_21@0
+  - 🇩🇪_DE_德国_21@4
+  - 🇺🇸_US_美国_4_21@5
+  - 🇺🇸_US_美国_5_21@8
+  - 🇺🇸_US_美国_6_21@10
+  - 🇳🇿_NZ_新西兰_21@21
+  - 🇫🇷_FR_法国_21@25
+  - 🇦🇺_AU_澳大利亚_22@5
+  - 🇺🇸_US_美国_4_22@8
+  - 🇺🇸_US_美国_7_23@9
+  - 🇬🇧_GB_英国_23@10
+  - 🇦🇹_AT_奥地利_23@11
+  - 🇲🇰_MK_前南马其顿_23@12
+  - 🇫🇷_FR_法国_3_24@34
   tolerance: 50
   type: select
   url: http://www.gstatic.com/generate_204
