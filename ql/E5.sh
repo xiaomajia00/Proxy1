@@ -11,13 +11,13 @@
 # 配置开始
 '''
 new Env('E5 api调用');
-8 8 30 9 * E5.py
+12 1-23/2 * * * E5.py
 '''
 # 获取环境变量
 #echo $CLIENT_ID
 #echo $CLIENT_SECRET
 #echo $REFRESH_TOKEN
-
+git config --global http.proxy 'http://192.168.3.110:7890'
 # 配置结束
 
 URLS='https://graph.microsoft.com/v1.0/me/drive/root 
