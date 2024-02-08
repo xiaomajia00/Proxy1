@@ -1,5 +1,5 @@
 #!/bin/bash
-# 15 12 * * * e5_refresh.sh
+
 # 先注册azure应用,确保应用有以下权限:
 # files:	Files.Read.All、Files.ReadWrite.All、Sites.Read.All、Sites.ReadWrite.All
 # user:	User.Read.All、User.ReadWrite.All、Directory.Read.All、Directory.ReadWrite.All
@@ -9,7 +9,10 @@
 #获取微软Office 365应用APPID、secret、access_token、refresh_token等：https://gitee.com/kimcrowing/www/raw/master/Office%20365.jpeg
 #青龙环境变量添加CLIENT_ID，CLIENT_SECRET，REFRESH_TOKEN
 # 配置开始
-
+'''
+new Env('E5 api调用');
+8 8 30 9 * E5.py
+'''
 # 获取环境变量
 #echo $CLIENT_ID
 #echo $CLIENT_SECRET
