@@ -3,7 +3,7 @@
 # Modify : 2024/2/8
 '''
 new Env('更新主页');
-8 8 30 9 * jd_beans_7days.py
+8 8 30 9 * autopush.py
 '''
 from git import Repo
 import os
