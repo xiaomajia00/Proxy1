@@ -421,12 +421,6 @@ proxies:
     headers:
       host: server28.beheshtbaneh.com
     path: /
-- cipher: 2022-blake3-chacha20-poly1305
-  name: 🇺🇸_US_美国_3_2@2
-  password: MyUsMh/QAZ26D+1N6Ku6d40xjUWjR+IKHzhL/qzIQpI=
-  port: 443
-  server: 38.114.120.181
-  type: ss
 - alterId: 0
   cipher: auto
   name: 🇺🇸_US_美国_4_2@3
