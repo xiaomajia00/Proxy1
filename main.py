@@ -129,8 +129,8 @@ def merge_clash(configs:List[str]) -> str:
             # 如果代理节点的名称中包含 ">"，则跳过该节点
             if ">" in proxy['name']:
                 continue
-            if "2022-blake3-chacha20-poly1305" in proxy['cipher']:
-                continue
+            #if "2022-blake3-chacha20-poly1305" in proxy['cipher']:
+                #continue
             # 测试代理节点是否有效，如果无效，则跳过该节点
             if "vless" in proxy['type']:
                 continue
