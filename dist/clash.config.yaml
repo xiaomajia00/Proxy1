@@ -554,6 +554,26 @@ proxies:
     headers:
       host: server28.beheshtbaneh.com
     path: /
+- cipher: 2022-blake3-chacha20-poly1305
+  name: 🇺🇸_US_美国_3_3@2
+  password: MyUsMh/QAZ26D+1N6Ku6d40xjUWjR+IKHzhL/qzIQpI=
+  port: 443
+  server: 38.114.120.181
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸_US_美国_4_3@3
+  network: ws
+  port: 8880
+  server: 162.159.252.29
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 4154143c-bbba-47a4-9f79-c2ed087cbcc9
+  ws-opts:
+    headers:
+      host: server31.beheshtbaneh.com
+    path: /
 - alterId: 0
   cipher: auto
   name: 🇺🇸_US_美国_5_3@4
@@ -2695,6 +2715,7 @@ proxy-groups:
   - 🇺🇸_US_美国_1_3@0
   - 🇺🇸_US_美国_2_3@1
   - 🇺🇸_US_美国_3_3@2
+  - 🇺🇸_US_美国_4_3@3
   - 🇺🇸_US_美国_5_3@4
   - 🇺🇸_US_美国_6_3@5
   - 🇺🇸_US_美国_7_3@6
@@ -2928,6 +2949,7 @@ proxy-groups:
   - 🇺🇸_US_美国_1_3@0
   - 🇺🇸_US_美国_2_3@1
   - 🇺🇸_US_美国_3_3@2
+  - 🇺🇸_US_美国_4_3@3
   - 🇺🇸_US_美国_5_3@4
   - 🇺🇸_US_美国_6_3@5
   - 🇺🇸_US_美国_7_3@6
